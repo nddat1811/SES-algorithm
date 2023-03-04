@@ -7,9 +7,8 @@ import (
 	"net"
 
 	s "github.com/nddat1811/SES-algorithm/SES"
+	c "github.com/nddat1811/SES-algorithm/constant"
 )
-
-const INT_SIZE = 4
 
 type ReceiverWorker struct {
 	Connection   net.Conn
@@ -29,20 +28,20 @@ func NewReceiverWorker(connection net.Conn, address net.Addr, sesClock *s.SES) *
 	}
 }
 
-func (rw *ReceiverWorker) Run() {
+func (rw *ReceiverWorker) Start() {
 	defer rw.Connection.Close()
 	for {
 		// Check for shutdown signal
 		select {
 		case <-rw.ShutdownFlag:
 			rw.Connection.Close()
-			log.Printf("RECEIVER #%d: close connection to %s\n", rw.Address.String())
+			log.Printf("RECEIVER : close connection to %s\n", rw.Address.String())
 			return
 		default:
-			dataSizeBytes := make([]byte, INT_SIZE)
+			dataSizeBytes := make([]byte, c.INT_SIZE)
 			_, err := rw.Connection.Read(dataSizeBytes)
 			if err != nil {
-				log.Printf("RECEIVER #%d: error reading data size: %v\n", rw.Address.String(), err)
+				log.Printf("RECEIVER %s: error reading data size: %v\n", rw.Address.String(), err)
 				return
 			}
 
@@ -52,7 +51,7 @@ func (rw *ReceiverWorker) Run() {
 				for i := len(rw.Noise) - 1; i >= 0; i-- {
 					packet := rw.Noise[i]
 					rw.SesClock.Deliver(packet)
-					log.Printf("RECEIVER #%d: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
+					log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
 				}
 				close(rw.ShutdownFlag)
 				return
@@ -61,7 +60,7 @@ func (rw *ReceiverWorker) Run() {
 			packet := make([]byte, dataSize)
 			_, err = rw.Connection.Read(packet)
 			if err != nil {
-				log.Printf("RECEIVER #%d: error reading data packet: %v\n", rw.Address.String(), err)
+				log.Printf("RECEIVER #%s: error reading data packet: %v\n", rw.Address.String(), err)
 				return
 			}
 
@@ -70,7 +69,7 @@ func (rw *ReceiverWorker) Run() {
 				for i := len(rw.Noise) - 1; i >= 0; i-- {
 					packet := rw.Noise[i]
 					rw.SesClock.Deliver(packet)
-					log.Printf("RECEIVER #%d: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
+					log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
 				}
 				rw.Noise = nil
 			}
@@ -78,6 +77,6 @@ func (rw *ReceiverWorker) Run() {
 	}
 }
 
-func (rw *ReceiverWorker) Shutdown() {
+func (rw *ReceiverWorker) Stop() {
 	rw.ShutdownFlag <- true
 }

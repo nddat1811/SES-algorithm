@@ -3,6 +3,7 @@ package ses
 import (
 	"fmt"
 	"log"
+	"strings"
 	"sync"
 )
 
@@ -20,6 +21,17 @@ type QueueItem struct {
 
 var logger_send *log.Logger = log.New(log.Writer(), "__sender_log__", log.Ldate|log.Ltime|log.Lshortfile)
 var logger_receive *log.Logger = log.New(log.Writer(), "__receiver_log__", log.Ldate|log.Ltime|log.Lshortfile)
+
+func NewSES(instanceID, numberProcess int) *SES {
+	return &SES{
+		VectorClock: &VectorClock{
+			InstanceID:    instanceID,
+			NumberProcess: numberProcess,
+		},
+		Queue: []QueueItem{},
+		lock:  sync.Mutex{},
+	}
+}
 
 func (s *SES) String() string {
 	return fmt.Sprintf("%s\n%s", s.VectorClock, s.Queue)
@@ -54,6 +66,41 @@ func (lc *LogicClock) canDeliver(sourceVectorClock *LogicClock) bool {
 	return true
 }
 
+func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
+	stringStream := &strings.Builder{}
+	fmt.Fprintln(stringStream, "Send Packet Info:")
+	fmt.Fprintf(stringStream, "\tSender ID: %d\n", s.VectorClock.InstanceID)
+	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", destinationID)
+	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", packet)
+	fmt.Fprintf(stringStream, "\tSender Clock:\n")
+	fmt.Fprintf(stringStream, "\t\tLocal logical clock: %d\n", s.VectorClock.GetClock(s.VectorClock.InstanceID))
+	fmt.Fprintln(stringStream, "\t\tLocal process vectors:")
+	for i := 0; i < s.VectorClock.NumberProcess; i++ {
+		if i != s.VectorClock.InstanceID && !s.VectorClock.GetClock(i).IsNull() {
+			fmt.Fprintf(stringStream, "\t\t\t<P_%d: %v>\n", i, s.VectorClock.GetClock(i))
+		}
+	}
+	return stringStream.String()
+}
+
+func (s *SES) GetDeliverLog(tm *LogicClock, sourceVC *VectorClock, packet []byte, status string, header string, printCompare bool) string {
+	stringStream := &strings.Builder{}
+	fmt.Fprintf(stringStream, "Received Packet Info %s:\n", header)
+	fmt.Fprintf(stringStream, "\tSender ID: %d\n", sourceVC.InstanceID)
+	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", s.VectorClock.InstanceID)
+	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", packet)
+	fmt.Fprintf(stringStream, "\tPacket Clock:\n")
+	fmt.Fprintf(stringStream, "\t\tt_m: %d\n", tm)
+	fmt.Fprintf(stringStream, "\t\ttP_snd: %d\n", sourceVC.GetClock(sourceVC.InstanceID))
+	fmt.Fprintf(stringStream, "\tReceiver Logical Clock (tP_rcv):\n")
+	fmt.Fprintf(stringStream, "\t\t%v\n", s.VectorClock.GetClock(s.VectorClock.InstanceID))
+	fmt.Fprintf(stringStream, "\tStatus: %s\n", status)
+	if printCompare {
+		fmt.Fprintf(stringStream, "\tDelivery Condition: %d > %d\n", s.VectorClock.GetClock(s.VectorClock.InstanceID), tm)
+	}
+	return stringStream.String()
+}
+
 func (s *SES) Deliver(packet []byte) {
 	s.lock.Lock() // synchronize
 	sourceVectorClock, packet := s.DeserializeSES(packet)
@@ -61,7 +108,7 @@ func (s *SES) Deliver(packet []byte) {
 	t_m := sourceVectorClock.GetClock(s.VectorClock.InstanceID)     // timestamp of Process i in the packet
 	if timeProcess.canDeliver(t_m) {                                //??????
 		// Deliver ???????????(t_m.Clock < timeProcess.Clock)
-		//logger_receive.Info(s.getDeliverLog(t_m, sourceVectorClock, packet, "delivering", "BEFORE DELIVERED", true))
+		//logger_receive.Info(s.GetDeliverLog(t_m, sourceVectorClock, packet, "delivering", "BEFORE DELIVERED", true))
 		s.MergeSES(sourceVectorClock)
 	} else {
 		// Queue
@@ -84,7 +131,7 @@ func (s *SES) Deliver(packet []byte) {
 	s.lock.Unlock()
 }
 
-func (s *SES) send(destinationID int, packet []byte) []byte {
+func (s *SES) Send(destinationID int, packet []byte) []byte {
 	s.lock.Lock()
 	defer s.lock.Unlock()
 	s.VectorClock.Increase()
