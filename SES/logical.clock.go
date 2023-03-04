@@ -1,19 +1,16 @@
 package ses
 
 import (
-	"bytes"
 	"encoding/binary"
 	"fmt"
-
 )
 
 const (
-    INT_SIZE     = 4
-    INT_REPR     = "big"
-    PORT_OFFSET  = 60000
-    MAX_MESSAGE = 150
+	INT_SIZE    = 4
+	INT_REPR    = "big"
+	PORT_OFFSET = 60000
+	MAX_MESSAGE = 150
 )
-
 
 type LogicClock struct {
 	NumberProcess int
@@ -56,7 +53,7 @@ func (lc *LogicClock) Increase() {
 	lc.Clock[lc.InstanceID]++
 }
 
-func (lc *LogicClock) Merge(other *LogicClock) {
+func (lc *LogicClock) UpdateClock(other *LogicClock) {
 	if lc.IsNull() {
 		for i, c := range other.GetTime() {
 			lc.Clock[i] = c
@@ -70,29 +67,26 @@ func (lc *LogicClock) Merge(other *LogicClock) {
 	}
 }
 
-func (lc *LogicClock) Serialize() []byte {
-	buf := new(bytes.Buffer)
-	for _, c := range lc.Clock {
-		err := binary.Write(buf, binary.LittleEndian, int32(c))
-		if err != nil {
-			panic(err)
-		}
+func (c *LogicClock) Serialize() []byte {
+	data := make([]byte, 0)
+	for i := 0; i < c.NumberProcess; i++ {
+		b := make([]byte, INT_SIZE)
+		binary.LittleEndian.PutUint32(b, uint32(c.Clock[i]))
+		data = append(data, b...)
 	}
-	return buf.Bytes()
+	return data
 }
 
 func (lc *LogicClock) Deserialize(data []byte) *LogicClock {
-	clock := make([]int, lc.NumberProcess)
-	for i := 0; i < lc.NumberProcess; i++ {
-		buf := bytes.NewReader(data[i*INT_SIZE : (i+1)*INT_SIZE])
-		var c int32
-		err := binary.Read(buf, binary.LittleEndian, &c)
-		if err != nil {
-			panic(err)
-		}
-		clock[i] = int(c)
+	newClock := &LogicClock{
+		NumberProcess: lc.NumberProcess,
+		InstanceID:    lc.InstanceID,
+		Clock:         make([]int, lc.NumberProcess),
 	}
-	return &LogicClock{lc.NumberProcess, lc.InstanceID, clock}
+	for i := 0; i < lc.NumberProcess; i++ {
+		newClock.Clock[i] = int(int32(binary.LittleEndian.Uint32(data[INT_SIZE*i : INT_SIZE*(i+1)])))
+	}
+	return newClock
 }
 
 func (lc *LogicClock) Equal(other *LogicClock) bool {

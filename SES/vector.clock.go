@@ -1,26 +1,25 @@
 package ses
 
 import (
-	"bytes"
 	"encoding/binary"
 	"fmt"
 )
 
 type VectorClock struct {
-	InstanceID int
-	NumberProcess  int
-	vectors    []*LogicClock
+	InstanceID    int
+	NumberProcess int
+	Vectors       []*LogicClock
 }
 
 func NewVectorClock(instanceID int, numberProcess int) *VectorClock {
 	vc := &VectorClock{
-		InstanceID: instanceID,
-		NumberProcess:  numberProcess,
-		vectors:    make([]*LogicClock, numberProcess),
+		InstanceID:    instanceID,
+		NumberProcess: numberProcess,
+		Vectors:       make([]*LogicClock, numberProcess),
 	}
 
 	for i := 0; i < numberProcess; i++ {
-		vc.vectors[i] = NewLogicClock(numberProcess, i, i == instanceID)
+		vc.Vectors[i] = NewLogicClock(numberProcess, i, i == instanceID)
 	}
 
 	return vc
@@ -29,51 +28,52 @@ func NewVectorClock(instanceID int, numberProcess int) *VectorClock {
 func (vc *VectorClock) String() string {
 	result := fmt.Sprintf("(%d,%d)", vc.NumberProcess, vc.InstanceID)
 	for i := 0; i < vc.NumberProcess; i++ {
-		result += fmt.Sprintf("\n%s", vc.vectors[i])
+		result += fmt.Sprintf("\n%s", vc.Vectors[i])
 	}
 	return result
 }
 
-func (vc *VectorClock) Serialize(packet []byte) []byte {
-	var data bytes.Buffer
-
-	binary.Write(&data, binary.LittleEndian, vc.InstanceID)
+func (vc *VectorClock) SerializeVectorClock(packet []byte) []byte {
+	data := make([]byte, 0)
+	b := make([]byte, binary.MaxVarintLen64)
+	x := binary.PutUvarint(b, uint64(vc.InstanceID))
+	data = append(data, b[:x]...)
 
 	for i := 0; i < vc.NumberProcess; i++ {
-		data.Write(vc.vectors[i].Serialize())
+		data = append(data, vc.Vectors[i].Serialize()...)
 	}
-
-	return append(data.Bytes(), packet...)
+	return append(data, packet...)
 }
 
-func DeserializeVectorClock(packet []byte, numberProcess int) (*VectorClock, []byte) {
-	dataSize := INT_SIZE * (numberProcess*numberProcess + 1)
+func (vc *VectorClock) DeserializeVectorClock(packet []byte) (*VectorClock, []byte) {
+	dataSize := INT_SIZE * (vc.NumberProcess*vc.NumberProcess + 1)
 	data, packet := packet[:dataSize], packet[dataSize:]
 
-	instanceID := int(binary.BigEndian.Uint32(data[:INT_SIZE]))
-	vc := NewVectorClock(numberProcess, instanceID)
-
+	newInstanceID := int(binary.BigEndian.Uint32(data[0:INT_SIZE]))
+	newVectorClock := &VectorClock{
+		NumberProcess: vc.NumberProcess,
+		InstanceID: newInstanceID,
+	}
 	data = data[INT_SIZE:]
 
 	for i := 0; i < vc.NumberProcess; i++ {
-		vc.vectors[i].Deserialize(data[INT_SIZE*vc.NumberProcess*i : INT_SIZE*vc.NumberProcess*(i+1)])
+		newVectorClock.Vectors[i] = newVectorClock.Vectors[i].Deserialize(data[INT_SIZE*i*vc.NumberProcess : INT_SIZE*(i+1)*vc.NumberProcess])
 	}
 
-	return vc, packet
+	return newVectorClock, packet
 }
-
 func (vc *VectorClock) Increase() {
-	vc.vectors[vc.InstanceID].Increase()
+	vc.Vectors[vc.InstanceID].Increase()
 }
 
 func (vc *VectorClock) SelfMerge(sourceID int, destinationID int) {
-	vc.vectors[destinationID].Merge(vc.vectors[sourceID])
+	vc.Vectors[destinationID].UpdateClock(vc.Vectors[sourceID])
 }
 
 func (vc *VectorClock) Merge(sourceVC *VectorClock, sourceID int, destinationID int) {
-	vc.vectors[destinationID].Merge(sourceVC.vectors[sourceID])
+	vc.Vectors[destinationID].UpdateClock(sourceVC.Vectors[sourceID])
 }
 
 func (vc *VectorClock) GetClock(index int) *LogicClock {
-	return vc.vectors[index]
+	return vc.Vectors[index]
 }
