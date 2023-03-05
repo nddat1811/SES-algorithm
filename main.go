@@ -48,7 +48,7 @@ func getCustomFileHandler(directory string) *log.Logger {
 // }
 
 func main() {
-	numberProcess := 3
+	numberProcess := 2
 	network.RegisterExitSignal()
 	var wg sync.WaitGroup
 	for i := 0; i < numberProcess; i++ {

@@ -11,7 +11,7 @@ type VectorClock struct {
 	Vectors       []*LogicClock
 }
 
-func NewVectorClock(instanceID int, numberProcess int) *VectorClock {
+func NewVectorClock(instanceID, numberProcess int) *VectorClock {
 	vc := &VectorClock{
 		InstanceID:    instanceID,
 		NumberProcess: numberProcess,
@@ -19,7 +19,7 @@ func NewVectorClock(instanceID int, numberProcess int) *VectorClock {
 	}
 
 	for i := 0; i < numberProcess; i++ {
-		vc.Vectors[i] = NewLogicClock(numberProcess, i, i == instanceID)
+		vc.Vectors[i] = NewLogicClock(i, numberProcess, i == instanceID)
 	}
 
 	return vc
@@ -63,6 +63,8 @@ func (vc *VectorClock) DeserializeVectorClock(packet []byte) (*VectorClock, []by
 	return newVectorClock, packet
 }
 func (vc *VectorClock) Increase() {
+	fmt.Println("uaa: ", vc.Vectors)
+	fmt.Println("vectorclock: ", vc.Vectors[vc.InstanceID])
 	vc.Vectors[vc.InstanceID].Increase()
 }
 

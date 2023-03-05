@@ -5,6 +5,8 @@ import (
 	"log"
 	"strings"
 	"sync"
+
+	
 )
 
 type SES struct {
@@ -23,18 +25,16 @@ var logger_send *log.Logger = log.New(log.Writer(), "__sender_log__", log.Ldate|
 var logger_receive *log.Logger = log.New(log.Writer(), "__receiver_log__", log.Ldate|log.Ltime|log.Lshortfile)
 
 func NewSES(instanceID, numberProcess int) *SES {
+	vectorClock := NewVectorClock(instanceID, numberProcess)
 	return &SES{
-		VectorClock: &VectorClock{
-			InstanceID:    instanceID,
-			NumberProcess: numberProcess,
-		},
-		Queue: []QueueItem{},
-		lock:  sync.Mutex{},
+		VectorClock: vectorClock,
+		Queue:       []QueueItem{},
+		lock:        sync.Mutex{},
 	}
 }
 
 func (s *SES) String() string {
-	return fmt.Sprintf("%s\n%s", s.VectorClock, s.Queue)
+	return fmt.Sprintf("", s.VectorClock, s.Queue)
 }
 
 func (s *SES) SerializeSES(packet []byte) []byte {

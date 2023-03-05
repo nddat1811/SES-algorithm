@@ -4,10 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net"
-	"strconv"
 
-	c "github.com/nddat1811/SES-algorithm/constant"
 	s "github.com/nddat1811/SES-algorithm/SES"
+	c "github.com/nddat1811/SES-algorithm/constant"
 )
 
 type Network struct {
@@ -23,10 +22,6 @@ type Network struct {
 
 func NewNetwork(instanceID int, numberProcess int) *Network {
 	port := c.PORT_OFFSET + instanceID
-	socket, err := net.Listen("tcp", c.IP_ADDR+":"+strconv.Itoa(port))
-	if err != nil {
-		log.Fatalf("Error: %v", err)
-	}
 	sesClock := s.NewSES(instanceID, numberProcess)
 
 	return &Network{
@@ -34,7 +29,6 @@ func NewNetwork(instanceID int, numberProcess int) *Network {
 		InstanceID:    instanceID,
 		NumberProcess: numberProcess,
 		Port:          port,
-		Socket:        socket,
 		SenderList:    []*SenderWorker{},
 		ReceiverList:  []*ReceiverWorker{},
 		SesClock:      sesClock,
@@ -56,6 +50,7 @@ func (n *Network) StartListening() {
 			log.Fatal(err)
 		}
 		addr := conn.RemoteAddr() //.String()
+
 		log.Printf("Open Connection with %s\n", addr)
 		receiver := NewReceiverWorker(conn, addr, n.SesClock)
 		go receiver.Start()
