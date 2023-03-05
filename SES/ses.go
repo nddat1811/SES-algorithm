@@ -104,16 +104,17 @@ func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", destinationID)
 	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", packet)
 	fmt.Fprintf(stringStream, "\tSender Clock:\n")
-	fmt.Fprintf(stringStream, "\t\tLocal logical clock: %d\n", s.VectorClock.GetClock(s.VectorClock.InstanceID))
+
+	fmt.Fprintf(stringStream, "\t\tLocal logical clock:%v\n", s.VectorClock.GetLogicalClock(s.VectorClock.GetClock(s.VectorClock.InstanceID)))
 	fmt.Fprintln(stringStream, "\t\tLocal process vectors:")
 	for i := 0; i < s.VectorClock.NumberProcess; i++ {
 		if i != s.VectorClock.InstanceID && !s.VectorClock.GetClock(i).IsNull() {
 			fmt.Fprintf(stringStream, "\t\t\t<P_%d: %v>\n", i, s.VectorClock.GetClock(i))
 		}
 	}
-	fmt.Println("\n\n\n\n\n\n\n")
+	fmt.Println("\n\n\n")
 	fmt.Print(stringStream.String())
-	fmt.Println("-------------------\n\n\n\n\n")
+	fmt.Println("\n\n\n")
 	return stringStream.String()
 }
 

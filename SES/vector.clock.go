@@ -75,5 +75,10 @@ func (vc *VectorClock) Merge(sourceVC *VectorClock, sourceID int, destinationID 
 }
 
 func (vc *VectorClock) GetClock(index int) *LogicClock {
+	fmt.Print("getclock: ", vc.Vectors)
 	return vc.Vectors[index]
+}
+
+func (vc *VectorClock) GetLogicalClock(lc *LogicClock) []int {
+	return lc.Clock
 }
