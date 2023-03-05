@@ -73,7 +73,7 @@ func (sw *SenderWorker) Start() {
 				return
 			}
 
-			fmt.Printf("SENDER #%d: send message %v to %s:%d", sw.InstanceID, message, sw.IP, sw.Port)
+			//fmt.Printf("SENDER #%d: send messagesss %v to %s:%d", sw.InstanceID, message, sw.IP, sw.Port)
 
 			time.Sleep(time.Duration(rand.Float64() * float64(time.Second))) // Stop sending for random time
 		}

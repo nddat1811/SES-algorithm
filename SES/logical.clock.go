@@ -29,7 +29,6 @@ func NewLogicClock(instanceID, numberProcess  int, zeroFill bool) *LogicClock {
 			clock[i] = -1
 		}
 	}
-	fmt.Println("c", clock)
 	return &LogicClock{numberProcess, instanceID, clock}
 }
 

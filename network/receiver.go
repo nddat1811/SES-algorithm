@@ -2,7 +2,6 @@ package network
 
 import (
 	"encoding/binary"
-	"fmt"
 	"log"
 	"math/rand"
 	"net"
@@ -48,14 +47,13 @@ func (rw *ReceiverWorker) Start() {
 			}
 
 			dataSize := int(binary.BigEndian.Uint32(dataSizeBytes))
-			rw.MessageCount++ 
-			fmt.Println("count:", rw.MessageCount)
+			rw.MessageCount++
 			if rw.MessageCount == c.MAX_MESSAGE {
 				// Close connection
 				for i := len(rw.Noise) - 1; i >= 0; i-- {
 					packet := rw.Noise[i]
 					rw.SesClock.Deliver(packet)
-					log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
+					//log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
 				}
 				close(rw.ShutdownFlag)
 				return
@@ -73,7 +71,7 @@ func (rw *ReceiverWorker) Start() {
 				for i := len(rw.Noise) - 1; i >= 0; i-- {
 					packet := rw.Noise[i]
 					rw.SesClock.Deliver(packet)
-					log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
+					//log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
 				}
 				rw.Noise = nil
 			}

@@ -1,6 +1,7 @@
 package ses
 
 import (
+	"bytes"
 	"encoding/binary"
 	"fmt"
 )
@@ -32,16 +33,22 @@ func (vc *VectorClock) String() string {
 	}
 	return result
 }
+func intToBytes(n int) []byte {
+	b := make([]byte, INT_SIZE)
+	binary.BigEndian.PutUint32(b, uint32(n))
+	//fmt.Println("byte: ", b)
+	return b
+}
 
 func (vc *VectorClock) SerializeVectorClock(packet []byte) []byte {
 	data := make([]byte, 0)
-	b := make([]byte, binary.MaxVarintLen64)
-	x := binary.PutUvarint(b, uint64(vc.InstanceID))
-	data = append(data, b[:x]...)
+
+	data = append(data, intToBytes(vc.InstanceID)...)
 
 	for i := 0; i < vc.NumberProcess; i++ {
 		data = append(data, vc.Vectors[i].Serialize()...)
 	}
+
 	return append(data, packet...)
 }
 
@@ -49,10 +56,14 @@ func (vc *VectorClock) DeserializeVectorClock(packet []byte) (*VectorClock, []by
 	dataSize := INT_SIZE * (vc.NumberProcess*vc.NumberProcess + 1)
 	data, packet := packet[:dataSize], packet[dataSize:]
 
-	newInstanceID := int(binary.BigEndian.Uint32(data[0:INT_SIZE]))
+	var id uint32
+	err := binary.Read(bytes.NewReader(data[0:INT_SIZE]), binary.BigEndian, &id)
+	if err != nil {
+		fmt.Println("binary.Read failed:", err)
+	}
+	newInstanceID := int(id)
 	newVectorClock := NewVectorClock(newInstanceID, vc.NumberProcess)
 	data = data[INT_SIZE:]
-
 
 	for i := 0; i < vc.NumberProcess; i++ {
 		start := INT_SIZE * vc.NumberProcess * i
@@ -75,10 +86,9 @@ func (vc *VectorClock) Merge(sourceVC *VectorClock, sourceID int, destinationID 
 }
 
 func (vc *VectorClock) GetClock(index int) *LogicClock {
-	fmt.Print("getclock: ", vc.Vectors)
 	return vc.Vectors[index]
 }
 
-func (vc *VectorClock) GetLogicalClock(lc *LogicClock) []int {
-	return lc.Clock
+func (vc *VectorClock) GetLogicalClock(index int) []int {
+	return vc.Vectors[index].Clock
 }

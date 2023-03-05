@@ -69,6 +69,7 @@ func (s *SES) String() string {
 }
 
 func (s *SES) SerializeSES(packet []byte) []byte {
+	
 	return s.VectorClock.SerializeVectorClock(packet)
 }
 
@@ -102,10 +103,10 @@ func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 	fmt.Fprintln(stringStream, "Send Packet Info:")
 	fmt.Fprintf(stringStream, "\tSender ID: %d\n", s.VectorClock.InstanceID)
 	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", destinationID)
-	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", packet)
+	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", string(packet))
 	fmt.Fprintf(stringStream, "\tSender Clock:\n")
 
-	fmt.Fprintf(stringStream, "\t\tLocal logical clock:%v\n", s.VectorClock.GetLogicalClock(s.VectorClock.GetClock(s.VectorClock.InstanceID)))
+	fmt.Fprintf(stringStream, "\t\tLocal logical clock:%v\n", s.VectorClock.GetLogicalClock(s.VectorClock.InstanceID))
 	fmt.Fprintln(stringStream, "\t\tLocal process vectors:")
 	for i := 0; i < s.VectorClock.NumberProcess; i++ {
 		if i != s.VectorClock.InstanceID && !s.VectorClock.GetClock(i).IsNull() {
@@ -126,13 +127,14 @@ func (s *SES) GetDeliverLog(tm *LogicClock, sourceVC *VectorClock, packet []byte
 	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", packet)
 	fmt.Fprintf(stringStream, "\tPacket Clock:\n")
 	fmt.Fprintf(stringStream, "\t\tt_m: %d\n", tm)
-	//fmt.Fprintf(stringStream, "\t\ttP_snd: %d\n", sourceVC.GetClock(sourceVC.InstanceID))
+	fmt.Fprintf(stringStream, "\t\ttP_snd: %d\n", sourceVC.GetLogicalClock(s.VectorClock.InstanceID))
 	fmt.Fprintf(stringStream, "\tReceiver Logical Clock (tP_rcv):\n")
 	fmt.Fprintf(stringStream, "\t\t%v\n", s.VectorClock.GetClock(s.VectorClock.InstanceID))
 	fmt.Fprintf(stringStream, "\tStatus: %s\n", status)
 	if printCompare {
 		fmt.Fprintf(stringStream, "\tDelivery Condition: %d > %d\n", s.VectorClock.GetClock(s.VectorClock.InstanceID), tm)
 	}
+	//fmt.Println("idddd: ", s.VectorClock.InstanceID, sourceVC.InstanceID)
 	return stringStream.String()
 }
 
