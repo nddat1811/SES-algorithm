@@ -63,8 +63,6 @@ func (vc *VectorClock) DeserializeVectorClock(packet []byte) (*VectorClock, []by
 	return newVectorClock, packet
 }
 func (vc *VectorClock) Increase() {
-	fmt.Println("uaa: ", vc.Vectors)
-	fmt.Println("vectorclock: ", vc.Vectors[vc.InstanceID])
 	vc.Vectors[vc.InstanceID].Increase()
 }
 

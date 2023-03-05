@@ -63,7 +63,6 @@ func (sw *SenderWorker) Start() {
 			err := binary.Write(buf, binary.BigEndian, int32(dataSize))
 			if err != nil {
 				log.Println("binary.Write failed:", err)
-				fmt.Println("binary.Write failed:", err)
 				return
 			}
 			message = append(buf.Bytes(), message...)
@@ -71,7 +70,6 @@ func (sw *SenderWorker) Start() {
 			_, err = sender.Write(message)
 			if err != nil {
 				log.Println("sender.Write failed:", err)
-				fmt.Println("sender.Write failed:", err)
 				return
 			}
 

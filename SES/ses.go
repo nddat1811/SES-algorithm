@@ -2,11 +2,11 @@ package ses
 
 import (
 	"fmt"
+	"io"
 	"log"
+	"os"
 	"strings"
 	"sync"
-
-	
 )
 
 type SES struct {
@@ -21,8 +21,39 @@ type QueueItem struct {
 	Packet            []byte
 }
 
-var logger_send *log.Logger = log.New(log.Writer(), "__sender_log__", log.Ldate|log.Ltime|log.Lshortfile)
-var logger_receive *log.Logger = log.New(log.Writer(), "__receiver_log__", log.Ldate|log.Ltime|log.Lshortfile)
+var generalLog, senderLog, receiverLog *os.File
+
+func InitLog(instanceID int) {
+	var err error 
+	generalLog, err = os.Create(
+		fmt.Sprintf("./static/logs/%02d__general.log", instanceID),
+	)
+	if err != nil {
+		log.Fatalf("Failed to open general log file: %v", err)
+	}
+
+	senderLog, err = os.Create(
+		fmt.Sprintf("./static/logs/%02d__sender.log", instanceID),
+	)
+	if err != nil {
+		log.Fatalf("Failed to open sender log file: %v", err)
+	}
+
+	receiverLog, err = os.Create(
+		fmt.Sprintf("./static/logs/%02d__receiver.log", instanceID),
+	)
+	if err != nil {
+		log.Fatalf("Failed to open receiver log file: %v", err)
+	}
+
+	log.SetOutput(io.MultiWriter(os.Stdout, generalLog))
+	log.New(generalLog, "__general_log__ ", log.Ldate|log.Ltime)
+	log.New(senderLog, "__sender_log__ ", log.Ldate|log.Ltime)
+	log.New(receiverLog, "__receiver_log__ ", log.Ldate|log.Ltime)
+}
+
+var loggerSend *log.Logger = log.New(senderLog, "__sender_log__", log.Ldate|log.Ltime|log.Lshortfile)
+var loggerReceive *log.Logger = log.New(receiverLog, "__receiver_log__", log.Ldate|log.Ltime|log.Lshortfile)
 
 func NewSES(instanceID, numberProcess int) *SES {
 	vectorClock := NewVectorClock(instanceID, numberProcess)
@@ -34,7 +65,7 @@ func NewSES(instanceID, numberProcess int) *SES {
 }
 
 func (s *SES) String() string {
-	return fmt.Sprintf("", s.VectorClock, s.Queue)
+	return fmt.Sprintf("%s, %s", s.VectorClock, s.Queue)
 }
 
 func (s *SES) SerializeSES(packet []byte) []byte {
@@ -80,6 +111,9 @@ func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 			fmt.Fprintf(stringStream, "\t\t\t<P_%d: %v>\n", i, s.VectorClock.GetClock(i))
 		}
 	}
+	fmt.Println("\n\n\n\n\n\n\n")
+	fmt.Print(stringStream.String())
+	fmt.Println("-------------------\n\n\n\n\n")
 	return stringStream.String()
 }
 
@@ -91,7 +125,7 @@ func (s *SES) GetDeliverLog(tm *LogicClock, sourceVC *VectorClock, packet []byte
 	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", packet)
 	fmt.Fprintf(stringStream, "\tPacket Clock:\n")
 	fmt.Fprintf(stringStream, "\t\tt_m: %d\n", tm)
-	fmt.Fprintf(stringStream, "\t\ttP_snd: %d\n", sourceVC.GetClock(sourceVC.InstanceID))
+	//fmt.Fprintf(stringStream, "\t\ttP_snd: %d\n", sourceVC.GetClock(sourceVC.InstanceID))
 	fmt.Fprintf(stringStream, "\tReceiver Logical Clock (tP_rcv):\n")
 	fmt.Fprintf(stringStream, "\t\t%v\n", s.VectorClock.GetClock(s.VectorClock.InstanceID))
 	fmt.Fprintf(stringStream, "\tStatus: %s\n", status)
@@ -108,18 +142,18 @@ func (s *SES) Deliver(packet []byte) {
 	t_m := sourceVectorClock.GetClock(s.VectorClock.InstanceID)     // timestamp of Process i in the packet
 	if timeProcess.canDeliver(t_m) {                                //??????
 		// Deliver ???????????(t_m.Clock < timeProcess.Clock)
-		//logger_receive.Info(s.GetDeliverLog(t_m, sourceVectorClock, packet, "delivering", "BEFORE DELIVERED", true))
+		loggerReceive.Println(s.GetDeliverLog(t_m, sourceVectorClock, packet, "delivering", "BEFORE DELIVERED", true))
 		s.MergeSES(sourceVectorClock)
 	} else {
 		// Queue
 		s.Queue = append(s.Queue, QueueItem{t_m, sourceVectorClock, packet})
-		//logger_receive.Info(s.getDeliverLog(t_m, sourceVectorClock, packet, "buffered", "BEFORE BUFFERED", true))
+		loggerReceive.Println(s.GetDeliverLog(t_m, sourceVectorClock, packet, "buffered", "BEFORE BUFFERED", true))
 		breakFlag := false
 		for !breakFlag {
 			breakFlag = true
 			for index, item := range s.Queue {
 				if timeProcess.canDeliver(t_m) { // ??
-					//logger_receive.Info(s.getDeliverLog(item.t_m, item.sourceVectorClock, item.packet, "delivering from buffer", "BEFORE DELIVERED FROM BUFFERED", true))
+					loggerReceive.Println(s.GetDeliverLog(item.TimeMsg, item.SourceVectorClock, item.Packet, "delivering from buffer", "BEFORE DELIVERED FROM BUFFERED", true))
 					s.MergeSES(item.SourceVectorClock)
 					s.Queue = append(s.Queue[:index], s.Queue[index+1:]...)
 					breakFlag = false
@@ -135,7 +169,7 @@ func (s *SES) Send(destinationID int, packet []byte) []byte {
 	s.lock.Lock()
 	defer s.lock.Unlock()
 	s.VectorClock.Increase()
-	//logger_send.Info(sc.getSenderLog(destinationID, packet))
+	loggerSend.Println(s.GetSenderLog(destinationID, packet))
 	result := s.SerializeSES(packet)
 	s.VectorClock.SelfMerge(s.VectorClock.InstanceID, destinationID)
 	return result

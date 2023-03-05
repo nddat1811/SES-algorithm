@@ -2,6 +2,7 @@ package network
 
 import (
 	"encoding/binary"
+	"fmt"
 	"log"
 	"math/rand"
 	"net"
@@ -15,6 +16,7 @@ type ReceiverWorker struct {
 	Address      net.Addr
 	SesClock     *s.SES
 	ShutdownFlag chan bool
+	MessageCount int
 	Noise        [][]byte
 }
 
@@ -46,7 +48,9 @@ func (rw *ReceiverWorker) Start() {
 			}
 
 			dataSize := int(binary.BigEndian.Uint32(dataSizeBytes))
-			if dataSize == 0 {
+			rw.MessageCount++ 
+			fmt.Println("count:", rw.MessageCount)
+			if rw.MessageCount == c.MAX_MESSAGE {
 				// Close connection
 				for i := len(rw.Noise) - 1; i >= 0; i-- {
 					packet := rw.Noise[i]

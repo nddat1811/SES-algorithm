@@ -72,9 +72,9 @@ func (n *Network) SafetyClose() {
 	n.Socket.Close()
 	log.Println("Force to stop. Cleaning all children processes.")
 	for _, sender := range n.SenderList {
-		sender.ShutdownFlag <- true
+		sender.Stop()
 	}
 	for _, receiver := range n.ReceiverList {
-		receiver.ShutdownFlag <- true
+		receiver.Stop()
 	}
 }
