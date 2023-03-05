@@ -23,6 +23,7 @@ type Network struct {
 func NewNetwork(instanceID int, numberProcess int) *Network {
 	port := c.PORT_OFFSET + instanceID
 	sesClock := s.NewSES(instanceID, numberProcess)
+	fmt.Println("\n\n\n ses \n", sesClock)
 
 	return &Network{
 		IP:            c.IP_ADDR,

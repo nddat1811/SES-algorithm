@@ -113,9 +113,9 @@ func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 			fmt.Fprintf(stringStream, "\t\t\t<P_%d: %v>\n", i, s.VectorClock.GetClock(i))
 		}
 	}
-	fmt.Println("\n\n\n")
+	fmt.Println("\n")
 	fmt.Print(stringStream.String())
-	fmt.Println("\n\n\n")
+	fmt.Println("\n\n")
 	return stringStream.String()
 }
 
@@ -124,17 +124,21 @@ func (s *SES) GetDeliverLog(tm *LogicClock, sourceVC *VectorClock, packet []byte
 	fmt.Fprintf(stringStream, "Received Packet Info %s:\n", header)
 	fmt.Fprintf(stringStream, "\tSender ID: %d\n", sourceVC.InstanceID)
 	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", s.VectorClock.InstanceID)
-	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", packet)
+	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", string(packet))
 	fmt.Fprintf(stringStream, "\tPacket Clock:\n")
-	fmt.Fprintf(stringStream, "\t\tt_m: %d\n", tm)
+	fmt.Fprintf(stringStream, "\t\tt_m: %d\n", tm.Clock)
 	fmt.Fprintf(stringStream, "\t\ttP_snd: %d\n", sourceVC.GetLogicalClock(s.VectorClock.InstanceID))
 	fmt.Fprintf(stringStream, "\tReceiver Logical Clock (tP_rcv):\n")
 	fmt.Fprintf(stringStream, "\t\t%v\n", s.VectorClock.GetClock(s.VectorClock.InstanceID))
 	fmt.Fprintf(stringStream, "\tStatus: %s\n", status)
 	if printCompare {
-		fmt.Fprintf(stringStream, "\tDelivery Condition: %d > %d\n", s.VectorClock.GetClock(s.VectorClock.InstanceID), tm)
+		fmt.Fprintf(stringStream, "\tDelivery Condition: %d > %d\n", s.VectorClock.GetLogicalClock(s.VectorClock.InstanceID), tm.Clock)
 	}
-	//fmt.Println("idddd: ", s.VectorClock.InstanceID, sourceVC.InstanceID)
+	fmt.Println("\n")
+	fmt.Println("RECEIVER")
+	fmt.Println("\n")
+	fmt.Print(stringStream.String())
+	fmt.Println("\n")
 	return stringStream.String()
 }
 
