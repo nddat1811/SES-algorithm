@@ -87,6 +87,7 @@ func (lc *LogicClock) Deserialize(data []byte) *LogicClock {
 	for i := 0; i < lc.NumberProcess; i++ {
 		newClock.Clock[i] = int(int32(binary.LittleEndian.Uint32(data[INT_SIZE*i : INT_SIZE*(i+1)])))
 	}
+
 	return newClock
 }
 

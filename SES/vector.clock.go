@@ -50,14 +50,14 @@ func (vc *VectorClock) DeserializeVectorClock(packet []byte) (*VectorClock, []by
 	data, packet := packet[:dataSize], packet[dataSize:]
 
 	newInstanceID := int(binary.BigEndian.Uint32(data[0:INT_SIZE]))
-	newVectorClock := &VectorClock{
-		NumberProcess: vc.NumberProcess,
-		InstanceID: newInstanceID,
-	}
+	newVectorClock := NewVectorClock(newInstanceID, vc.NumberProcess)
 	data = data[INT_SIZE:]
 
+
 	for i := 0; i < vc.NumberProcess; i++ {
-		newVectorClock.Vectors[i] = newVectorClock.Vectors[i].Deserialize(data[INT_SIZE*i*vc.NumberProcess : INT_SIZE*(i+1)*vc.NumberProcess])
+		start := INT_SIZE * vc.NumberProcess * i
+		end := INT_SIZE * vc.NumberProcess * (i + 1)
+		newVectorClock.Vectors[i] = newVectorClock.Vectors[i].Deserialize(data[start:end])
 	}
 
 	return newVectorClock, packet
