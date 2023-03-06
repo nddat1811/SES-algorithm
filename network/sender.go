@@ -78,11 +78,11 @@ func (sw *SenderWorker) Start() {
 			_, err = sender.Write(message)
 			if err != nil {
 				log.Println("sender.Write failed:", err)
-				sender.Close()				
+				sender.Close()
 				return
 			}
 
-			time.Sleep(time.Duration(rand.Float64() * float64(time.Second))) // Stop sending for random time
+			time.Sleep(time.Duration(rand.Int63n(int64(c.MAX_DELAY-c.MIN_DELAY)) + int64(c.MIN_DELAY))) // Stop sending for random time
 		}
 	}
 }
