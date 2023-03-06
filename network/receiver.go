@@ -2,6 +2,7 @@ package network
 
 import (
 	"encoding/binary"
+	"fmt"
 	"log"
 	"math/rand"
 	"net"
@@ -36,13 +37,19 @@ func (rw *ReceiverWorker) Start() {
 		select {
 		case <-rw.ShutdownFlag:
 			rw.Connection.Close()
-			log.Printf("RECEIVER : close connection to %s\n", rw.Address.String())
+			e := rw.Connection.Close()
+			//fmt.Println("\n\n\n\n erloggggg22222222g: ", e)
+			if e != nil {
+				fmt.Println("\n\n\n\n err: ", e)
+			}
+			fmt.Printf("RECEIVER : close connection to %s\n", rw.Address.String())
 			return
 		default:
 			dataSizeBytes := make([]byte, c.INT_SIZE)
 			_, err := rw.Connection.Read(dataSizeBytes)
 			if err != nil {
 				log.Printf("RECEIVER %s: error reading data size: %v\n", rw.Address.String(), err)
+				rw.Connection.Close()
 				return
 			}
 
@@ -56,6 +63,13 @@ func (rw *ReceiverWorker) Start() {
 					//log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
 				}
 				close(rw.ShutdownFlag)
+				e := rw.Connection.Close()
+				fmt.Printf("RECEIVER : close connection to %s\n", rw.Address.String())
+				//fmt.Println("\n\n\n\n erlogggggg: ", e)
+				if e != nil {
+					fmt.Println("\n\n\n\n err: ", e)
+				}
+
 				return
 			}
 

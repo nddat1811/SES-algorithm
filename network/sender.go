@@ -47,9 +47,19 @@ func (sw *SenderWorker) Start() {
 	for {
 		select {
 		case <-sw.ShutdownFlag:
+			e := sender.Close()
+			fmt.Println("\n\n\n\n er000: ", e)
+			if e != nil {
+				fmt.Println("\n\n\n\n err: ", e)
+			}
 			return
 		default:
 			if sw.MessageCount == c.MAX_MESSAGE {
+				e := sender.Close()
+				//fmt.Println("\n\n\n\n er111: ", e)
+				if e != nil {
+					fmt.Println("\n\n\n\n err: ", e)
+				}
 				return
 			}
 
@@ -63,6 +73,7 @@ func (sw *SenderWorker) Start() {
 			err := binary.Write(buf, binary.BigEndian, int32(dataSize))
 			if err != nil {
 				log.Println("binary.Write failed:", err)
+				sender.Close()
 				return
 			}
 			message = append(buf.Bytes(), message...)
@@ -70,6 +81,7 @@ func (sw *SenderWorker) Start() {
 			_, err = sender.Write(message)
 			if err != nil {
 				log.Println("sender.Write failed:", err)
+				sender.Close()				
 				return
 			}
 

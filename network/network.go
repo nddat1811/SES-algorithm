@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"os"
 
 	s "github.com/nddat1811/SES-algorithm/SES"
 	c "github.com/nddat1811/SES-algorithm/constant"
@@ -23,7 +24,6 @@ type Network struct {
 func NewNetwork(instanceID int, numberProcess int) *Network {
 	port := c.PORT_OFFSET + instanceID
 	sesClock := s.NewSES(instanceID, numberProcess)
-	fmt.Println("\n\n\n ses \n", sesClock)
 
 	return &Network{
 		IP:            c.IP_ADDR,
@@ -37,6 +37,13 @@ func NewNetwork(instanceID int, numberProcess int) *Network {
 }
 
 func (n *Network) StartListening() {
+	connectLog, err := os.Create(
+		"./static/logs/connect.log",
+	)
+	if err != nil {
+		log.Fatalf("Failed to open general log file: %v", err)
+	}
+	log.SetOutput(connectLog)
 	listen, err := net.Listen("tcp", fmt.Sprintf("%s:%d", n.IP, n.Port))
 	if err != nil {
 		log.Fatal(err)
@@ -44,13 +51,13 @@ func (n *Network) StartListening() {
 	n.Socket = listen
 	defer listen.Close()
 
-	log.Printf("Server is Listening on %s:%d\n", n.IP, n.Port)
+	log.Printf("Process %d: Server is Listening on %s:%d\n\n",  n.InstanceID, n.IP, n.Port)
 	for {
 		conn, err := listen.Accept()
 		if err != nil {
 			log.Fatal(err)
 		}
-		addr := conn.RemoteAddr() //.String()
+		addr := conn.RemoteAddr()
 
 		log.Printf("Open Connection with %s\n", addr)
 		receiver := NewReceiverWorker(conn, addr, n.SesClock)
