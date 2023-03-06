@@ -2,13 +2,14 @@ package main
 
 import (
 	"context"
+	"fmt"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
 
-	"github.com/nddat1811/SES-algorithm/network"
 	"github.com/nddat1811/SES-algorithm/SES"
+	"github.com/nddat1811/SES-algorithm/network"
 )
 
 func main() {
@@ -36,9 +37,15 @@ func main() {
 					network.StartSending()
 					network.StartListening()
 				}
+				err := ctx.Err();
+				fmt.Println("ctx: ", ctx)
+				if  err != nil {
+					return
+				}
 			}
 		}(i)
 	}
+	fmt.Print("lnoutttttttt\n")
 	// Wait for a signal from the OS
 	<-c
 
