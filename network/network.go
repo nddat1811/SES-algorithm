@@ -51,7 +51,7 @@ func (n *Network) StartListening() {
 	n.Socket = listen
 	defer listen.Close()
 
-	log.Printf("Process %d: Server is Listening on %s:%d\n\n",  n.InstanceID, n.IP, n.Port)
+	log.Printf("Process %d: Server is Listening on %s:%d\n",  n.InstanceID, n.IP, n.Port)
 	for {
 		conn, err := listen.Accept()
 		if err != nil {

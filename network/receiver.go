@@ -6,6 +6,7 @@ import (
 	"log"
 	"math/rand"
 	"net"
+	"os"
 
 	s "github.com/nddat1811/SES-algorithm/SES"
 	c "github.com/nddat1811/SES-algorithm/constant"
@@ -29,7 +30,17 @@ func NewReceiverWorker(connection net.Conn, address net.Addr, sesClock *s.SES) *
 		Noise:        [][]byte{},
 	}
 }
+func (rw *ReceiverWorker) WriteLog(data string) {
+	file, err := os.OpenFile("./static/logs/connect.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatalf("Failed to open general log file: %v", err)
+	}
+	
+	defer file.Close()
 
+	log.SetOutput(file)
+	log.Println(data)
+}
 func (rw *ReceiverWorker) Start() {
 	defer rw.Connection.Close()
 	for {
@@ -38,11 +49,10 @@ func (rw *ReceiverWorker) Start() {
 		case <-rw.ShutdownFlag:
 			rw.Connection.Close()
 			e := rw.Connection.Close()
-			//fmt.Println("\n\n\n\n erloggggg22222222g: ", e)
 			if e != nil {
 				fmt.Println("\n\n\n\n err: ", e)
 			}
-			fmt.Printf("RECEIVER : close connection to %s\n", rw.Address.String())
+			fmt.Printf("RECEIVER : close connection to %s", rw.Address.String())
 			return
 		default:
 			dataSizeBytes := make([]byte, c.INT_SIZE)
@@ -57,19 +67,24 @@ func (rw *ReceiverWorker) Start() {
 			rw.MessageCount++
 			if rw.MessageCount == c.MAX_MESSAGE {
 				// Close connection
+				packet := make([]byte, dataSize)
+				_, err = rw.Connection.Read(packet)
+				if err != nil {
+					log.Printf("RECEIVER #%s: error reading data packet: %v", rw.Address.String(), err)
+					return
+				}
+
+				rw.Noise = append(rw.Noise, packet)
 				for i := len(rw.Noise) - 1; i >= 0; i-- {
 					packet := rw.Noise[i]
 					rw.SesClock.Deliver(packet)
-					//log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
 				}
 				close(rw.ShutdownFlag)
 				e := rw.Connection.Close()
-				fmt.Printf("RECEIVER : close connection to %s\n", rw.Address.String())
-				//fmt.Println("\n\n\n\n erlogggggg: ", e)
 				if e != nil {
-					fmt.Println("\n\n\n\n err: ", e)
+					fmt.Println("err close connection : ", e)
 				}
-
+				rw.WriteLog(fmt.Sprintf("RECEIVER : close connection to %s", rw.Address.String()))
 				return
 			}
 
@@ -85,7 +100,6 @@ func (rw *ReceiverWorker) Start() {
 				for i := len(rw.Noise) - 1; i >= 0; i-- {
 					packet := rw.Noise[i]
 					rw.SesClock.Deliver(packet)
-					//log.Printf("RECEIVER #%s: Received message %s from %s\n", rw.Address.String(), string(packet), rw.Address.String())
 				}
 				rw.Noise = nil
 			}

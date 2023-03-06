@@ -8,6 +8,7 @@ import (
 	"syscall"
 
 	"github.com/nddat1811/SES-algorithm/network"
+	"github.com/nddat1811/SES-algorithm/SES"
 )
 
 func main() {
@@ -17,13 +18,13 @@ func main() {
 
 	// Create a context to signal cancellation to the network goroutines
 	ctx, cancel := context.WithCancel(context.Background())
-
+	
 	var wg sync.WaitGroup
 	for i := 0; i < numberProcess; i++ {
 		wg.Add(1)
 		go func(instanceID int) {
 			defer wg.Done()
-			//s.InitLog(instanceID)
+			ses.InitLog(instanceID)
 			network := network.NewNetwork(instanceID, numberProcess)
 			defer network.SafetyClose()
 			for {

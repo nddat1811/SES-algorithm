@@ -55,17 +55,14 @@ func (sw *SenderWorker) Start() {
 			return
 		default:
 			if sw.MessageCount == c.MAX_MESSAGE {
-				e := sender.Close()
-				//fmt.Println("\n\n\n\n er111: ", e)
-				if e != nil {
-					fmt.Println("\n\n\n\n err: ", e)
-				}
+				sender.Close()
+				//fmt.Println(fmt.Sprintf("SENDER #%d: close connection to %s:%d\n", sw.InstanceID, sw.IP, sw.Port))
 				return
 			}
 
 			sw.MessageCount++
 
-			message := []byte(fmt.Sprintf("Message from %d, number %d", sw.InstanceID, sw.MessageCount))
+			message := []byte(fmt.Sprintf("Message number %d from process %d", sw.MessageCount, sw.InstanceID))
 			message = sw.SesClock.Send(sw.DestinationID, message)
 
 			dataSize := len(message)
@@ -84,8 +81,6 @@ func (sw *SenderWorker) Start() {
 				sender.Close()				
 				return
 			}
-
-			//fmt.Printf("SENDER #%d: send messagesss %v to %s:%d", sw.InstanceID, message, sw.IP, sw.Port)
 
 			time.Sleep(time.Duration(rand.Float64() * float64(time.Second))) // Stop sending for random time
 		}
