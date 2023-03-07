@@ -56,7 +56,6 @@ func (sw *SenderWorker) Start() {
 		default:
 			if sw.MessageCount == c.MAX_MESSAGE {
 				sender.Close()
-				//fmt.Println(fmt.Sprintf("SENDER #%d: close connection to %s:%d\n", sw.InstanceID, sw.IP, sw.Port))
 				return
 			}
 
@@ -81,8 +80,9 @@ func (sw *SenderWorker) Start() {
 				sender.Close()
 				return
 			}
-
-			time.Sleep(time.Duration(rand.Int63n(int64(c.MAX_DELAY-c.MIN_DELAY)) + int64(c.MIN_DELAY))) // Stop sending for random time
+			
+			time.Sleep(time.Duration(rand.Int63n(int64(c.MAX_DELAY-c.MIN_DELAY)) + int64(c.MIN_DELAY))) 
+			// Stop sending for 100 - 1000 time.Millisecond
 		}
 	}
 }

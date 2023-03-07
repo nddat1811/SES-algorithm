@@ -37,15 +37,9 @@ func main() {
 					network.StartSending()
 					network.StartListening()
 				}
-				err := ctx.Err();
-				fmt.Println("ctx: ", ctx)
-				if  err != nil {
-					return
-				}
 			}
 		}(i)
 	}
-	fmt.Print("lnoutttttttt\n")
 	// Wait for a signal from the OS
 	<-c
 
