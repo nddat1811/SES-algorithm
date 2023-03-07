@@ -2,13 +2,12 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
 
-	"github.com/nddat1811/SES-algorithm/SES"
+	ses "github.com/nddat1811/SES-algorithm/SES"
 	"github.com/nddat1811/SES-algorithm/network"
 )
 
@@ -19,7 +18,7 @@ func main() {
 
 	// Create a context to signal cancellation to the network goroutines
 	ctx, cancel := context.WithCancel(context.Background())
-	
+
 	var wg sync.WaitGroup
 	for i := 0; i < numberProcess; i++ {
 		wg.Add(1)
