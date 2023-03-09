@@ -36,7 +36,6 @@ func (vc *VectorClock) String() string {
 func intToBytes(n int) []byte {
 	b := make([]byte, INT_SIZE)
 	binary.BigEndian.PutUint32(b, uint32(n))
-	//fmt.Println("byte: ", b)
 	return b
 }
 

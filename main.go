@@ -1,52 +1,39 @@
 package main
 
 import (
-	"context"
+	"fmt"
 	"os"
 	"os/signal"
-	"sync"
+	"strconv"
 	"syscall"
 
 	ses "github.com/nddat1811/SES-algorithm/SES"
 	"github.com/nddat1811/SES-algorithm/network"
 )
 
-func main() {
-	numberProcess := 3
+func registerExitSignal() {
 	c := make(chan os.Signal, 1)
-	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
+	signal.Notify(c, syscall.SIGINT, syscall.SIGTERM, os.Interrupt)
+	go func() {
+		<-c
+		os.Exit(1)
+	}()
+}
 
-	// Create a context to signal cancellation to the network goroutines
-	ctx, cancel := context.WithCancel(context.Background())
+func main() {
+	numberProcess, _ := strconv.Atoi(os.Args[1])
+	instanceID, _ := strconv.Atoi(os.Args[2])
+	registerExitSignal()
+	fmt.Println("n: ", numberProcess)
+	fmt.Println("i: ", instanceID)
 
-	var wg sync.WaitGroup
-	for i := 0; i < numberProcess; i++ {
-		wg.Add(1)
-		go func(instanceID int) {
-			defer wg.Done()
-			ses.InitLog(instanceID)
-			network := network.NewNetwork(instanceID, numberProcess)
-			defer network.SafetyClose()
-			for {
-				select {
-				case <-ctx.Done():
-					network.SafetyClose()
-					return
-				default:
-					network.StartSending()
-					network.StartListening()
-				}
-			}
-		}(i)
-	}
-	// Wait for a signal from the OS
-	<-c
-
-	// Send a quit signal to the network goroutines
-	cancel()
-
-	// Wait for all goroutines to finish
-	wg.Wait()
-
-	os.Exit(0)
+	ses.InitLog(instanceID, numberProcess)
+	network := network.NewNetwork(instanceID, numberProcess)
+	defer func() {
+		if r := recover(); r != nil {
+			network.SafetyClose()
+		}
+	}()
+	network.StartSending()
+	network.StartListening()
 }

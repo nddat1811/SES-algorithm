@@ -47,11 +47,7 @@ func (sw *SenderWorker) Start() {
 	for {
 		select {
 		case <-sw.ShutdownFlag:
-			e := sender.Close()
-			fmt.Println("\n\n\n\n er000: ", e)
-			if e != nil {
-				fmt.Println("\n\n\n\n err: ", e)
-			}
+			sender.Close()
 			return
 		default:
 			if sw.MessageCount == c.MAX_MESSAGE {

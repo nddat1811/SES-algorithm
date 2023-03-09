@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"net"
-	"os"
 
 	s "github.com/nddat1811/SES-algorithm/SES"
 	c "github.com/nddat1811/SES-algorithm/constant"
@@ -37,13 +36,6 @@ func NewNetwork(instanceID int, numberProcess int) *Network {
 }
 
 func (n *Network) StartListening() {
-	connectLog, err := os.Create(
-		"./static/logs/connect.log",
-	)
-	if err != nil {
-		log.Fatalf("Failed to open general log file: %v", err)
-	}
-	log.SetOutput(connectLog)
 	listen, err := net.Listen("tcp", fmt.Sprintf("%s:%d", n.IP, n.Port))
 	if err != nil {
 		log.Fatal(err)
@@ -51,7 +43,7 @@ func (n *Network) StartListening() {
 	n.Socket = listen
 	defer listen.Close()
 
-	log.Printf("Process %d: Server is Listening on %s:%d\n",  n.InstanceID, n.IP, n.Port)
+	log.Printf("Process %d: Server is Listening on %s:%d\n", n.InstanceID, n.IP, n.Port)
 	for {
 		conn, err := listen.Accept()
 		if err != nil {
@@ -63,8 +55,13 @@ func (n *Network) StartListening() {
 		receiver := NewReceiverWorker(conn, addr, n.SesClock)
 		go receiver.Start()
 		n.ReceiverList = append(n.ReceiverList, receiver)
+
+		// time.Sleep(100 * time.Second)
+		// log.Printf("Process %d CLOSE:  %s:%d\n", n.InstanceID, n.IP, n.Port)
+		// listen.Close()
 	}
 }
+
 func (n *Network) StartSending() {
 	for instanceID := 0; instanceID < n.NumberProcess; instanceID++ {
 		if n.InstanceID == instanceID {
@@ -78,7 +75,7 @@ func (n *Network) StartSending() {
 
 func (n *Network) SafetyClose() {
 	n.Socket.Close()
-	log.Println("Force to stop. Cleaning all children processes.")
+	fmt.Println("STOP")
 	for _, sender := range n.SenderList {
 		sender.Stop()
 	}
