@@ -24,8 +24,8 @@ func main() {
 	numberProcess, _ := strconv.Atoi(os.Args[1])
 	instanceID, _ := strconv.Atoi(os.Args[2])
 	registerExitSignal()
-	fmt.Println("n: ", numberProcess)
-	fmt.Println("i: ", instanceID)
+	//fmt.Println("Number Process: ", numberProcess)
+	fmt.Println("process:  ", instanceID)
 
 	ses.InitLog(instanceID, numberProcess)
 	network := network.NewNetwork(instanceID, numberProcess)

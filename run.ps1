@@ -1,6 +1,6 @@
 rm .\static\logs\*.log
 
-$n_processes = Read-Host "Enter the number of processes:"
+$n_processes = Read-Host "Enter the number of processes"
 
 if (![int]::TryParse($n_processes, [ref]$null)) {
   Write-Host "Invalid input. Please enter an integer."

@@ -51,6 +51,7 @@ func (sw *SenderWorker) Start() {
 			return
 		default:
 			if sw.MessageCount == c.MAX_MESSAGE {
+				log.Printf("send all 150 messages. CLOSE connect to %s:%d", sw.IP, sw.Port)
 				sender.Close()
 				return
 			}
