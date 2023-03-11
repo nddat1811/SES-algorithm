@@ -18,6 +18,7 @@ type ReceiverWorker struct {
 	ShutdownFlag chan bool
 	MessageCount int
 	Noise        [][]byte
+	CloseData    chan string
 }
 
 func NewReceiverWorker(connection net.Conn, address net.Addr, sesClock *s.SES) *ReceiverWorker {
@@ -27,6 +28,7 @@ func NewReceiverWorker(connection net.Conn, address net.Addr, sesClock *s.SES) *
 		SesClock:     sesClock,
 		ShutdownFlag: make(chan bool),
 		Noise:        [][]byte{},
+		CloseData: make(chan string),
 	}
 }
 func (rw *ReceiverWorker) Start() {
@@ -36,6 +38,7 @@ func (rw *ReceiverWorker) Start() {
 		select {
 		case <-rw.ShutdownFlag:
 			rw.Connection.Close()
+			rw.CloseData <- "CLOSE"
 			return
 		default:
 			dataSizeBytes := make([]byte, c.INT_SIZE)
@@ -43,6 +46,7 @@ func (rw *ReceiverWorker) Start() {
 			if err != nil {
 				log.Printf("RECEIVER %s: error reading data size: %v\n", rw.Address.String(), err)
 				rw.Connection.Close()
+				rw.CloseData <- "CLOSE"
 				return
 			}
 
@@ -54,6 +58,7 @@ func (rw *ReceiverWorker) Start() {
 				_, err = rw.Connection.Read(packet)
 				if err != nil {
 					log.Printf("RECEIVER #%s: error reading data packet: %v", rw.Address.String(), err)
+					rw.CloseData <- "CLOSE"
 					return
 				}
 
@@ -68,6 +73,7 @@ func (rw *ReceiverWorker) Start() {
 					fmt.Println("err close connection : ", e)
 				}
 				fmt.Sprintf("RECEIVER : close connection to %s", rw.Address.String())
+				rw.CloseData <- "CLOSE"
 				return
 			}
 
