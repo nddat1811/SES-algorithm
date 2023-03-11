@@ -72,7 +72,7 @@ func (rw *ReceiverWorker) Start() {
 				if e != nil {
 					fmt.Println("err close connection : ", e)
 				}
-				fmt.Sprintf("RECEIVER : close connection to %s", rw.Address.String())
+				fmt.Printf("RECEIVER : close connection to %s", rw.Address.String())
 				rw.CloseData <- "CLOSE"
 				return
 			}

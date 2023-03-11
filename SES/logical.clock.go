@@ -89,25 +89,3 @@ func (lc *LogicClock) Deserialize(data []byte) *LogicClock {
 
 	return newClock
 }
-
-func (lc *LogicClock) Equal(other *LogicClock) bool {
-	for i, c := range lc.Clock {
-		if c != other.GetTime()[i] {
-			return false
-		}
-	}
-	return true
-}
-
-func (lc *LogicClock) LessThan(other *LogicClock) bool {
-	return lc.LessThanOrEqual(other) && !lc.Equal(other)
-}
-
-func (lc *LogicClock) LessThanOrEqual(other *LogicClock) bool {
-	for i, c := range lc.Clock {
-		if c > other.GetTime()[i] {
-			return false
-		}
-	}
-	return true
-}
