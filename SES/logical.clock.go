@@ -18,7 +18,7 @@ type LogicClock struct {
 	Clock         []int
 }
 
-func NewLogicClock(instanceID, numberProcess  int, zeroFill bool) *LogicClock {
+func NewLogicClock(instanceID, numberProcess int, zeroFill bool) *LogicClock {
 	clock := make([]int, numberProcess)
 	if zeroFill {
 		for i := 0; i < numberProcess; i++ {
@@ -50,6 +50,7 @@ func (lc *LogicClock) IsNull() bool {
 }
 
 func (lc *LogicClock) Increase() {
+	fmt.Println("hileoo:", lc.Clock[lc.InstanceID], lc.InstanceID)
 	lc.Clock[lc.InstanceID]++
 }
 

@@ -63,7 +63,7 @@ func (n *Network) StartListening() {
 			n.c++
 			fmt.Println("hi: ", n.c)
 			if n.c == n.NumberProcess-1 {
-				time.Sleep(7 * time.Second) // wait for handle remaining msg
+				time.Sleep(10 * time.Second) // wait for handle remaining msg
 				log.Printf("Process %d CLOSE:  %s:%d\n", n.InstanceID, n.IP, n.Port)
 				listen.Close()
 			}

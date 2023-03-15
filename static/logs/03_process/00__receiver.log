@@ -1,4 +1,4 @@
-Current Time: 2023-03-10T18:58:33.415Z
+Current Time: 2023-03-11T15:50:05.566Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
@@ -13,2242 +13,292 @@ Received Packet Info BEFORE DELIVERED:
 
 -------------
 
-Current Time: 2023-03-10T18:58:34.405Z
+Current Time: 2023-03-11T15:50:06.185Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 2 from process 1
 	Packet Clock:
-		t_m: [0 1 1]
-		tP_send: [0 1 1]
+		t_m: [0 1 2]
+		tP_send: [0 1 2]
 	Receiver Logical Clock (tP_rcv):
 		[3 1 0]
 	Status: buffered
-	Delivery Condition: [3 1 0] > [0 1 1]
+	Delivery Condition: [3 1 0] > [0 1 2]
 
 -------------
 
-Current Time: 2023-03-10T18:58:34.617Z
+Current Time: 2023-03-11T15:50:06.632Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 3 from process 1
 	Packet Clock:
-		t_m: [2 7 5]
-		tP_send: [2 7 5]
+		t_m: [0 5 3]
+		tP_send: [0 5 3]
 	Receiver Logical Clock (tP_rcv):
-		[3 1 0]
+		[5 1 0]
 	Status: buffered
-	Delivery Condition: [3 1 0] > [2 7 5]
+	Delivery Condition: [5 1 0] > [0 5 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:35.624Z
+Current Time: 2023-03-11T15:50:07.132Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 4 from process 1
 	Packet Clock:
-		t_m: [2 9 6]
-		tP_send: [2 9 6]
+		t_m: [0 7 3]
+		tP_send: [0 7 3]
 	Receiver Logical Clock (tP_rcv):
-		[5 1 0]
+		[7 1 0]
 	Status: buffered
-	Delivery Condition: [5 1 0] > [2 9 6]
+	Delivery Condition: [7 1 0] > [0 7 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:36.076Z
+Current Time: 2023-03-11T15:50:08.012Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 5 from process 1
 	Packet Clock:
-		t_m: [2 12 6]
-		tP_send: [2 12 6]
+		t_m: [0 8 3]
+		tP_send: [0 8 3]
 	Receiver Logical Clock (tP_rcv):
-		[8 1 0]
+		[10 1 0]
 	Status: buffered
-	Delivery Condition: [8 1 0] > [2 12 6]
+	Delivery Condition: [10 1 0] > [0 8 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:36.220Z
+Current Time: 2023-03-11T15:50:08.659Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 6 from process 1
 	Packet Clock:
-		t_m: [2 14 6]
-		tP_send: [2 14 6]
+		t_m: [0 11 3]
+		tP_send: [0 11 3]
 	Receiver Logical Clock (tP_rcv):
-		[8 1 0]
+		[14 1 0]
 	Status: buffered
-	Delivery Condition: [8 1 0] > [2 14 6]
+	Delivery Condition: [14 1 0] > [0 11 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:36.704Z
+Current Time: 2023-03-11T15:50:09.382Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 7 from process 1
 	Packet Clock:
-		t_m: [2 15 6]
-		tP_send: [2 15 6]
+		t_m: [0 13 3]
+		tP_send: [0 13 3]
 	Receiver Logical Clock (tP_rcv):
-		[10 1 0]
+		[16 1 0]
 	Status: buffered
-	Delivery Condition: [10 1 0] > [2 15 6]
+	Delivery Condition: [16 1 0] > [0 13 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:37.404Z
+Current Time: 2023-03-11T15:50:10.242Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 8 from process 1
 	Packet Clock:
-		t_m: [2 17 6]
-		tP_send: [2 17 6]
+		t_m: [0 15 3]
+		tP_send: [0 15 3]
 	Receiver Logical Clock (tP_rcv):
-		[15 1 0]
+		[23 1 0]
 	Status: buffered
-	Delivery Condition: [15 1 0] > [2 17 6]
+	Delivery Condition: [23 1 0] > [0 15 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:37.958Z
+Current Time: 2023-03-11T15:50:10.803Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 9 from process 1
 	Packet Clock:
-		t_m: [2 20 6]
-		tP_send: [2 20 6]
+		t_m: [0 17 3]
+		tP_send: [0 17 3]
 	Receiver Logical Clock (tP_rcv):
-		[16 1 0]
+		[24 1 0]
 	Status: buffered
-	Delivery Condition: [16 1 0] > [2 20 6]
+	Delivery Condition: [24 1 0] > [0 17 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:38.523Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 11 from process 1
-	Packet Clock:
-		t_m: [2 22 6]
-		tP_send: [2 22 6]
-	Receiver Logical Clock (tP_rcv):
-		[18 1 0]
-	Status: buffered
-	Delivery Condition: [18 1 0] > [2 22 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:38.524Z
+Current Time: 2023-03-11T15:50:11.707Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 10 from process 1
 	Packet Clock:
-		t_m: [2 21 6]
-		tP_send: [2 21 6]
+		t_m: [0 20 3]
+		tP_send: [0 20 3]
 	Receiver Logical Clock (tP_rcv):
-		[18 1 0]
+		[27 1 0]
 	Status: buffered
-	Delivery Condition: [18 1 0] > [2 21 6]
+	Delivery Condition: [27 1 0] > [0 20 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:38.942Z
+Current Time: 2023-03-11T15:50:12.706Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
-	Packet Content: Message number 12 from process 1
+	Packet Content: Message number 11 from process 1
 	Packet Clock:
-		t_m: [2 25 6]
-		tP_send: [2 25 6]
+		t_m: [0 25 3]
+		tP_send: [0 25 3]
 	Receiver Logical Clock (tP_rcv):
-		[19 1 0]
+		[33 1 0]
 	Status: buffered
-	Delivery Condition: [19 1 0] > [2 25 6]
+	Delivery Condition: [33 1 0] > [0 25 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:39.316Z
+Current Time: 2023-03-11T15:50:13.953Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 13 from process 1
 	Packet Clock:
-		t_m: [2 28 6]
-		tP_send: [2 28 6]
+		t_m: [0 30 3]
+		tP_send: [0 30 3]
 	Receiver Logical Clock (tP_rcv):
-		[20 1 0]
+		[38 1 0]
 	Status: buffered
-	Delivery Condition: [20 1 0] > [2 28 6]
+	Delivery Condition: [38 1 0] > [0 30 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:40.196Z
+Current Time: 2023-03-11T15:50:13.953Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
-	Packet Content: Message number 15 from process 1
+	Packet Content: Message number 12 from process 1
 	Packet Clock:
-		t_m: [2 32 6]
-		tP_send: [2 32 6]
+		t_m: [0 27 3]
+		tP_send: [0 27 3]
 	Receiver Logical Clock (tP_rcv):
-		[25 1 0]
+		[38 1 0]
 	Status: buffered
-	Delivery Condition: [25 1 0] > [2 32 6]
+	Delivery Condition: [38 1 0] > [0 27 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:40.196Z
+Current Time: 2023-03-11T15:50:14.532Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 14 from process 1
 	Packet Clock:
-		t_m: [2 30 6]
-		tP_send: [2 30 6]
+		t_m: [0 32 3]
+		tP_send: [0 32 3]
 	Receiver Logical Clock (tP_rcv):
-		[25 1 0]
+		[39 1 0]
 	Status: buffered
-	Delivery Condition: [25 1 0] > [2 30 6]
+	Delivery Condition: [39 1 0] > [0 32 3]
 
 -------------
 
-Current Time: 2023-03-10T18:58:40.525Z
+Current Time: 2023-03-11T15:50:15.520Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 15 from process 1
+	Packet Clock:
+		t_m: [34 34 46]
+		tP_send: [34 34 46]
+	Receiver Logical Clock (tP_rcv):
+		[40 1 0]
+	Status: buffered
+	Delivery Condition: [40 1 0] > [34 34 46]
+
+-------------
+
+Current Time: 2023-03-11T15:50:16.121Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 16 from process 1
 	Packet Clock:
-		t_m: [2 34 6]
-		tP_send: [2 34 6]
+		t_m: [40 69 47]
+		tP_send: [40 69 47]
 	Receiver Logical Clock (tP_rcv):
-		[27 1 0]
+		[41 1 0]
 	Status: buffered
-	Delivery Condition: [27 1 0] > [2 34 6]
+	Delivery Condition: [41 1 0] > [40 69 47]
 
 -------------
 
-Current Time: 2023-03-10T18:58:41.190Z
+Current Time: 2023-03-11T15:50:16.918Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 17 from process 1
 	Packet Clock:
-		t_m: [2 35 6]
-		tP_send: [2 35 6]
+		t_m: [41 72 47]
+		tP_send: [41 72 47]
 	Receiver Logical Clock (tP_rcv):
-		[30 1 0]
+		[41 1 0]
 	Status: buffered
-	Delivery Condition: [30 1 0] > [2 35 6]
+	Delivery Condition: [41 1 0] > [41 72 47]
 
 -------------
 
-Current Time: 2023-03-10T18:58:42.194Z
+Current Time: 2023-03-11T15:50:17.858Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 18 from process 1
 	Packet Clock:
-		t_m: [2 37 6]
-		tP_send: [2 37 6]
+		t_m: [41 73 47]
+		tP_send: [41 73 47]
 	Receiver Logical Clock (tP_rcv):
-		[34 1 0]
+		[41 1 0]
 	Status: buffered
-	Delivery Condition: [34 1 0] > [2 37 6]
+	Delivery Condition: [41 1 0] > [41 73 47]
 
 -------------
 
-Current Time: 2023-03-10T18:58:42.762Z
+Current Time: 2023-03-11T15:50:18.763Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 19 from process 1
 	Packet Clock:
-		t_m: [2 40 6]
-		tP_send: [2 40 6]
+		t_m: [41 74 47]
+		tP_send: [41 74 47]
 	Receiver Logical Clock (tP_rcv):
-		[37 1 0]
+		[41 1 0]
 	Status: buffered
-	Delivery Condition: [37 1 0] > [2 40 6]
+	Delivery Condition: [41 1 0] > [41 74 47]
 
 -------------
 
-Current Time: 2023-03-10T18:58:43.023Z
+Current Time: 2023-03-11T15:50:19.701Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 20 from process 1
 	Packet Clock:
-		t_m: [2 42 6]
-		tP_send: [2 42 6]
+		t_m: [41 75 47]
+		tP_send: [41 75 47]
 	Receiver Logical Clock (tP_rcv):
-		[38 1 0]
+		[41 1 0]
 	Status: buffered
-	Delivery Condition: [38 1 0] > [2 42 6]
+	Delivery Condition: [41 1 0] > [41 75 47]
 
 -------------
 
-Current Time: 2023-03-10T18:58:44.343Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 22 from process 1
-	Packet Clock:
-		t_m: [2 45 6]
-		tP_send: [2 45 6]
-	Receiver Logical Clock (tP_rcv):
-		[42 1 0]
-	Status: buffered
-	Delivery Condition: [42 1 0] > [2 45 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:44.343Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 21 from process 1
-	Packet Clock:
-		t_m: [2 43 6]
-		tP_send: [2 43 6]
-	Receiver Logical Clock (tP_rcv):
-		[42 1 0]
-	Status: buffered
-	Delivery Condition: [42 1 0] > [2 43 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:44.514Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 23 from process 1
-	Packet Clock:
-		t_m: [2 48 6]
-		tP_send: [2 48 6]
-	Receiver Logical Clock (tP_rcv):
-		[43 1 0]
-	Status: buffered
-	Delivery Condition: [43 1 0] > [2 48 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:45.559Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 25 from process 1
-	Packet Clock:
-		t_m: [2 52 6]
-		tP_send: [2 52 6]
-	Receiver Logical Clock (tP_rcv):
-		[47 1 0]
-	Status: buffered
-	Delivery Condition: [47 1 0] > [2 52 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:45.559Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 24 from process 1
-	Packet Clock:
-		t_m: [2 50 6]
-		tP_send: [2 50 6]
-	Receiver Logical Clock (tP_rcv):
-		[47 1 0]
-	Status: buffered
-	Delivery Condition: [47 1 0] > [2 50 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:46.550Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 26 from process 1
-	Packet Clock:
-		t_m: [2 53 6]
-		tP_send: [2 53 6]
-	Receiver Logical Clock (tP_rcv):
-		[50 1 0]
-	Status: buffered
-	Delivery Condition: [50 1 0] > [2 53 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:47.449Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 27 from process 1
-	Packet Clock:
-		t_m: [2 57 6]
-		tP_send: [2 57 6]
-	Receiver Logical Clock (tP_rcv):
-		[54 1 0]
-	Status: buffered
-	Delivery Condition: [54 1 0] > [2 57 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:47.625Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 28 from process 1
-	Packet Clock:
-		t_m: [2 59 6]
-		tP_send: [2 59 6]
-	Receiver Logical Clock (tP_rcv):
-		[54 1 0]
-	Status: buffered
-	Delivery Condition: [54 1 0] > [2 59 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:48.125Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 29 from process 1
-	Packet Clock:
-		t_m: [2 60 6]
-		tP_send: [2 60 6]
-	Receiver Logical Clock (tP_rcv):
-		[56 1 0]
-	Status: buffered
-	Delivery Condition: [56 1 0] > [2 60 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:48.411Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 30 from process 1
-	Packet Clock:
-		t_m: [2 62 6]
-		tP_send: [2 62 6]
-	Receiver Logical Clock (tP_rcv):
-		[58 1 0]
-	Status: buffered
-	Delivery Condition: [58 1 0] > [2 62 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:48.856Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 31 from process 1
-	Packet Clock:
-		t_m: [2 63 6]
-		tP_send: [2 63 6]
-	Receiver Logical Clock (tP_rcv):
-		[58 1 0]
-	Status: buffered
-	Delivery Condition: [58 1 0] > [2 63 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:49.005Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 32 from process 1
-	Packet Clock:
-		t_m: [2 65 6]
-		tP_send: [2 65 6]
-	Receiver Logical Clock (tP_rcv):
-		[60 1 0]
-	Status: buffered
-	Delivery Condition: [60 1 0] > [2 65 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:49.490Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 33 from process 1
-	Packet Clock:
-		t_m: [2 67 6]
-		tP_send: [2 67 6]
-	Receiver Logical Clock (tP_rcv):
-		[62 1 0]
-	Status: buffered
-	Delivery Condition: [62 1 0] > [2 67 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:49.964Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 34 from process 1
-	Packet Clock:
-		t_m: [2 69 6]
-		tP_send: [2 69 6]
-	Receiver Logical Clock (tP_rcv):
-		[64 1 0]
-	Status: buffered
-	Delivery Condition: [64 1 0] > [2 69 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:50.913Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 35 from process 1
-	Packet Clock:
-		t_m: [2 70 6]
-		tP_send: [2 70 6]
-	Receiver Logical Clock (tP_rcv):
-		[66 1 0]
-	Status: buffered
-	Delivery Condition: [66 1 0] > [2 70 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:51.683Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 36 from process 1
-	Packet Clock:
-		t_m: [2 73 6]
-		tP_send: [2 73 6]
-	Receiver Logical Clock (tP_rcv):
-		[69 1 0]
-	Status: buffered
-	Delivery Condition: [69 1 0] > [2 73 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:52.264Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 37 from process 1
-	Packet Clock:
-		t_m: [2 77 6]
-		tP_send: [2 77 6]
-	Receiver Logical Clock (tP_rcv):
-		[72 1 0]
-	Status: buffered
-	Delivery Condition: [72 1 0] > [2 77 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:52.970Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 38 from process 1
-	Packet Clock:
-		t_m: [2 79 6]
-		tP_send: [2 79 6]
-	Receiver Logical Clock (tP_rcv):
-		[73 1 0]
-	Status: buffered
-	Delivery Condition: [73 1 0] > [2 79 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:53.798Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 39 from process 1
-	Packet Clock:
-		t_m: [2 81 6]
-		tP_send: [2 81 6]
-	Receiver Logical Clock (tP_rcv):
-		[75 1 0]
-	Status: buffered
-	Delivery Condition: [75 1 0] > [2 81 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:53.963Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 40 from process 1
-	Packet Clock:
-		t_m: [2 84 6]
-		tP_send: [2 84 6]
-	Receiver Logical Clock (tP_rcv):
-		[77 1 0]
-	Status: buffered
-	Delivery Condition: [77 1 0] > [2 84 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:54.541Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 41 from process 1
-	Packet Clock:
-		t_m: [2 85 6]
-		tP_send: [2 85 6]
-	Receiver Logical Clock (tP_rcv):
-		[77 1 0]
-	Status: buffered
-	Delivery Condition: [77 1 0] > [2 85 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:55.494Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 42 from process 1
-	Packet Clock:
-		t_m: [2 87 6]
-		tP_send: [2 87 6]
-	Receiver Logical Clock (tP_rcv):
-		[80 1 0]
-	Status: buffered
-	Delivery Condition: [80 1 0] > [2 87 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:56.019Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 43 from process 1
-	Packet Clock:
-		t_m: [2 91 6]
-		tP_send: [2 91 6]
-	Receiver Logical Clock (tP_rcv):
-		[82 1 0]
-	Status: buffered
-	Delivery Condition: [82 1 0] > [2 91 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:56.627Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 44 from process 1
-	Packet Clock:
-		t_m: [2 92 6]
-		tP_send: [2 92 6]
-	Receiver Logical Clock (tP_rcv):
-		[85 1 0]
-	Status: buffered
-	Delivery Condition: [85 1 0] > [2 92 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:57.244Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 45 from process 1
-	Packet Clock:
-		t_m: [2 95 6]
-		tP_send: [2 95 6]
-	Receiver Logical Clock (tP_rcv):
-		[86 1 0]
-	Status: buffered
-	Delivery Condition: [86 1 0] > [2 95 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:58.229Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 46 from process 1
-	Packet Clock:
-		t_m: [2 97 6]
-		tP_send: [2 97 6]
-	Receiver Logical Clock (tP_rcv):
-		[90 1 0]
-	Status: buffered
-	Delivery Condition: [90 1 0] > [2 97 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:58.601Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 47 from process 1
-	Packet Clock:
-		t_m: [2 99 6]
-		tP_send: [2 99 6]
-	Receiver Logical Clock (tP_rcv):
-		[90 1 0]
-	Status: buffered
-	Delivery Condition: [90 1 0] > [2 99 6]
-
--------------
-
-Current Time: 2023-03-10T18:58:59.328Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 48 from process 1
-	Packet Clock:
-		t_m: [2 102 6]
-		tP_send: [2 102 6]
-	Receiver Logical Clock (tP_rcv):
-		[94 1 0]
-	Status: buffered
-	Delivery Condition: [94 1 0] > [2 102 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:00.137Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 50 from process 1
-	Packet Clock:
-		t_m: [2 105 6]
-		tP_send: [2 105 6]
-	Receiver Logical Clock (tP_rcv):
-		[97 1 0]
-	Status: buffered
-	Delivery Condition: [97 1 0] > [2 105 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:00.137Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 49 from process 1
-	Packet Clock:
-		t_m: [2 104 6]
-		tP_send: [2 104 6]
-	Receiver Logical Clock (tP_rcv):
-		[97 1 0]
-	Status: buffered
-	Delivery Condition: [97 1 0] > [2 104 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:00.434Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 51 from process 1
-	Packet Clock:
-		t_m: [2 106 6]
-		tP_send: [2 106 6]
-	Receiver Logical Clock (tP_rcv):
-		[98 1 0]
-	Status: buffered
-	Delivery Condition: [98 1 0] > [2 106 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:00.946Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 52 from process 1
-	Packet Clock:
-		t_m: [2 108 6]
-		tP_send: [2 108 6]
-	Receiver Logical Clock (tP_rcv):
-		[100 1 0]
-	Status: buffered
-	Delivery Condition: [100 1 0] > [2 108 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:01.898Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 53 from process 1
-	Packet Clock:
-		t_m: [2 109 6]
-		tP_send: [2 109 6]
-	Receiver Logical Clock (tP_rcv):
-		[102 1 0]
-	Status: buffered
-	Delivery Condition: [102 1 0] > [2 109 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:03.275Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 56 from process 1
-	Packet Clock:
-		t_m: [2 118 6]
-		tP_send: [2 118 6]
-	Receiver Logical Clock (tP_rcv):
-		[107 1 0]
-	Status: buffered
-	Delivery Condition: [107 1 0] > [2 118 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:03.275Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 55 from process 1
-	Packet Clock:
-		t_m: [2 116 6]
-		tP_send: [2 116 6]
-	Receiver Logical Clock (tP_rcv):
-		[107 1 0]
-	Status: buffered
-	Delivery Condition: [107 1 0] > [2 116 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:03.275Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 54 from process 1
-	Packet Clock:
-		t_m: [2 113 6]
-		tP_send: [2 113 6]
-	Receiver Logical Clock (tP_rcv):
-		[107 1 0]
-	Status: buffered
-	Delivery Condition: [107 1 0] > [2 113 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:03.904Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 57 from process 1
-	Packet Clock:
-		t_m: [2 121 6]
-		tP_send: [2 121 6]
-	Receiver Logical Clock (tP_rcv):
-		[111 1 0]
-	Status: buffered
-	Delivery Condition: [111 1 0] > [2 121 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:05.223Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 60 from process 1
-	Packet Clock:
-		t_m: [2 127 6]
-		tP_send: [2 127 6]
-	Receiver Logical Clock (tP_rcv):
-		[115 1 0]
-	Status: buffered
-	Delivery Condition: [115 1 0] > [2 127 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:05.224Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 59 from process 1
-	Packet Clock:
-		t_m: [2 125 6]
-		tP_send: [2 125 6]
-	Receiver Logical Clock (tP_rcv):
-		[115 1 0]
-	Status: buffered
-	Delivery Condition: [115 1 0] > [2 125 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:05.224Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 58 from process 1
-	Packet Clock:
-		t_m: [2 123 6]
-		tP_send: [2 123 6]
-	Receiver Logical Clock (tP_rcv):
-		[115 1 0]
-	Status: buffered
-	Delivery Condition: [115 1 0] > [2 123 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:05.486Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 61 from process 1
-	Packet Clock:
-		t_m: [2 129 6]
-		tP_send: [2 129 6]
-	Receiver Logical Clock (tP_rcv):
-		[115 1 0]
-	Status: buffered
-	Delivery Condition: [115 1 0] > [2 129 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:06.480Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 62 from process 1
-	Packet Clock:
-		t_m: [2 130 6]
-		tP_send: [2 130 6]
-	Receiver Logical Clock (tP_rcv):
-		[119 1 0]
-	Status: buffered
-	Delivery Condition: [119 1 0] > [2 130 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:06.605Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 63 from process 1
-	Packet Clock:
-		t_m: [2 134 6]
-		tP_send: [2 134 6]
-	Receiver Logical Clock (tP_rcv):
-		[120 1 0]
-	Status: buffered
-	Delivery Condition: [120 1 0] > [2 134 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:06.960Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 64 from process 1
-	Packet Clock:
-		t_m: [2 135 6]
-		tP_send: [2 135 6]
-	Receiver Logical Clock (tP_rcv):
-		[121 1 0]
-	Status: buffered
-	Delivery Condition: [121 1 0] > [2 135 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:07.686Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 65 from process 1
-	Packet Clock:
-		t_m: [2 136 6]
-		tP_send: [2 136 6]
-	Receiver Logical Clock (tP_rcv):
-		[123 1 0]
-	Status: buffered
-	Delivery Condition: [123 1 0] > [2 136 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:08.491Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 66 from process 1
-	Packet Clock:
-		t_m: [2 139 6]
-		tP_send: [2 139 6]
-	Receiver Logical Clock (tP_rcv):
-		[125 1 0]
-	Status: buffered
-	Delivery Condition: [125 1 0] > [2 139 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:09.302Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 67 from process 1
-	Packet Clock:
-		t_m: [2 142 6]
-		tP_send: [2 142 6]
-	Receiver Logical Clock (tP_rcv):
-		[127 1 0]
-	Status: buffered
-	Delivery Condition: [127 1 0] > [2 142 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:09.696Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 68 from process 1
-	Packet Clock:
-		t_m: [2 146 6]
-		tP_send: [2 146 6]
-	Receiver Logical Clock (tP_rcv):
-		[129 1 0]
-	Status: buffered
-	Delivery Condition: [129 1 0] > [2 146 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:10.451Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 69 from process 1
-	Packet Clock:
-		t_m: [2 147 6]
-		tP_send: [2 147 6]
-	Receiver Logical Clock (tP_rcv):
-		[131 1 0]
-	Status: buffered
-	Delivery Condition: [131 1 0] > [2 147 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:11.645Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 71 from process 1
-	Packet Clock:
-		t_m: [2 153 6]
-		tP_send: [2 153 6]
-	Receiver Logical Clock (tP_rcv):
-		[135 1 0]
-	Status: buffered
-	Delivery Condition: [135 1 0] > [2 153 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:11.646Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 70 from process 1
-	Packet Clock:
-		t_m: [2 151 6]
-		tP_send: [2 151 6]
-	Receiver Logical Clock (tP_rcv):
-		[135 1 0]
-	Status: buffered
-	Delivery Condition: [135 1 0] > [2 151 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:11.985Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 72 from process 1
-	Packet Clock:
-		t_m: [2 155 6]
-		tP_send: [2 155 6]
-	Receiver Logical Clock (tP_rcv):
-		[136 1 0]
-	Status: buffered
-	Delivery Condition: [136 1 0] > [2 155 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:12.101Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 73 from process 1
-	Packet Clock:
-		t_m: [2 156 6]
-		tP_send: [2 156 6]
-	Receiver Logical Clock (tP_rcv):
-		[136 1 0]
-	Status: buffered
-	Delivery Condition: [136 1 0] > [2 156 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:13.085Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 74 from process 1
-	Packet Clock:
-		t_m: [2 158 6]
-		tP_send: [2 158 6]
-	Receiver Logical Clock (tP_rcv):
-		[140 1 0]
-	Status: buffered
-	Delivery Condition: [140 1 0] > [2 158 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:13.942Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 75 from process 1
-	Packet Clock:
-		t_m: [2 160 6]
-		tP_send: [2 160 6]
-	Receiver Logical Clock (tP_rcv):
-		[142 1 0]
-	Status: buffered
-	Delivery Condition: [142 1 0] > [2 160 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:14.287Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 76 from process 1
-	Packet Clock:
-		t_m: [2 163 6]
-		tP_send: [2 163 6]
-	Receiver Logical Clock (tP_rcv):
-		[143 1 0]
-	Status: buffered
-	Delivery Condition: [143 1 0] > [2 163 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:14.850Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 77 from process 1
-	Packet Clock:
-		t_m: [2 164 6]
-		tP_send: [2 164 6]
-	Receiver Logical Clock (tP_rcv):
-		[146 1 0]
-	Status: buffered
-	Delivery Condition: [146 1 0] > [2 164 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:15.317Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 78 from process 1
-	Packet Clock:
-		t_m: [2 166 6]
-		tP_send: [2 166 6]
-	Receiver Logical Clock (tP_rcv):
-		[147 1 0]
-	Status: buffered
-	Delivery Condition: [147 1 0] > [2 166 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:15.676Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 79 from process 1
-	Packet Clock:
-		t_m: [2 169 6]
-		tP_send: [2 169 6]
-	Receiver Logical Clock (tP_rcv):
-		[147 1 0]
-	Status: buffered
-	Delivery Condition: [147 1 0] > [2 169 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:15.810Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 80 from process 1
-	Packet Clock:
-		t_m: [2 170 6]
-		tP_send: [2 170 6]
-	Receiver Logical Clock (tP_rcv):
-		[148 1 0]
-	Status: buffered
-	Delivery Condition: [148 1 0] > [2 170 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:16.542Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 81 from process 1
-	Packet Clock:
-		t_m: [2 171 6]
-		tP_send: [2 171 6]
-	Receiver Logical Clock (tP_rcv):
-		[151 1 0]
-	Status: buffered
-	Delivery Condition: [151 1 0] > [2 171 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:16.964Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 82 from process 1
-	Packet Clock:
-		t_m: [2 173 6]
-		tP_send: [2 173 6]
-	Receiver Logical Clock (tP_rcv):
-		[152 1 0]
-	Status: buffered
-	Delivery Condition: [152 1 0] > [2 173 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:17.326Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 83 from process 1
-	Packet Clock:
-		t_m: [2 174 6]
-		tP_send: [2 174 6]
-	Receiver Logical Clock (tP_rcv):
-		[153 1 0]
-	Status: buffered
-	Delivery Condition: [153 1 0] > [2 174 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:17.908Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 84 from process 1
-	Packet Clock:
-		t_m: [2 177 6]
-		tP_send: [2 177 6]
-	Receiver Logical Clock (tP_rcv):
-		[154 1 0]
-	Status: buffered
-	Delivery Condition: [154 1 0] > [2 177 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:18.169Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 85 from process 1
-	Packet Clock:
-		t_m: [2 179 6]
-		tP_send: [2 179 6]
-	Receiver Logical Clock (tP_rcv):
-		[155 1 0]
-	Status: buffered
-	Delivery Condition: [155 1 0] > [2 179 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:19.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 87 from process 1
-	Packet Clock:
-		t_m: [2 182 6]
-		tP_send: [2 182 6]
-	Receiver Logical Clock (tP_rcv):
-		[159 1 0]
-	Status: buffered
-	Delivery Condition: [159 1 0] > [2 182 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:19.346Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 86 from process 1
-	Packet Clock:
-		t_m: [2 180 6]
-		tP_send: [2 180 6]
-	Receiver Logical Clock (tP_rcv):
-		[159 1 0]
-	Status: buffered
-	Delivery Condition: [159 1 0] > [2 180 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:20.069Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 88 from process 1
-	Packet Clock:
-		t_m: [2 183 6]
-		tP_send: [2 183 6]
-	Receiver Logical Clock (tP_rcv):
-		[163 1 0]
-	Status: buffered
-	Delivery Condition: [163 1 0] > [2 183 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:20.781Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 90 from process 1
-	Packet Clock:
-		t_m: [2 188 6]
-		tP_send: [2 188 6]
-	Receiver Logical Clock (tP_rcv):
-		[165 1 0]
-	Status: buffered
-	Delivery Condition: [165 1 0] > [2 188 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:20.781Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 89 from process 1
-	Packet Clock:
-		t_m: [2 186 6]
-		tP_send: [2 186 6]
-	Receiver Logical Clock (tP_rcv):
-		[165 1 0]
-	Status: buffered
-	Delivery Condition: [165 1 0] > [2 186 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:21.653Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 91 from process 1
-	Packet Clock:
-		t_m: [2 189 6]
-		tP_send: [2 189 6]
-	Receiver Logical Clock (tP_rcv):
-		[168 1 0]
-	Status: buffered
-	Delivery Condition: [168 1 0] > [2 189 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:21.961Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 92 from process 1
-	Packet Clock:
-		t_m: [2 192 6]
-		tP_send: [2 192 6]
-	Receiver Logical Clock (tP_rcv):
-		[169 1 0]
-	Status: buffered
-	Delivery Condition: [169 1 0] > [2 192 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:22.498Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 93 from process 1
-	Packet Clock:
-		t_m: [2 193 6]
-		tP_send: [2 193 6]
-	Receiver Logical Clock (tP_rcv):
-		[171 1 0]
-	Status: buffered
-	Delivery Condition: [171 1 0] > [2 193 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:22.997Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 94 from process 1
-	Packet Clock:
-		t_m: [2 195 6]
-		tP_send: [2 195 6]
-	Receiver Logical Clock (tP_rcv):
-		[173 1 0]
-	Status: buffered
-	Delivery Condition: [173 1 0] > [2 195 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:23.929Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 95 from process 1
-	Packet Clock:
-		t_m: [2 197 6]
-		tP_send: [2 197 6]
-	Receiver Logical Clock (tP_rcv):
-		[175 1 0]
-	Status: buffered
-	Delivery Condition: [175 1 0] > [2 197 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:24.177Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 96 from process 1
-	Packet Clock:
-		t_m: [2 199 6]
-		tP_send: [2 199 6]
-	Receiver Logical Clock (tP_rcv):
-		[176 1 0]
-	Status: buffered
-	Delivery Condition: [176 1 0] > [2 199 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:24.720Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 97 from process 1
-	Packet Clock:
-		t_m: [2 201 6]
-		tP_send: [2 201 6]
-	Receiver Logical Clock (tP_rcv):
-		[178 1 0]
-	Status: buffered
-	Delivery Condition: [178 1 0] > [2 201 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:25.150Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 98 from process 1
-	Packet Clock:
-		t_m: [2 202 6]
-		tP_send: [2 202 6]
-	Receiver Logical Clock (tP_rcv):
-		[180 1 0]
-	Status: buffered
-	Delivery Condition: [180 1 0] > [2 202 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:25.653Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 99 from process 1
-	Packet Clock:
-		t_m: [2 205 6]
-		tP_send: [2 205 6]
-	Receiver Logical Clock (tP_rcv):
-		[183 1 0]
-	Status: buffered
-	Delivery Condition: [183 1 0] > [2 205 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:26.110Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 100 from process 1
-	Packet Clock:
-		t_m: [2 206 6]
-		tP_send: [2 206 6]
-	Receiver Logical Clock (tP_rcv):
-		[184 1 0]
-	Status: buffered
-	Delivery Condition: [184 1 0] > [2 206 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:26.468Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 101 from process 1
-	Packet Clock:
-		t_m: [2 207 6]
-		tP_send: [2 207 6]
-	Receiver Logical Clock (tP_rcv):
-		[187 1 0]
-	Status: buffered
-	Delivery Condition: [187 1 0] > [2 207 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:26.682Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 102 from process 1
-	Packet Clock:
-		t_m: [2 209 6]
-		tP_send: [2 209 6]
-	Receiver Logical Clock (tP_rcv):
-		[188 1 0]
-	Status: buffered
-	Delivery Condition: [188 1 0] > [2 209 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:27.384Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 103 from process 1
-	Packet Clock:
-		t_m: [2 210 6]
-		tP_send: [2 210 6]
-	Receiver Logical Clock (tP_rcv):
-		[189 1 0]
-	Status: buffered
-	Delivery Condition: [189 1 0] > [2 210 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:27.530Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 104 from process 1
-	Packet Clock:
-		t_m: [2 213 6]
-		tP_send: [2 213 6]
-	Receiver Logical Clock (tP_rcv):
-		[190 1 0]
-	Status: buffered
-	Delivery Condition: [190 1 0] > [2 213 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:28.330Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 105 from process 1
-	Packet Clock:
-		t_m: [2 214 6]
-		tP_send: [2 214 6]
-	Receiver Logical Clock (tP_rcv):
-		[194 1 0]
-	Status: buffered
-	Delivery Condition: [194 1 0] > [2 214 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:29.147Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 106 from process 1
-	Packet Clock:
-		t_m: [2 216 6]
-		tP_send: [2 216 6]
-	Receiver Logical Clock (tP_rcv):
-		[196 1 0]
-	Status: buffered
-	Delivery Condition: [196 1 0] > [2 216 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:29.916Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 107 from process 1
-	Packet Clock:
-		t_m: [2 218 6]
-		tP_send: [2 218 6]
-	Receiver Logical Clock (tP_rcv):
-		[200 1 0]
-	Status: buffered
-	Delivery Condition: [200 1 0] > [2 218 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:30.900Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 108 from process 1
-	Packet Clock:
-		t_m: [2 220 6]
-		tP_send: [2 220 6]
-	Receiver Logical Clock (tP_rcv):
-		[204 1 0]
-	Status: buffered
-	Delivery Condition: [204 1 0] > [2 220 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:31.510Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 109 from process 1
-	Packet Clock:
-		t_m: [2 222 6]
-		tP_send: [2 222 6]
-	Receiver Logical Clock (tP_rcv):
-		[207 1 0]
-	Status: buffered
-	Delivery Condition: [207 1 0] > [2 222 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:32.293Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 110 from process 1
-	Packet Clock:
-		t_m: [2 224 6]
-		tP_send: [2 224 6]
-	Receiver Logical Clock (tP_rcv):
-		[210 1 0]
-	Status: buffered
-	Delivery Condition: [210 1 0] > [2 224 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:32.769Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 111 from process 1
-	Packet Clock:
-		t_m: [2 226 6]
-		tP_send: [2 226 6]
-	Receiver Logical Clock (tP_rcv):
-		[211 1 0]
-	Status: buffered
-	Delivery Condition: [211 1 0] > [2 226 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:33.637Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 112 from process 1
-	Packet Clock:
-		t_m: [2 228 6]
-		tP_send: [2 228 6]
-	Receiver Logical Clock (tP_rcv):
-		[214 1 0]
-	Status: buffered
-	Delivery Condition: [214 1 0] > [2 228 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:33.873Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 113 from process 1
-	Packet Clock:
-		t_m: [2 230 6]
-		tP_send: [2 230 6]
-	Receiver Logical Clock (tP_rcv):
-		[214 1 0]
-	Status: buffered
-	Delivery Condition: [214 1 0] > [2 230 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:34.713Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 114 from process 1
-	Packet Clock:
-		t_m: [2 232 6]
-		tP_send: [2 232 6]
-	Receiver Logical Clock (tP_rcv):
-		[219 1 0]
-	Status: buffered
-	Delivery Condition: [219 1 0] > [2 232 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:35.274Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 115 from process 1
-	Packet Clock:
-		t_m: [2 236 6]
-		tP_send: [2 236 6]
-	Receiver Logical Clock (tP_rcv):
-		[220 1 0]
-	Status: buffered
-	Delivery Condition: [220 1 0] > [2 236 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:35.903Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 116 from process 1
-	Packet Clock:
-		t_m: [2 238 6]
-		tP_send: [2 238 6]
-	Receiver Logical Clock (tP_rcv):
-		[222 1 0]
-	Status: buffered
-	Delivery Condition: [222 1 0] > [2 238 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:36.444Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 117 from process 1
-	Packet Clock:
-		t_m: [2 240 6]
-		tP_send: [2 240 6]
-	Receiver Logical Clock (tP_rcv):
-		[224 1 0]
-	Status: buffered
-	Delivery Condition: [224 1 0] > [2 240 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:36.932Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 118 from process 1
-	Packet Clock:
-		t_m: [2 243 6]
-		tP_send: [2 243 6]
-	Receiver Logical Clock (tP_rcv):
-		[226 1 0]
-	Status: buffered
-	Delivery Condition: [226 1 0] > [2 243 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:37.901Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 119 from process 1
-	Packet Clock:
-		t_m: [2 245 6]
-		tP_send: [2 245 6]
-	Receiver Logical Clock (tP_rcv):
-		[228 1 0]
-	Status: buffered
-	Delivery Condition: [228 1 0] > [2 245 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:38.373Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 120 from process 1
-	Packet Clock:
-		t_m: [2 247 6]
-		tP_send: [2 247 6]
-	Receiver Logical Clock (tP_rcv):
-		[231 1 0]
-	Status: buffered
-	Delivery Condition: [231 1 0] > [2 247 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:39.053Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 121 from process 1
-	Packet Clock:
-		t_m: [2 248 6]
-		tP_send: [2 248 6]
-	Receiver Logical Clock (tP_rcv):
-		[232 1 0]
-	Status: buffered
-	Delivery Condition: [232 1 0] > [2 248 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:39.456Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 122 from process 1
-	Packet Clock:
-		t_m: [2 252 6]
-		tP_send: [2 252 6]
-	Receiver Logical Clock (tP_rcv):
-		[234 1 0]
-	Status: buffered
-	Delivery Condition: [234 1 0] > [2 252 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:40.869Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 124 from process 1
-	Packet Clock:
-		t_m: [2 256 6]
-		tP_send: [2 256 6]
-	Receiver Logical Clock (tP_rcv):
-		[240 1 0]
-	Status: buffered
-	Delivery Condition: [240 1 0] > [2 256 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:40.869Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 123 from process 1
-	Packet Clock:
-		t_m: [2 253 6]
-		tP_send: [2 253 6]
-	Receiver Logical Clock (tP_rcv):
-		[240 1 0]
-	Status: buffered
-	Delivery Condition: [240 1 0] > [2 253 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:41.811Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 125 from process 1
-	Packet Clock:
-		t_m: [2 258 6]
-		tP_send: [2 258 6]
-	Receiver Logical Clock (tP_rcv):
-		[242 1 0]
-	Status: buffered
-	Delivery Condition: [242 1 0] > [2 258 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:42.294Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 126 from process 1
-	Packet Clock:
-		t_m: [2 262 6]
-		tP_send: [2 262 6]
-	Receiver Logical Clock (tP_rcv):
-		[245 1 0]
-	Status: buffered
-	Delivery Condition: [245 1 0] > [2 262 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:42.448Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 127 from process 1
-	Packet Clock:
-		t_m: [2 264 6]
-		tP_send: [2 264 6]
-	Receiver Logical Clock (tP_rcv):
-		[245 1 0]
-	Status: buffered
-	Delivery Condition: [245 1 0] > [2 264 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:42.615Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 128 from process 1
-	Packet Clock:
-		t_m: [2 265 6]
-		tP_send: [2 265 6]
-	Receiver Logical Clock (tP_rcv):
-		[245 1 0]
-	Status: buffered
-	Delivery Condition: [245 1 0] > [2 265 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:43.042Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 129 from process 1
-	Packet Clock:
-		t_m: [2 267 6]
-		tP_send: [2 267 6]
-	Receiver Logical Clock (tP_rcv):
-		[246 1 0]
-	Status: buffered
-	Delivery Condition: [246 1 0] > [2 267 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:43.557Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 130 from process 1
-	Packet Clock:
-		t_m: [2 269 6]
-		tP_send: [2 269 6]
-	Receiver Logical Clock (tP_rcv):
-		[248 1 0]
-	Status: buffered
-	Delivery Condition: [248 1 0] > [2 269 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:43.771Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 131 from process 1
-	Packet Clock:
-		t_m: [2 271 6]
-		tP_send: [2 271 6]
-	Receiver Logical Clock (tP_rcv):
-		[248 1 0]
-	Status: buffered
-	Delivery Condition: [248 1 0] > [2 271 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:44.603Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 132 from process 1
-	Packet Clock:
-		t_m: [2 272 6]
-		tP_send: [2 272 6]
-	Receiver Logical Clock (tP_rcv):
-		[252 1 0]
-	Status: buffered
-	Delivery Condition: [252 1 0] > [2 272 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:45.575Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 133 from process 1
-	Packet Clock:
-		t_m: [2 274 6]
-		tP_send: [2 274 6]
-	Receiver Logical Clock (tP_rcv):
-		[256 1 0]
-	Status: buffered
-	Delivery Condition: [256 1 0] > [2 274 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:46.404Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 134 from process 1
-	Packet Clock:
-		t_m: [2 276 6]
-		tP_send: [2 276 6]
-	Receiver Logical Clock (tP_rcv):
-		[257 1 0]
-	Status: buffered
-	Delivery Condition: [257 1 0] > [2 276 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:47.260Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 135 from process 1
-	Packet Clock:
-		t_m: [2 279 6]
-		tP_send: [2 279 6]
-	Receiver Logical Clock (tP_rcv):
-		[259 1 0]
-	Status: buffered
-	Delivery Condition: [259 1 0] > [2 279 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:48.002Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 136 from process 1
-	Packet Clock:
-		t_m: [2 282 6]
-		tP_send: [2 282 6]
-	Receiver Logical Clock (tP_rcv):
-		[262 1 0]
-	Status: buffered
-	Delivery Condition: [262 1 0] > [2 282 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:48.532Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 137 from process 1
-	Packet Clock:
-		t_m: [2 284 6]
-		tP_send: [2 284 6]
-	Receiver Logical Clock (tP_rcv):
-		[265 1 0]
-	Status: buffered
-	Delivery Condition: [265 1 0] > [2 284 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:49.515Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 138 from process 1
-	Packet Clock:
-		t_m: [2 287 6]
-		tP_send: [2 287 6]
-	Receiver Logical Clock (tP_rcv):
-		[268 1 0]
-	Status: buffered
-	Delivery Condition: [268 1 0] > [2 287 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:49.677Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 139 from process 1
-	Packet Clock:
-		t_m: [2 291 6]
-		tP_send: [2 291 6]
-	Receiver Logical Clock (tP_rcv):
-		[269 1 0]
-	Status: buffered
-	Delivery Condition: [269 1 0] > [2 291 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:49.886Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 140 from process 1
-	Packet Clock:
-		t_m: [2 292 6]
-		tP_send: [2 292 6]
-	Receiver Logical Clock (tP_rcv):
-		[269 1 0]
-	Status: buffered
-	Delivery Condition: [269 1 0] > [2 292 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:50.401Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 141 from process 1
-	Packet Clock:
-		t_m: [2 293 6]
-		tP_send: [2 293 6]
-	Receiver Logical Clock (tP_rcv):
-		[270 1 0]
-	Status: buffered
-	Delivery Condition: [270 1 0] > [2 293 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:51.161Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 142 from process 1
-	Packet Clock:
-		t_m: [2 294 6]
-		tP_send: [2 294 6]
-	Receiver Logical Clock (tP_rcv):
-		[273 1 0]
-	Status: buffered
-	Delivery Condition: [273 1 0] > [2 294 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:51.854Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 143 from process 1
-	Packet Clock:
-		t_m: [2 295 6]
-		tP_send: [2 295 6]
-	Receiver Logical Clock (tP_rcv):
-		[275 1 0]
-	Status: buffered
-	Delivery Condition: [275 1 0] > [2 295 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:52.067Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 144 from process 1
-	Packet Clock:
-		t_m: [2 296 6]
-		tP_send: [2 296 6]
-	Receiver Logical Clock (tP_rcv):
-		[276 1 0]
-	Status: buffered
-	Delivery Condition: [276 1 0] > [2 296 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:52.476Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 145 from process 1
-	Packet Clock:
-		t_m: [2 297 6]
-		tP_send: [2 297 6]
-	Receiver Logical Clock (tP_rcv):
-		[279 1 0]
-	Status: buffered
-	Delivery Condition: [279 1 0] > [2 297 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:53.033Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 146 from process 1
-	Packet Clock:
-		t_m: [2 298 6]
-		tP_send: [2 298 6]
-	Receiver Logical Clock (tP_rcv):
-		[281 1 0]
-	Status: buffered
-	Delivery Condition: [281 1 0] > [2 298 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:53.332Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 147 from process 1
-	Packet Clock:
-		t_m: [2 299 6]
-		tP_send: [2 299 6]
-	Receiver Logical Clock (tP_rcv):
-		[283 1 0]
-	Status: buffered
-	Delivery Condition: [283 1 0] > [2 299 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:54.261Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 148 from process 1
-	Packet Clock:
-		t_m: [2 300 6]
-		tP_send: [2 300 6]
-	Receiver Logical Clock (tP_rcv):
-		[285 1 0]
-	Status: buffered
-	Delivery Condition: [285 1 0] > [2 300 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.008Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 150 from process 1
-	Packet Clock:
-		t_m: [2 302 6]
-		tP_send: [2 302 6]
-	Receiver Logical Clock (tP_rcv):
-		[291 1 0]
-	Status: buffered
-	Delivery Condition: [291 1 0] > [2 302 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.009Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 149 from process 1
-	Packet Clock:
-		t_m: [2 301 6]
-		tP_send: [2 301 6]
-	Receiver Logical Clock (tP_rcv):
-		[291 1 0]
-	Status: buffered
-	Delivery Condition: [291 1 0] > [2 301 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.324Z
+Current Time: 2023-03-11T15:50:20.145Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
@@ -2257,28 +307,28 @@ Received Packet Info BEFORE DELIVERED:
 		t_m: [-1 -1 -1]
 		tP_send: [-1 -1 -1]
 	Receiver Logical Clock (tP_rcv):
-		[291 1 0]
+		[41 1 0]
 	Status: delivering
-	Delivery Condition: [291 1 0] > [-1 -1 -1]
+	Delivery Condition: [41 1 0] > [-1 -1 -1]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.324Z
+Current Time: 2023-03-11T15:50:20.146Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 2 from process 2
 	Packet Clock:
-		t_m: [0 0 1]
-		tP_send: [0 0 1]
+		t_m: [0 0 2]
+		tP_send: [0 0 2]
 	Receiver Logical Clock (tP_rcv):
-		[292 1 1]
+		[42 1 2]
 	Status: delivering
-	Delivery Condition: [292 1 1] > [0 0 1]
+	Delivery Condition: [42 1 2] > [0 0 2]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.325Z
+Current Time: 2023-03-11T15:50:20.146Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
@@ -2287,4764 +337,609 @@ Received Packet Info BEFORE DELIVERED:
 		t_m: [2 1 5]
 		tP_send: [2 1 5]
 	Receiver Logical Clock (tP_rcv):
-		[293 1 5]
+		[43 1 5]
 	Status: delivering
-	Delivery Condition: [293 1 5] > [2 1 5]
+	Delivery Condition: [43 1 5] > [2 1 5]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.325Z
+Current Time: 2023-03-11T15:50:20.146Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 4 from process 2
 	Packet Clock:
-		t_m: [4 1 9]
-		tP_send: [4 1 9]
+		t_m: [4 1 8]
+		tP_send: [4 1 8]
 	Receiver Logical Clock (tP_rcv):
-		[294 1 9]
+		[44 1 8]
 	Status: delivering
-	Delivery Condition: [294 1 9] > [4 1 9]
+	Delivery Condition: [44 1 8] > [4 1 8]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.325Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 5 from process 2
-	Packet Clock:
-		t_m: [8 1 14]
-		tP_send: [8 1 14]
-	Receiver Logical Clock (tP_rcv):
-		[295 1 14]
-	Status: delivering
-	Delivery Condition: [295 1 14] > [8 1 14]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.325Z
+Current Time: 2023-03-11T15:50:20.146Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 6 from process 2
 	Packet Clock:
-		t_m: [8 1 15]
-		tP_send: [8 1 15]
+		t_m: [9 1 14]
+		tP_send: [9 1 14]
 	Receiver Logical Clock (tP_rcv):
-		[296 1 15]
-	Status: delivering
-	Delivery Condition: [296 1 15] > [8 1 15]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.325Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 7 from process 2
-	Packet Clock:
-		t_m: [12 1 19]
-		tP_send: [12 1 19]
-	Receiver Logical Clock (tP_rcv):
-		[297 1 19]
-	Status: delivering
-	Delivery Condition: [297 1 19] > [12 1 19]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.326Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 8 from process 2
-	Packet Clock:
-		t_m: [15 1 22]
-		tP_send: [15 1 22]
-	Receiver Logical Clock (tP_rcv):
-		[298 1 22]
-	Status: delivering
-	Delivery Condition: [298 1 22] > [15 1 22]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.326Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 9 from process 2
-	Packet Clock:
-		t_m: [17 1 25]
-		tP_send: [17 1 25]
-	Receiver Logical Clock (tP_rcv):
-		[299 1 25]
-	Status: delivering
-	Delivery Condition: [299 1 25] > [17 1 25]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.326Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 11 from process 2
-	Packet Clock:
-		t_m: [19 1 29]
-		tP_send: [19 1 29]
-	Receiver Logical Clock (tP_rcv):
-		[300 1 28]
+		[45 1 10]
 	Status: buffered
-	Delivery Condition: [300 1 28] > [19 1 29]
+	Delivery Condition: [45 1 10] > [9 1 14]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.327Z
+Current Time: 2023-03-11T15:50:20.146Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 2 from process 1
 	Packet Clock:
-		t_m: [0 1 1]
-		tP_send: [0 1 1]
+		t_m: [0 1 2]
+		tP_send: [0 1 2]
 	Receiver Logical Clock (tP_rcv):
-		[300 1 28]
+		[45 1 10]
 	Status: delivering from buffer
-	Delivery Condition: [300 1 28] > [0 1 1]
+	Delivery Condition: [45 1 10] > [0 1 2]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.327Z
+Current Time: 2023-03-11T15:50:20.147Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 3 from process 1
 	Packet Clock:
-		t_m: [2 7 5]
-		tP_send: [2 7 5]
+		t_m: [0 5 3]
+		tP_send: [0 5 3]
 	Receiver Logical Clock (tP_rcv):
-		[301 7 28]
+		[46 5 10]
 	Status: delivering from buffer
-	Delivery Condition: [301 7 28] > [2 7 5]
+	Delivery Condition: [46 5 10] > [0 5 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.327Z
+Current Time: 2023-03-11T15:50:20.147Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 4 from process 1
 	Packet Clock:
-		t_m: [2 9 6]
-		tP_send: [2 9 6]
+		t_m: [0 7 3]
+		tP_send: [0 7 3]
 	Receiver Logical Clock (tP_rcv):
-		[302 9 28]
+		[47 7 10]
 	Status: delivering from buffer
-	Delivery Condition: [302 9 28] > [2 9 6]
+	Delivery Condition: [47 7 10] > [0 7 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.328Z
+Current Time: 2023-03-11T15:50:20.148Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 5 from process 1
 	Packet Clock:
-		t_m: [2 12 6]
-		tP_send: [2 12 6]
+		t_m: [0 8 3]
+		tP_send: [0 8 3]
 	Receiver Logical Clock (tP_rcv):
-		[303 12 28]
+		[48 8 10]
 	Status: delivering from buffer
-	Delivery Condition: [303 12 28] > [2 12 6]
+	Delivery Condition: [48 8 10] > [0 8 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.328Z
+Current Time: 2023-03-11T15:50:20.148Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 6 from process 1
 	Packet Clock:
-		t_m: [2 14 6]
-		tP_send: [2 14 6]
+		t_m: [0 11 3]
+		tP_send: [0 11 3]
 	Receiver Logical Clock (tP_rcv):
-		[304 14 28]
+		[49 11 10]
 	Status: delivering from buffer
-	Delivery Condition: [304 14 28] > [2 14 6]
+	Delivery Condition: [49 11 10] > [0 11 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.328Z
+Current Time: 2023-03-11T15:50:20.148Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 7 from process 1
 	Packet Clock:
-		t_m: [2 15 6]
-		tP_send: [2 15 6]
+		t_m: [0 13 3]
+		tP_send: [0 13 3]
 	Receiver Logical Clock (tP_rcv):
-		[305 15 28]
+		[50 13 10]
 	Status: delivering from buffer
-	Delivery Condition: [305 15 28] > [2 15 6]
+	Delivery Condition: [50 13 10] > [0 13 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.328Z
+Current Time: 2023-03-11T15:50:20.148Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 8 from process 1
 	Packet Clock:
-		t_m: [2 17 6]
-		tP_send: [2 17 6]
+		t_m: [0 15 3]
+		tP_send: [0 15 3]
 	Receiver Logical Clock (tP_rcv):
-		[306 17 28]
+		[51 15 10]
 	Status: delivering from buffer
-	Delivery Condition: [306 17 28] > [2 17 6]
+	Delivery Condition: [51 15 10] > [0 15 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.328Z
+Current Time: 2023-03-11T15:50:20.148Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 9 from process 1
 	Packet Clock:
-		t_m: [2 20 6]
-		tP_send: [2 20 6]
+		t_m: [0 17 3]
+		tP_send: [0 17 3]
 	Receiver Logical Clock (tP_rcv):
-		[307 20 28]
+		[52 17 10]
 	Status: delivering from buffer
-	Delivery Condition: [307 20 28] > [2 20 6]
+	Delivery Condition: [52 17 10] > [0 17 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.329Z
+Current Time: 2023-03-11T15:50:20.148Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 10 from process 1
 	Packet Clock:
-		t_m: [2 21 6]
-		tP_send: [2 21 6]
+		t_m: [0 20 3]
+		tP_send: [0 20 3]
 	Receiver Logical Clock (tP_rcv):
-		[308 21 28]
+		[53 20 10]
 	Status: delivering from buffer
-	Delivery Condition: [308 21 28] > [2 21 6]
+	Delivery Condition: [53 20 10] > [0 20 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.329Z
+Current Time: 2023-03-11T15:50:20.149Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 11 from process 1
 	Packet Clock:
-		t_m: [2 22 6]
-		tP_send: [2 22 6]
+		t_m: [0 25 3]
+		tP_send: [0 25 3]
 	Receiver Logical Clock (tP_rcv):
-		[309 22 28]
+		[54 25 10]
 	Status: delivering from buffer
-	Delivery Condition: [309 22 28] > [2 22 6]
+	Delivery Condition: [54 25 10] > [0 25 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.329Z
+Current Time: 2023-03-11T15:50:20.149Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 12 from process 1
 	Packet Clock:
-		t_m: [2 25 6]
-		tP_send: [2 25 6]
+		t_m: [0 27 3]
+		tP_send: [0 27 3]
 	Receiver Logical Clock (tP_rcv):
-		[310 25 28]
+		[55 27 10]
 	Status: delivering from buffer
-	Delivery Condition: [310 25 28] > [2 25 6]
+	Delivery Condition: [55 27 10] > [0 27 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.329Z
+Current Time: 2023-03-11T15:50:20.149Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 13 from process 1
 	Packet Clock:
-		t_m: [2 28 6]
-		tP_send: [2 28 6]
+		t_m: [0 30 3]
+		tP_send: [0 30 3]
 	Receiver Logical Clock (tP_rcv):
-		[311 28 28]
+		[56 30 10]
 	Status: delivering from buffer
-	Delivery Condition: [311 28 28] > [2 28 6]
+	Delivery Condition: [56 30 10] > [0 30 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.329Z
+Current Time: 2023-03-11T15:50:20.149Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 14 from process 1
 	Packet Clock:
-		t_m: [2 30 6]
-		tP_send: [2 30 6]
+		t_m: [0 32 3]
+		tP_send: [0 32 3]
 	Receiver Logical Clock (tP_rcv):
-		[312 30 28]
+		[57 32 10]
 	Status: delivering from buffer
-	Delivery Condition: [312 30 28] > [2 30 6]
+	Delivery Condition: [57 32 10] > [0 32 3]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.329Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 15 from process 1
-	Packet Clock:
-		t_m: [2 32 6]
-		tP_send: [2 32 6]
-	Receiver Logical Clock (tP_rcv):
-		[313 32 28]
-	Status: delivering from buffer
-	Delivery Condition: [313 32 28] > [2 32 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.329Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 16 from process 1
-	Packet Clock:
-		t_m: [2 34 6]
-		tP_send: [2 34 6]
-	Receiver Logical Clock (tP_rcv):
-		[314 34 28]
-	Status: delivering from buffer
-	Delivery Condition: [314 34 28] > [2 34 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 17 from process 1
-	Packet Clock:
-		t_m: [2 35 6]
-		tP_send: [2 35 6]
-	Receiver Logical Clock (tP_rcv):
-		[315 35 28]
-	Status: delivering from buffer
-	Delivery Condition: [315 35 28] > [2 35 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 18 from process 1
-	Packet Clock:
-		t_m: [2 37 6]
-		tP_send: [2 37 6]
-	Receiver Logical Clock (tP_rcv):
-		[316 37 28]
-	Status: delivering from buffer
-	Delivery Condition: [316 37 28] > [2 37 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 19 from process 1
-	Packet Clock:
-		t_m: [2 40 6]
-		tP_send: [2 40 6]
-	Receiver Logical Clock (tP_rcv):
-		[317 40 28]
-	Status: delivering from buffer
-	Delivery Condition: [317 40 28] > [2 40 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 20 from process 1
-	Packet Clock:
-		t_m: [2 42 6]
-		tP_send: [2 42 6]
-	Receiver Logical Clock (tP_rcv):
-		[318 42 28]
-	Status: delivering from buffer
-	Delivery Condition: [318 42 28] > [2 42 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 21 from process 1
-	Packet Clock:
-		t_m: [2 43 6]
-		tP_send: [2 43 6]
-	Receiver Logical Clock (tP_rcv):
-		[319 43 28]
-	Status: delivering from buffer
-	Delivery Condition: [319 43 28] > [2 43 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 22 from process 1
-	Packet Clock:
-		t_m: [2 45 6]
-		tP_send: [2 45 6]
-	Receiver Logical Clock (tP_rcv):
-		[320 45 28]
-	Status: delivering from buffer
-	Delivery Condition: [320 45 28] > [2 45 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 23 from process 1
-	Packet Clock:
-		t_m: [2 48 6]
-		tP_send: [2 48 6]
-	Receiver Logical Clock (tP_rcv):
-		[321 48 28]
-	Status: delivering from buffer
-	Delivery Condition: [321 48 28] > [2 48 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 24 from process 1
-	Packet Clock:
-		t_m: [2 50 6]
-		tP_send: [2 50 6]
-	Receiver Logical Clock (tP_rcv):
-		[322 50 28]
-	Status: delivering from buffer
-	Delivery Condition: [322 50 28] > [2 50 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 25 from process 1
-	Packet Clock:
-		t_m: [2 52 6]
-		tP_send: [2 52 6]
-	Receiver Logical Clock (tP_rcv):
-		[323 52 28]
-	Status: delivering from buffer
-	Delivery Condition: [323 52 28] > [2 52 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 26 from process 1
-	Packet Clock:
-		t_m: [2 53 6]
-		tP_send: [2 53 6]
-	Receiver Logical Clock (tP_rcv):
-		[324 53 28]
-	Status: delivering from buffer
-	Delivery Condition: [324 53 28] > [2 53 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.330Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 27 from process 1
-	Packet Clock:
-		t_m: [2 57 6]
-		tP_send: [2 57 6]
-	Receiver Logical Clock (tP_rcv):
-		[325 57 28]
-	Status: delivering from buffer
-	Delivery Condition: [325 57 28] > [2 57 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 28 from process 1
-	Packet Clock:
-		t_m: [2 59 6]
-		tP_send: [2 59 6]
-	Receiver Logical Clock (tP_rcv):
-		[326 59 28]
-	Status: delivering from buffer
-	Delivery Condition: [326 59 28] > [2 59 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 29 from process 1
-	Packet Clock:
-		t_m: [2 60 6]
-		tP_send: [2 60 6]
-	Receiver Logical Clock (tP_rcv):
-		[327 60 28]
-	Status: delivering from buffer
-	Delivery Condition: [327 60 28] > [2 60 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 30 from process 1
-	Packet Clock:
-		t_m: [2 62 6]
-		tP_send: [2 62 6]
-	Receiver Logical Clock (tP_rcv):
-		[328 62 28]
-	Status: delivering from buffer
-	Delivery Condition: [328 62 28] > [2 62 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 31 from process 1
-	Packet Clock:
-		t_m: [2 63 6]
-		tP_send: [2 63 6]
-	Receiver Logical Clock (tP_rcv):
-		[329 63 28]
-	Status: delivering from buffer
-	Delivery Condition: [329 63 28] > [2 63 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 32 from process 1
-	Packet Clock:
-		t_m: [2 65 6]
-		tP_send: [2 65 6]
-	Receiver Logical Clock (tP_rcv):
-		[330 65 28]
-	Status: delivering from buffer
-	Delivery Condition: [330 65 28] > [2 65 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 33 from process 1
-	Packet Clock:
-		t_m: [2 67 6]
-		tP_send: [2 67 6]
-	Receiver Logical Clock (tP_rcv):
-		[331 67 28]
-	Status: delivering from buffer
-	Delivery Condition: [331 67 28] > [2 67 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 34 from process 1
-	Packet Clock:
-		t_m: [2 69 6]
-		tP_send: [2 69 6]
-	Receiver Logical Clock (tP_rcv):
-		[332 69 28]
-	Status: delivering from buffer
-	Delivery Condition: [332 69 28] > [2 69 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 35 from process 1
-	Packet Clock:
-		t_m: [2 70 6]
-		tP_send: [2 70 6]
-	Receiver Logical Clock (tP_rcv):
-		[333 70 28]
-	Status: delivering from buffer
-	Delivery Condition: [333 70 28] > [2 70 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 36 from process 1
-	Packet Clock:
-		t_m: [2 73 6]
-		tP_send: [2 73 6]
-	Receiver Logical Clock (tP_rcv):
-		[334 73 28]
-	Status: delivering from buffer
-	Delivery Condition: [334 73 28] > [2 73 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 37 from process 1
-	Packet Clock:
-		t_m: [2 77 6]
-		tP_send: [2 77 6]
-	Receiver Logical Clock (tP_rcv):
-		[335 77 28]
-	Status: delivering from buffer
-	Delivery Condition: [335 77 28] > [2 77 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 38 from process 1
-	Packet Clock:
-		t_m: [2 79 6]
-		tP_send: [2 79 6]
-	Receiver Logical Clock (tP_rcv):
-		[336 79 28]
-	Status: delivering from buffer
-	Delivery Condition: [336 79 28] > [2 79 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 39 from process 1
-	Packet Clock:
-		t_m: [2 81 6]
-		tP_send: [2 81 6]
-	Receiver Logical Clock (tP_rcv):
-		[337 81 28]
-	Status: delivering from buffer
-	Delivery Condition: [337 81 28] > [2 81 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.331Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 40 from process 1
-	Packet Clock:
-		t_m: [2 84 6]
-		tP_send: [2 84 6]
-	Receiver Logical Clock (tP_rcv):
-		[338 84 28]
-	Status: delivering from buffer
-	Delivery Condition: [338 84 28] > [2 84 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.332Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 41 from process 1
-	Packet Clock:
-		t_m: [2 85 6]
-		tP_send: [2 85 6]
-	Receiver Logical Clock (tP_rcv):
-		[339 85 28]
-	Status: delivering from buffer
-	Delivery Condition: [339 85 28] > [2 85 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.332Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 42 from process 1
-	Packet Clock:
-		t_m: [2 87 6]
-		tP_send: [2 87 6]
-	Receiver Logical Clock (tP_rcv):
-		[340 87 28]
-	Status: delivering from buffer
-	Delivery Condition: [340 87 28] > [2 87 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.332Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 43 from process 1
-	Packet Clock:
-		t_m: [2 91 6]
-		tP_send: [2 91 6]
-	Receiver Logical Clock (tP_rcv):
-		[341 91 28]
-	Status: delivering from buffer
-	Delivery Condition: [341 91 28] > [2 91 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.332Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 44 from process 1
-	Packet Clock:
-		t_m: [2 92 6]
-		tP_send: [2 92 6]
-	Receiver Logical Clock (tP_rcv):
-		[342 92 28]
-	Status: delivering from buffer
-	Delivery Condition: [342 92 28] > [2 92 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.332Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 45 from process 1
-	Packet Clock:
-		t_m: [2 95 6]
-		tP_send: [2 95 6]
-	Receiver Logical Clock (tP_rcv):
-		[343 95 28]
-	Status: delivering from buffer
-	Delivery Condition: [343 95 28] > [2 95 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.332Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 46 from process 1
-	Packet Clock:
-		t_m: [2 97 6]
-		tP_send: [2 97 6]
-	Receiver Logical Clock (tP_rcv):
-		[344 97 28]
-	Status: delivering from buffer
-	Delivery Condition: [344 97 28] > [2 97 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.332Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 47 from process 1
-	Packet Clock:
-		t_m: [2 99 6]
-		tP_send: [2 99 6]
-	Receiver Logical Clock (tP_rcv):
-		[345 99 28]
-	Status: delivering from buffer
-	Delivery Condition: [345 99 28] > [2 99 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 48 from process 1
-	Packet Clock:
-		t_m: [2 102 6]
-		tP_send: [2 102 6]
-	Receiver Logical Clock (tP_rcv):
-		[346 102 28]
-	Status: delivering from buffer
-	Delivery Condition: [346 102 28] > [2 102 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 49 from process 1
-	Packet Clock:
-		t_m: [2 104 6]
-		tP_send: [2 104 6]
-	Receiver Logical Clock (tP_rcv):
-		[347 104 28]
-	Status: delivering from buffer
-	Delivery Condition: [347 104 28] > [2 104 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 50 from process 1
-	Packet Clock:
-		t_m: [2 105 6]
-		tP_send: [2 105 6]
-	Receiver Logical Clock (tP_rcv):
-		[348 105 28]
-	Status: delivering from buffer
-	Delivery Condition: [348 105 28] > [2 105 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 51 from process 1
-	Packet Clock:
-		t_m: [2 106 6]
-		tP_send: [2 106 6]
-	Receiver Logical Clock (tP_rcv):
-		[349 106 28]
-	Status: delivering from buffer
-	Delivery Condition: [349 106 28] > [2 106 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 52 from process 1
-	Packet Clock:
-		t_m: [2 108 6]
-		tP_send: [2 108 6]
-	Receiver Logical Clock (tP_rcv):
-		[350 108 28]
-	Status: delivering from buffer
-	Delivery Condition: [350 108 28] > [2 108 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 53 from process 1
-	Packet Clock:
-		t_m: [2 109 6]
-		tP_send: [2 109 6]
-	Receiver Logical Clock (tP_rcv):
-		[351 109 28]
-	Status: delivering from buffer
-	Delivery Condition: [351 109 28] > [2 109 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 54 from process 1
-	Packet Clock:
-		t_m: [2 113 6]
-		tP_send: [2 113 6]
-	Receiver Logical Clock (tP_rcv):
-		[352 113 28]
-	Status: delivering from buffer
-	Delivery Condition: [352 113 28] > [2 113 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 55 from process 1
-	Packet Clock:
-		t_m: [2 116 6]
-		tP_send: [2 116 6]
-	Receiver Logical Clock (tP_rcv):
-		[353 116 28]
-	Status: delivering from buffer
-	Delivery Condition: [353 116 28] > [2 116 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 56 from process 1
-	Packet Clock:
-		t_m: [2 118 6]
-		tP_send: [2 118 6]
-	Receiver Logical Clock (tP_rcv):
-		[354 118 28]
-	Status: delivering from buffer
-	Delivery Condition: [354 118 28] > [2 118 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 57 from process 1
-	Packet Clock:
-		t_m: [2 121 6]
-		tP_send: [2 121 6]
-	Receiver Logical Clock (tP_rcv):
-		[355 121 28]
-	Status: delivering from buffer
-	Delivery Condition: [355 121 28] > [2 121 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 58 from process 1
-	Packet Clock:
-		t_m: [2 123 6]
-		tP_send: [2 123 6]
-	Receiver Logical Clock (tP_rcv):
-		[356 123 28]
-	Status: delivering from buffer
-	Delivery Condition: [356 123 28] > [2 123 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 59 from process 1
-	Packet Clock:
-		t_m: [2 125 6]
-		tP_send: [2 125 6]
-	Receiver Logical Clock (tP_rcv):
-		[357 125 28]
-	Status: delivering from buffer
-	Delivery Condition: [357 125 28] > [2 125 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 60 from process 1
-	Packet Clock:
-		t_m: [2 127 6]
-		tP_send: [2 127 6]
-	Receiver Logical Clock (tP_rcv):
-		[358 127 28]
-	Status: delivering from buffer
-	Delivery Condition: [358 127 28] > [2 127 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.333Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 61 from process 1
-	Packet Clock:
-		t_m: [2 129 6]
-		tP_send: [2 129 6]
-	Receiver Logical Clock (tP_rcv):
-		[359 129 28]
-	Status: delivering from buffer
-	Delivery Condition: [359 129 28] > [2 129 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 62 from process 1
-	Packet Clock:
-		t_m: [2 130 6]
-		tP_send: [2 130 6]
-	Receiver Logical Clock (tP_rcv):
-		[360 130 28]
-	Status: delivering from buffer
-	Delivery Condition: [360 130 28] > [2 130 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 63 from process 1
-	Packet Clock:
-		t_m: [2 134 6]
-		tP_send: [2 134 6]
-	Receiver Logical Clock (tP_rcv):
-		[361 134 28]
-	Status: delivering from buffer
-	Delivery Condition: [361 134 28] > [2 134 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 64 from process 1
-	Packet Clock:
-		t_m: [2 135 6]
-		tP_send: [2 135 6]
-	Receiver Logical Clock (tP_rcv):
-		[362 135 28]
-	Status: delivering from buffer
-	Delivery Condition: [362 135 28] > [2 135 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 65 from process 1
-	Packet Clock:
-		t_m: [2 136 6]
-		tP_send: [2 136 6]
-	Receiver Logical Clock (tP_rcv):
-		[363 136 28]
-	Status: delivering from buffer
-	Delivery Condition: [363 136 28] > [2 136 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 66 from process 1
-	Packet Clock:
-		t_m: [2 139 6]
-		tP_send: [2 139 6]
-	Receiver Logical Clock (tP_rcv):
-		[364 139 28]
-	Status: delivering from buffer
-	Delivery Condition: [364 139 28] > [2 139 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 67 from process 1
-	Packet Clock:
-		t_m: [2 142 6]
-		tP_send: [2 142 6]
-	Receiver Logical Clock (tP_rcv):
-		[365 142 28]
-	Status: delivering from buffer
-	Delivery Condition: [365 142 28] > [2 142 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 68 from process 1
-	Packet Clock:
-		t_m: [2 146 6]
-		tP_send: [2 146 6]
-	Receiver Logical Clock (tP_rcv):
-		[366 146 28]
-	Status: delivering from buffer
-	Delivery Condition: [366 146 28] > [2 146 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 69 from process 1
-	Packet Clock:
-		t_m: [2 147 6]
-		tP_send: [2 147 6]
-	Receiver Logical Clock (tP_rcv):
-		[367 147 28]
-	Status: delivering from buffer
-	Delivery Condition: [367 147 28] > [2 147 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 70 from process 1
-	Packet Clock:
-		t_m: [2 151 6]
-		tP_send: [2 151 6]
-	Receiver Logical Clock (tP_rcv):
-		[368 151 28]
-	Status: delivering from buffer
-	Delivery Condition: [368 151 28] > [2 151 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 71 from process 1
-	Packet Clock:
-		t_m: [2 153 6]
-		tP_send: [2 153 6]
-	Receiver Logical Clock (tP_rcv):
-		[369 153 28]
-	Status: delivering from buffer
-	Delivery Condition: [369 153 28] > [2 153 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 72 from process 1
-	Packet Clock:
-		t_m: [2 155 6]
-		tP_send: [2 155 6]
-	Receiver Logical Clock (tP_rcv):
-		[370 155 28]
-	Status: delivering from buffer
-	Delivery Condition: [370 155 28] > [2 155 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 73 from process 1
-	Packet Clock:
-		t_m: [2 156 6]
-		tP_send: [2 156 6]
-	Receiver Logical Clock (tP_rcv):
-		[371 156 28]
-	Status: delivering from buffer
-	Delivery Condition: [371 156 28] > [2 156 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 74 from process 1
-	Packet Clock:
-		t_m: [2 158 6]
-		tP_send: [2 158 6]
-	Receiver Logical Clock (tP_rcv):
-		[372 158 28]
-	Status: delivering from buffer
-	Delivery Condition: [372 158 28] > [2 158 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.334Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 75 from process 1
-	Packet Clock:
-		t_m: [2 160 6]
-		tP_send: [2 160 6]
-	Receiver Logical Clock (tP_rcv):
-		[373 160 28]
-	Status: delivering from buffer
-	Delivery Condition: [373 160 28] > [2 160 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 76 from process 1
-	Packet Clock:
-		t_m: [2 163 6]
-		tP_send: [2 163 6]
-	Receiver Logical Clock (tP_rcv):
-		[374 163 28]
-	Status: delivering from buffer
-	Delivery Condition: [374 163 28] > [2 163 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 77 from process 1
-	Packet Clock:
-		t_m: [2 164 6]
-		tP_send: [2 164 6]
-	Receiver Logical Clock (tP_rcv):
-		[375 164 28]
-	Status: delivering from buffer
-	Delivery Condition: [375 164 28] > [2 164 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 78 from process 1
-	Packet Clock:
-		t_m: [2 166 6]
-		tP_send: [2 166 6]
-	Receiver Logical Clock (tP_rcv):
-		[376 166 28]
-	Status: delivering from buffer
-	Delivery Condition: [376 166 28] > [2 166 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 79 from process 1
-	Packet Clock:
-		t_m: [2 169 6]
-		tP_send: [2 169 6]
-	Receiver Logical Clock (tP_rcv):
-		[377 169 28]
-	Status: delivering from buffer
-	Delivery Condition: [377 169 28] > [2 169 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 80 from process 1
-	Packet Clock:
-		t_m: [2 170 6]
-		tP_send: [2 170 6]
-	Receiver Logical Clock (tP_rcv):
-		[378 170 28]
-	Status: delivering from buffer
-	Delivery Condition: [378 170 28] > [2 170 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 81 from process 1
-	Packet Clock:
-		t_m: [2 171 6]
-		tP_send: [2 171 6]
-	Receiver Logical Clock (tP_rcv):
-		[379 171 28]
-	Status: delivering from buffer
-	Delivery Condition: [379 171 28] > [2 171 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 82 from process 1
-	Packet Clock:
-		t_m: [2 173 6]
-		tP_send: [2 173 6]
-	Receiver Logical Clock (tP_rcv):
-		[380 173 28]
-	Status: delivering from buffer
-	Delivery Condition: [380 173 28] > [2 173 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 83 from process 1
-	Packet Clock:
-		t_m: [2 174 6]
-		tP_send: [2 174 6]
-	Receiver Logical Clock (tP_rcv):
-		[381 174 28]
-	Status: delivering from buffer
-	Delivery Condition: [381 174 28] > [2 174 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 84 from process 1
-	Packet Clock:
-		t_m: [2 177 6]
-		tP_send: [2 177 6]
-	Receiver Logical Clock (tP_rcv):
-		[382 177 28]
-	Status: delivering from buffer
-	Delivery Condition: [382 177 28] > [2 177 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 85 from process 1
-	Packet Clock:
-		t_m: [2 179 6]
-		tP_send: [2 179 6]
-	Receiver Logical Clock (tP_rcv):
-		[383 179 28]
-	Status: delivering from buffer
-	Delivery Condition: [383 179 28] > [2 179 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 86 from process 1
-	Packet Clock:
-		t_m: [2 180 6]
-		tP_send: [2 180 6]
-	Receiver Logical Clock (tP_rcv):
-		[384 180 28]
-	Status: delivering from buffer
-	Delivery Condition: [384 180 28] > [2 180 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 87 from process 1
-	Packet Clock:
-		t_m: [2 182 6]
-		tP_send: [2 182 6]
-	Receiver Logical Clock (tP_rcv):
-		[385 182 28]
-	Status: delivering from buffer
-	Delivery Condition: [385 182 28] > [2 182 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.335Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 88 from process 1
-	Packet Clock:
-		t_m: [2 183 6]
-		tP_send: [2 183 6]
-	Receiver Logical Clock (tP_rcv):
-		[386 183 28]
-	Status: delivering from buffer
-	Delivery Condition: [386 183 28] > [2 183 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 89 from process 1
-	Packet Clock:
-		t_m: [2 186 6]
-		tP_send: [2 186 6]
-	Receiver Logical Clock (tP_rcv):
-		[387 186 28]
-	Status: delivering from buffer
-	Delivery Condition: [387 186 28] > [2 186 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 90 from process 1
-	Packet Clock:
-		t_m: [2 188 6]
-		tP_send: [2 188 6]
-	Receiver Logical Clock (tP_rcv):
-		[388 188 28]
-	Status: delivering from buffer
-	Delivery Condition: [388 188 28] > [2 188 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 91 from process 1
-	Packet Clock:
-		t_m: [2 189 6]
-		tP_send: [2 189 6]
-	Receiver Logical Clock (tP_rcv):
-		[389 189 28]
-	Status: delivering from buffer
-	Delivery Condition: [389 189 28] > [2 189 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 92 from process 1
-	Packet Clock:
-		t_m: [2 192 6]
-		tP_send: [2 192 6]
-	Receiver Logical Clock (tP_rcv):
-		[390 192 28]
-	Status: delivering from buffer
-	Delivery Condition: [390 192 28] > [2 192 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 93 from process 1
-	Packet Clock:
-		t_m: [2 193 6]
-		tP_send: [2 193 6]
-	Receiver Logical Clock (tP_rcv):
-		[391 193 28]
-	Status: delivering from buffer
-	Delivery Condition: [391 193 28] > [2 193 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 94 from process 1
-	Packet Clock:
-		t_m: [2 195 6]
-		tP_send: [2 195 6]
-	Receiver Logical Clock (tP_rcv):
-		[392 195 28]
-	Status: delivering from buffer
-	Delivery Condition: [392 195 28] > [2 195 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 95 from process 1
-	Packet Clock:
-		t_m: [2 197 6]
-		tP_send: [2 197 6]
-	Receiver Logical Clock (tP_rcv):
-		[393 197 28]
-	Status: delivering from buffer
-	Delivery Condition: [393 197 28] > [2 197 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.336Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 96 from process 1
-	Packet Clock:
-		t_m: [2 199 6]
-		tP_send: [2 199 6]
-	Receiver Logical Clock (tP_rcv):
-		[394 199 28]
-	Status: delivering from buffer
-	Delivery Condition: [394 199 28] > [2 199 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 97 from process 1
-	Packet Clock:
-		t_m: [2 201 6]
-		tP_send: [2 201 6]
-	Receiver Logical Clock (tP_rcv):
-		[395 201 28]
-	Status: delivering from buffer
-	Delivery Condition: [395 201 28] > [2 201 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 98 from process 1
-	Packet Clock:
-		t_m: [2 202 6]
-		tP_send: [2 202 6]
-	Receiver Logical Clock (tP_rcv):
-		[396 202 28]
-	Status: delivering from buffer
-	Delivery Condition: [396 202 28] > [2 202 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 99 from process 1
-	Packet Clock:
-		t_m: [2 205 6]
-		tP_send: [2 205 6]
-	Receiver Logical Clock (tP_rcv):
-		[397 205 28]
-	Status: delivering from buffer
-	Delivery Condition: [397 205 28] > [2 205 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 100 from process 1
-	Packet Clock:
-		t_m: [2 206 6]
-		tP_send: [2 206 6]
-	Receiver Logical Clock (tP_rcv):
-		[398 206 28]
-	Status: delivering from buffer
-	Delivery Condition: [398 206 28] > [2 206 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 101 from process 1
-	Packet Clock:
-		t_m: [2 207 6]
-		tP_send: [2 207 6]
-	Receiver Logical Clock (tP_rcv):
-		[399 207 28]
-	Status: delivering from buffer
-	Delivery Condition: [399 207 28] > [2 207 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 102 from process 1
-	Packet Clock:
-		t_m: [2 209 6]
-		tP_send: [2 209 6]
-	Receiver Logical Clock (tP_rcv):
-		[400 209 28]
-	Status: delivering from buffer
-	Delivery Condition: [400 209 28] > [2 209 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 103 from process 1
-	Packet Clock:
-		t_m: [2 210 6]
-		tP_send: [2 210 6]
-	Receiver Logical Clock (tP_rcv):
-		[401 210 28]
-	Status: delivering from buffer
-	Delivery Condition: [401 210 28] > [2 210 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 104 from process 1
-	Packet Clock:
-		t_m: [2 213 6]
-		tP_send: [2 213 6]
-	Receiver Logical Clock (tP_rcv):
-		[402 213 28]
-	Status: delivering from buffer
-	Delivery Condition: [402 213 28] > [2 213 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 105 from process 1
-	Packet Clock:
-		t_m: [2 214 6]
-		tP_send: [2 214 6]
-	Receiver Logical Clock (tP_rcv):
-		[403 214 28]
-	Status: delivering from buffer
-	Delivery Condition: [403 214 28] > [2 214 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 106 from process 1
-	Packet Clock:
-		t_m: [2 216 6]
-		tP_send: [2 216 6]
-	Receiver Logical Clock (tP_rcv):
-		[404 216 28]
-	Status: delivering from buffer
-	Delivery Condition: [404 216 28] > [2 216 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.337Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 107 from process 1
-	Packet Clock:
-		t_m: [2 218 6]
-		tP_send: [2 218 6]
-	Receiver Logical Clock (tP_rcv):
-		[405 218 28]
-	Status: delivering from buffer
-	Delivery Condition: [405 218 28] > [2 218 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 108 from process 1
-	Packet Clock:
-		t_m: [2 220 6]
-		tP_send: [2 220 6]
-	Receiver Logical Clock (tP_rcv):
-		[406 220 28]
-	Status: delivering from buffer
-	Delivery Condition: [406 220 28] > [2 220 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 109 from process 1
-	Packet Clock:
-		t_m: [2 222 6]
-		tP_send: [2 222 6]
-	Receiver Logical Clock (tP_rcv):
-		[407 222 28]
-	Status: delivering from buffer
-	Delivery Condition: [407 222 28] > [2 222 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 110 from process 1
-	Packet Clock:
-		t_m: [2 224 6]
-		tP_send: [2 224 6]
-	Receiver Logical Clock (tP_rcv):
-		[408 224 28]
-	Status: delivering from buffer
-	Delivery Condition: [408 224 28] > [2 224 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 111 from process 1
-	Packet Clock:
-		t_m: [2 226 6]
-		tP_send: [2 226 6]
-	Receiver Logical Clock (tP_rcv):
-		[409 226 28]
-	Status: delivering from buffer
-	Delivery Condition: [409 226 28] > [2 226 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 112 from process 1
-	Packet Clock:
-		t_m: [2 228 6]
-		tP_send: [2 228 6]
-	Receiver Logical Clock (tP_rcv):
-		[410 228 28]
-	Status: delivering from buffer
-	Delivery Condition: [410 228 28] > [2 228 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 113 from process 1
-	Packet Clock:
-		t_m: [2 230 6]
-		tP_send: [2 230 6]
-	Receiver Logical Clock (tP_rcv):
-		[411 230 28]
-	Status: delivering from buffer
-	Delivery Condition: [411 230 28] > [2 230 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 114 from process 1
-	Packet Clock:
-		t_m: [2 232 6]
-		tP_send: [2 232 6]
-	Receiver Logical Clock (tP_rcv):
-		[412 232 28]
-	Status: delivering from buffer
-	Delivery Condition: [412 232 28] > [2 232 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 115 from process 1
-	Packet Clock:
-		t_m: [2 236 6]
-		tP_send: [2 236 6]
-	Receiver Logical Clock (tP_rcv):
-		[413 236 28]
-	Status: delivering from buffer
-	Delivery Condition: [413 236 28] > [2 236 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.338Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 116 from process 1
-	Packet Clock:
-		t_m: [2 238 6]
-		tP_send: [2 238 6]
-	Receiver Logical Clock (tP_rcv):
-		[414 238 28]
-	Status: delivering from buffer
-	Delivery Condition: [414 238 28] > [2 238 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 117 from process 1
-	Packet Clock:
-		t_m: [2 240 6]
-		tP_send: [2 240 6]
-	Receiver Logical Clock (tP_rcv):
-		[415 240 28]
-	Status: delivering from buffer
-	Delivery Condition: [415 240 28] > [2 240 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 118 from process 1
-	Packet Clock:
-		t_m: [2 243 6]
-		tP_send: [2 243 6]
-	Receiver Logical Clock (tP_rcv):
-		[416 243 28]
-	Status: delivering from buffer
-	Delivery Condition: [416 243 28] > [2 243 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 119 from process 1
-	Packet Clock:
-		t_m: [2 245 6]
-		tP_send: [2 245 6]
-	Receiver Logical Clock (tP_rcv):
-		[417 245 28]
-	Status: delivering from buffer
-	Delivery Condition: [417 245 28] > [2 245 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 120 from process 1
-	Packet Clock:
-		t_m: [2 247 6]
-		tP_send: [2 247 6]
-	Receiver Logical Clock (tP_rcv):
-		[418 247 28]
-	Status: delivering from buffer
-	Delivery Condition: [418 247 28] > [2 247 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 121 from process 1
-	Packet Clock:
-		t_m: [2 248 6]
-		tP_send: [2 248 6]
-	Receiver Logical Clock (tP_rcv):
-		[419 248 28]
-	Status: delivering from buffer
-	Delivery Condition: [419 248 28] > [2 248 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 122 from process 1
-	Packet Clock:
-		t_m: [2 252 6]
-		tP_send: [2 252 6]
-	Receiver Logical Clock (tP_rcv):
-		[420 252 28]
-	Status: delivering from buffer
-	Delivery Condition: [420 252 28] > [2 252 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 123 from process 1
-	Packet Clock:
-		t_m: [2 253 6]
-		tP_send: [2 253 6]
-	Receiver Logical Clock (tP_rcv):
-		[421 253 28]
-	Status: delivering from buffer
-	Delivery Condition: [421 253 28] > [2 253 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 124 from process 1
-	Packet Clock:
-		t_m: [2 256 6]
-		tP_send: [2 256 6]
-	Receiver Logical Clock (tP_rcv):
-		[422 256 28]
-	Status: delivering from buffer
-	Delivery Condition: [422 256 28] > [2 256 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 125 from process 1
-	Packet Clock:
-		t_m: [2 258 6]
-		tP_send: [2 258 6]
-	Receiver Logical Clock (tP_rcv):
-		[423 258 28]
-	Status: delivering from buffer
-	Delivery Condition: [423 258 28] > [2 258 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 126 from process 1
-	Packet Clock:
-		t_m: [2 262 6]
-		tP_send: [2 262 6]
-	Receiver Logical Clock (tP_rcv):
-		[424 262 28]
-	Status: delivering from buffer
-	Delivery Condition: [424 262 28] > [2 262 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 127 from process 1
-	Packet Clock:
-		t_m: [2 264 6]
-		tP_send: [2 264 6]
-	Receiver Logical Clock (tP_rcv):
-		[425 264 28]
-	Status: delivering from buffer
-	Delivery Condition: [425 264 28] > [2 264 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 128 from process 1
-	Packet Clock:
-		t_m: [2 265 6]
-		tP_send: [2 265 6]
-	Receiver Logical Clock (tP_rcv):
-		[426 265 28]
-	Status: delivering from buffer
-	Delivery Condition: [426 265 28] > [2 265 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.339Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 129 from process 1
-	Packet Clock:
-		t_m: [2 267 6]
-		tP_send: [2 267 6]
-	Receiver Logical Clock (tP_rcv):
-		[427 267 28]
-	Status: delivering from buffer
-	Delivery Condition: [427 267 28] > [2 267 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 130 from process 1
-	Packet Clock:
-		t_m: [2 269 6]
-		tP_send: [2 269 6]
-	Receiver Logical Clock (tP_rcv):
-		[428 269 28]
-	Status: delivering from buffer
-	Delivery Condition: [428 269 28] > [2 269 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 131 from process 1
-	Packet Clock:
-		t_m: [2 271 6]
-		tP_send: [2 271 6]
-	Receiver Logical Clock (tP_rcv):
-		[429 271 28]
-	Status: delivering from buffer
-	Delivery Condition: [429 271 28] > [2 271 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 132 from process 1
-	Packet Clock:
-		t_m: [2 272 6]
-		tP_send: [2 272 6]
-	Receiver Logical Clock (tP_rcv):
-		[430 272 28]
-	Status: delivering from buffer
-	Delivery Condition: [430 272 28] > [2 272 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 133 from process 1
-	Packet Clock:
-		t_m: [2 274 6]
-		tP_send: [2 274 6]
-	Receiver Logical Clock (tP_rcv):
-		[431 274 28]
-	Status: delivering from buffer
-	Delivery Condition: [431 274 28] > [2 274 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 134 from process 1
-	Packet Clock:
-		t_m: [2 276 6]
-		tP_send: [2 276 6]
-	Receiver Logical Clock (tP_rcv):
-		[432 276 28]
-	Status: delivering from buffer
-	Delivery Condition: [432 276 28] > [2 276 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 135 from process 1
-	Packet Clock:
-		t_m: [2 279 6]
-		tP_send: [2 279 6]
-	Receiver Logical Clock (tP_rcv):
-		[433 279 28]
-	Status: delivering from buffer
-	Delivery Condition: [433 279 28] > [2 279 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 136 from process 1
-	Packet Clock:
-		t_m: [2 282 6]
-		tP_send: [2 282 6]
-	Receiver Logical Clock (tP_rcv):
-		[434 282 28]
-	Status: delivering from buffer
-	Delivery Condition: [434 282 28] > [2 282 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 137 from process 1
-	Packet Clock:
-		t_m: [2 284 6]
-		tP_send: [2 284 6]
-	Receiver Logical Clock (tP_rcv):
-		[435 284 28]
-	Status: delivering from buffer
-	Delivery Condition: [435 284 28] > [2 284 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 138 from process 1
-	Packet Clock:
-		t_m: [2 287 6]
-		tP_send: [2 287 6]
-	Receiver Logical Clock (tP_rcv):
-		[436 287 28]
-	Status: delivering from buffer
-	Delivery Condition: [436 287 28] > [2 287 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 139 from process 1
-	Packet Clock:
-		t_m: [2 291 6]
-		tP_send: [2 291 6]
-	Receiver Logical Clock (tP_rcv):
-		[437 291 28]
-	Status: delivering from buffer
-	Delivery Condition: [437 291 28] > [2 291 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 140 from process 1
-	Packet Clock:
-		t_m: [2 292 6]
-		tP_send: [2 292 6]
-	Receiver Logical Clock (tP_rcv):
-		[438 292 28]
-	Status: delivering from buffer
-	Delivery Condition: [438 292 28] > [2 292 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 141 from process 1
-	Packet Clock:
-		t_m: [2 293 6]
-		tP_send: [2 293 6]
-	Receiver Logical Clock (tP_rcv):
-		[439 293 28]
-	Status: delivering from buffer
-	Delivery Condition: [439 293 28] > [2 293 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 142 from process 1
-	Packet Clock:
-		t_m: [2 294 6]
-		tP_send: [2 294 6]
-	Receiver Logical Clock (tP_rcv):
-		[440 294 28]
-	Status: delivering from buffer
-	Delivery Condition: [440 294 28] > [2 294 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.340Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 143 from process 1
-	Packet Clock:
-		t_m: [2 295 6]
-		tP_send: [2 295 6]
-	Receiver Logical Clock (tP_rcv):
-		[441 295 28]
-	Status: delivering from buffer
-	Delivery Condition: [441 295 28] > [2 295 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.341Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
-	Receiver ID: 0
-	Packet Content: Message number 144 from process 1
-	Packet Clock:
-		t_m: [2 296 6]
-		tP_send: [2 296 6]
-	Receiver Logical Clock (tP_rcv):
-		[442 296 28]
-	Status: delivering from buffer
-	Delivery Condition: [442 296 28] > [2 296 6]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.341Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
+Current Time: 2023-03-11T15:50:20.149Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 145 from process 1
+	Packet Content: Message number 5 from process 2
 	Packet Clock:
-		t_m: [2 297 6]
-		tP_send: [2 297 6]
+		t_m: [7 1 10]
+		tP_send: [7 1 10]
 	Receiver Logical Clock (tP_rcv):
-		[443 297 28]
-	Status: delivering from buffer
-	Delivery Condition: [443 297 28] > [2 297 6]
+		[58 34 10]
+	Status: delivering
+	Delivery Condition: [58 34 10] > [7 1 10]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
+Current Time: 2023-03-11T15:50:20.150Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 146 from process 1
+	Packet Content: Message number 7 from process 2
 	Packet Clock:
-		t_m: [2 298 6]
-		tP_send: [2 298 6]
+		t_m: [12 1 17]
+		tP_send: [12 1 17]
 	Receiver Logical Clock (tP_rcv):
-		[444 298 28]
-	Status: delivering from buffer
-	Delivery Condition: [444 298 28] > [2 298 6]
+		[59 34 14]
+	Status: buffered
+	Delivery Condition: [59 34 14] > [12 1 17]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
+Current Time: 2023-03-11T15:50:20.150Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
+	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 147 from process 1
+	Packet Content: Message number 6 from process 2
 	Packet Clock:
-		t_m: [2 299 6]
-		tP_send: [2 299 6]
+		t_m: [9 1 14]
+		tP_send: [9 1 14]
 	Receiver Logical Clock (tP_rcv):
-		[445 299 28]
+		[59 34 14]
 	Status: delivering from buffer
-	Delivery Condition: [445 299 28] > [2 299 6]
+	Delivery Condition: [59 34 14] > [9 1 14]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
+Current Time: 2023-03-11T15:50:20.150Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
+	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 148 from process 1
+	Packet Content: Message number 7 from process 2
 	Packet Clock:
-		t_m: [2 300 6]
-		tP_send: [2 300 6]
+		t_m: [12 1 17]
+		tP_send: [12 1 17]
 	Receiver Logical Clock (tP_rcv):
-		[446 300 28]
+		[60 34 17]
 	Status: delivering from buffer
-	Delivery Condition: [446 300 28] > [2 300 6]
+	Delivery Condition: [60 34 17] > [12 1 17]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
+Current Time: 2023-03-11T15:50:20.150Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 149 from process 1
+	Packet Content: Message number 8 from process 2
 	Packet Clock:
-		t_m: [2 301 6]
-		tP_send: [2 301 6]
+		t_m: [14 1 21]
+		tP_send: [14 1 21]
 	Receiver Logical Clock (tP_rcv):
-		[447 301 28]
-	Status: delivering from buffer
-	Delivery Condition: [447 301 28] > [2 301 6]
+		[61 34 21]
+	Status: delivering
+	Delivery Condition: [61 34 21] > [14 1 21]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 1
+Current Time: 2023-03-11T15:50:20.150Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 150 from process 1
+	Packet Content: Message number 9 from process 2
 	Packet Clock:
-		t_m: [2 302 6]
-		tP_send: [2 302 6]
+		t_m: [17 1 26]
+		tP_send: [17 1 26]
 	Receiver Logical Clock (tP_rcv):
-		[448 302 28]
-	Status: delivering from buffer
-	Delivery Condition: [448 302 28] > [2 302 6]
+		[62 34 26]
+	Status: delivering
+	Delivery Condition: [62 34 26] > [17 1 26]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
+Current Time: 2023-03-11T15:50:20.150Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 10 from process 2
 	Packet Clock:
-		t_m: [19 1 28]
-		tP_send: [19 1 28]
+		t_m: [22 1 30]
+		tP_send: [22 1 30]
 	Receiver Logical Clock (tP_rcv):
-		[449 303 28]
+		[63 34 30]
 	Status: delivering
-	Delivery Condition: [449 303 28] > [19 1 28]
+	Delivery Condition: [63 34 30] > [22 1 30]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
+Current Time: 2023-03-11T15:50:20.151Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: Message number 11 from process 2
+	Packet Clock:
+		t_m: [22 1 31]
+		tP_send: [22 1 31]
+	Receiver Logical Clock (tP_rcv):
+		[64 34 31]
+	Status: delivering
+	Delivery Condition: [64 34 31] > [22 1 31]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.151Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 12 from process 2
 	Packet Clock:
-		t_m: [21 1 33]
-		tP_send: [21 1 33]
+		t_m: [26 1 35]
+		tP_send: [26 1 35]
 	Receiver Logical Clock (tP_rcv):
-		[450 303 29]
-	Status: buffered
-	Delivery Condition: [450 303 29] > [21 1 33]
+		[65 34 35]
+	Status: delivering
+	Delivery Condition: [65 34 35] > [26 1 35]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.341Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 11 from process 2
-	Packet Clock:
-		t_m: [19 1 29]
-		tP_send: [19 1 29]
-	Receiver Logical Clock (tP_rcv):
-		[450 303 29]
-	Status: delivering from buffer
-	Delivery Condition: [450 303 29] > [19 1 29]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.341Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 12 from process 2
-	Packet Clock:
-		t_m: [21 1 33]
-		tP_send: [21 1 33]
-	Receiver Logical Clock (tP_rcv):
-		[451 303 33]
-	Status: delivering from buffer
-	Delivery Condition: [451 303 33] > [21 1 33]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.341Z
+Current Time: 2023-03-11T15:50:20.151Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 13 from process 2
 	Packet Clock:
-		t_m: [28 1 38]
-		tP_send: [28 1 38]
+		t_m: [29 1 41]
+		tP_send: [29 1 41]
 	Receiver Logical Clock (tP_rcv):
-		[452 303 38]
+		[66 34 41]
 	Status: delivering
-	Delivery Condition: [452 303 38] > [28 1 38]
+	Delivery Condition: [66 34 41] > [29 1 41]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.342Z
+Current Time: 2023-03-11T15:50:20.151Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 14 from process 2
 	Packet Clock:
-		t_m: [28 1 39]
-		tP_send: [28 1 39]
+		t_m: [34 1 46]
+		tP_send: [34 1 46]
 	Receiver Logical Clock (tP_rcv):
-		[453 303 39]
+		[67 34 46]
 	Status: delivering
-	Delivery Condition: [453 303 39] > [28 1 39]
+	Delivery Condition: [67 34 46] > [34 1 46]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.342Z
+Current Time: 2023-03-11T15:50:20.151Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 15 from process 2
 	Packet Clock:
-		t_m: [28 1 41]
-		tP_send: [28 1 41]
+		t_m: [36 32 49]
+		tP_send: [36 32 49]
 	Receiver Logical Clock (tP_rcv):
-		[454 303 41]
+		[68 34 49]
 	Status: delivering
-	Delivery Condition: [454 303 41] > [28 1 41]
+	Delivery Condition: [68 34 49] > [36 32 49]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.342Z
+Current Time: 2023-03-11T15:50:20.152Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 16 from process 2
 	Packet Clock:
-		t_m: [34 1 47]
-		tP_send: [34 1 47]
+		t_m: [38 33 72]
+		tP_send: [38 33 72]
 	Receiver Logical Clock (tP_rcv):
-		[455 303 47]
+		[69 34 72]
 	Status: delivering
-	Delivery Condition: [455 303 47] > [34 1 47]
+	Delivery Condition: [69 34 72] > [38 33 72]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.342Z
+Current Time: 2023-03-11T15:50:20.152Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 17 from process 2
 	Packet Clock:
-		t_m: [37 1 51]
-		tP_send: [37 1 51]
+		t_m: [38 34 74]
+		tP_send: [38 34 74]
 	Receiver Logical Clock (tP_rcv):
-		[456 303 51]
+		[70 34 74]
 	Status: delivering
-	Delivery Condition: [456 303 51] > [37 1 51]
+	Delivery Condition: [70 34 74] > [38 34 74]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.342Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 18 from process 2
-	Packet Clock:
-		t_m: [37 1 53]
-		tP_send: [37 1 53]
-	Receiver Logical Clock (tP_rcv):
-		[457 303 53]
-	Status: delivering
-	Delivery Condition: [457 303 53] > [37 1 53]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.342Z
+Current Time: 2023-03-11T15:50:20.152Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 19 from process 2
 	Packet Clock:
-		t_m: [40 1 57]
-		tP_send: [40 1 57]
+		t_m: [41 71 78]
+		tP_send: [41 71 78]
 	Receiver Logical Clock (tP_rcv):
-		[458 303 57]
-	Status: delivering
-	Delivery Condition: [458 303 57] > [40 1 57]
+		[71 35 76]
+	Status: buffered
+	Delivery Condition: [71 35 76] > [41 71 78]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.342Z
+Current Time: 2023-03-11T15:50:20.152Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 15 from process 1
+	Packet Clock:
+		t_m: [34 34 46]
+		tP_send: [34 34 46]
+	Receiver Logical Clock (tP_rcv):
+		[71 35 76]
+	Status: delivering from buffer
+	Delivery Condition: [71 35 76] > [34 34 46]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.152Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 16 from process 1
+	Packet Clock:
+		t_m: [40 69 47]
+		tP_send: [40 69 47]
+	Receiver Logical Clock (tP_rcv):
+		[72 69 76]
+	Status: delivering from buffer
+	Delivery Condition: [72 69 76] > [40 69 47]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.153Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 17 from process 1
+	Packet Clock:
+		t_m: [41 72 47]
+		tP_send: [41 72 47]
+	Receiver Logical Clock (tP_rcv):
+		[73 72 76]
+	Status: delivering from buffer
+	Delivery Condition: [73 72 76] > [41 72 47]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.153Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 18 from process 1
+	Packet Clock:
+		t_m: [41 73 47]
+		tP_send: [41 73 47]
+	Receiver Logical Clock (tP_rcv):
+		[74 73 76]
+	Status: delivering from buffer
+	Delivery Condition: [74 73 76] > [41 73 47]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.153Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 19 from process 1
+	Packet Clock:
+		t_m: [41 74 47]
+		tP_send: [41 74 47]
+	Receiver Logical Clock (tP_rcv):
+		[75 74 76]
+	Status: delivering from buffer
+	Delivery Condition: [75 74 76] > [41 74 47]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.154Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 20 from process 1
+	Packet Clock:
+		t_m: [41 75 47]
+		tP_send: [41 75 47]
+	Receiver Logical Clock (tP_rcv):
+		[76 75 76]
+	Status: delivering from buffer
+	Delivery Condition: [76 75 76] > [41 75 47]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.154Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 2
+	Receiver ID: 0
+	Packet Content: Message number 18 from process 2
+	Packet Clock:
+		t_m: [40 69 76]
+		tP_send: [40 69 76]
+	Receiver Logical Clock (tP_rcv):
+		[77 76 76]
+	Status: delivering
+	Delivery Condition: [77 76 76] > [40 69 76]
+
+-------------
+
+Current Time: 2023-03-11T15:50:20.154Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 2
 	Receiver ID: 0
 	Packet Content: Message number 20 from process 2
 	Packet Clock:
-		t_m: [44 1 60]
-		tP_send: [44 1 60]
+		t_m: [41 71 79]
+		tP_send: [41 71 79]
 	Receiver Logical Clock (tP_rcv):
-		[459 303 60]
-	Status: delivering
-	Delivery Condition: [459 303 60] > [44 1 60]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.342Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 21 from process 2
-	Packet Clock:
-		t_m: [44 1 61]
-		tP_send: [44 1 61]
-	Receiver Logical Clock (tP_rcv):
-		[460 303 61]
-	Status: delivering
-	Delivery Condition: [460 303 61] > [44 1 61]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.342Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 22 from process 2
-	Packet Clock:
-		t_m: [44 1 63]
-		tP_send: [44 1 63]
-	Receiver Logical Clock (tP_rcv):
-		[461 303 63]
-	Status: delivering
-	Delivery Condition: [461 303 63] > [44 1 63]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.342Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 23 from process 2
-	Packet Clock:
-		t_m: [44 1 64]
-		tP_send: [44 1 64]
-	Receiver Logical Clock (tP_rcv):
-		[462 303 64]
-	Status: delivering
-	Delivery Condition: [462 303 64] > [44 1 64]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.342Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 24 from process 2
-	Packet Clock:
-		t_m: [44 1 66]
-		tP_send: [44 1 66]
-	Receiver Logical Clock (tP_rcv):
-		[463 303 66]
-	Status: delivering
-	Delivery Condition: [463 303 66] > [44 1 66]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.342Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 25 from process 2
-	Packet Clock:
-		t_m: [46 1 69]
-		tP_send: [46 1 69]
-	Receiver Logical Clock (tP_rcv):
-		[464 303 69]
-	Status: delivering
-	Delivery Condition: [464 303 69] > [46 1 69]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.342Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 26 from process 2
-	Packet Clock:
-		t_m: [51 1 73]
-		tP_send: [51 1 73]
-	Receiver Logical Clock (tP_rcv):
-		[465 303 73]
-	Status: delivering
-	Delivery Condition: [465 303 73] > [51 1 73]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.343Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 28 from process 2
-	Packet Clock:
-		t_m: [54 1 77]
-		tP_send: [54 1 77]
-	Receiver Logical Clock (tP_rcv):
-		[466 303 74]
+		[78 76 78]
 	Status: buffered
-	Delivery Condition: [466 303 74] > [54 1 77]
+	Delivery Condition: [78 76 78] > [41 71 79]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.343Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 27 from process 2
-	Packet Clock:
-		t_m: [51 1 74]
-		tP_send: [51 1 74]
-	Receiver Logical Clock (tP_rcv):
-		[466 303 74]
-	Status: delivering
-	Delivery Condition: [466 303 74] > [51 1 74]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.343Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 29 from process 2
-	Packet Clock:
-		t_m: [57 1 82]
-		tP_send: [57 1 82]
-	Receiver Logical Clock (tP_rcv):
-		[467 303 77]
-	Status: buffered
-	Delivery Condition: [467 303 77] > [57 1 82]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.343Z
+Current Time: 2023-03-11T15:50:20.154Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 28 from process 2
+	Packet Content: Message number 19 from process 2
 	Packet Clock:
-		t_m: [54 1 77]
-		tP_send: [54 1 77]
+		t_m: [41 71 78]
+		tP_send: [41 71 78]
 	Receiver Logical Clock (tP_rcv):
-		[467 303 77]
+		[78 76 78]
 	Status: delivering from buffer
-	Delivery Condition: [467 303 77] > [54 1 77]
+	Delivery Condition: [78 76 78] > [41 71 78]
 
 -------------
 
-Current Time: 2023-03-10T18:59:56.343Z
+Current Time: 2023-03-11T15:50:20.154Z
 Received Packet Info BEFORE DELIVERED FROM BUFFERED:
 	Sender ID: 2
 	Receiver ID: 0
-	Packet Content: Message number 29 from process 2
+	Packet Content: Message number 20 from process 2
 	Packet Clock:
-		t_m: [57 1 82]
-		tP_send: [57 1 82]
+		t_m: [41 71 79]
+		tP_send: [41 71 79]
 	Receiver Logical Clock (tP_rcv):
-		[468 303 82]
+		[79 76 79]
 	Status: delivering from buffer
-	Delivery Condition: [468 303 82] > [57 1 82]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.343Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 30 from process 2
-	Packet Clock:
-		t_m: [59 1 84]
-		tP_send: [59 1 84]
-	Receiver Logical Clock (tP_rcv):
-		[469 303 84]
-	Status: delivering
-	Delivery Condition: [469 303 84] > [59 1 84]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 31 from process 2
-	Packet Clock:
-		t_m: [62 1 88]
-		tP_send: [62 1 88]
-	Receiver Logical Clock (tP_rcv):
-		[470 303 88]
-	Status: delivering
-	Delivery Condition: [470 303 88] > [62 1 88]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 32 from process 2
-	Packet Clock:
-		t_m: [66 1 92]
-		tP_send: [66 1 92]
-	Receiver Logical Clock (tP_rcv):
-		[471 303 92]
-	Status: delivering
-	Delivery Condition: [471 303 92] > [66 1 92]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 33 from process 2
-	Packet Clock:
-		t_m: [68 1 96]
-		tP_send: [68 1 96]
-	Receiver Logical Clock (tP_rcv):
-		[472 303 96]
-	Status: delivering
-	Delivery Condition: [472 303 96] > [68 1 96]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 34 from process 2
-	Packet Clock:
-		t_m: [68 1 98]
-		tP_send: [68 1 98]
-	Receiver Logical Clock (tP_rcv):
-		[473 303 98]
-	Status: delivering
-	Delivery Condition: [473 303 98] > [68 1 98]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 35 from process 2
-	Packet Clock:
-		t_m: [71 1 101]
-		tP_send: [71 1 101]
-	Receiver Logical Clock (tP_rcv):
-		[474 303 101]
-	Status: delivering
-	Delivery Condition: [474 303 101] > [71 1 101]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 36 from process 2
-	Packet Clock:
-		t_m: [75 1 107]
-		tP_send: [75 1 107]
-	Receiver Logical Clock (tP_rcv):
-		[475 303 107]
-	Status: delivering
-	Delivery Condition: [475 303 107] > [75 1 107]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 38 from process 2
-	Packet Clock:
-		t_m: [80 1 115]
-		tP_send: [80 1 115]
-	Receiver Logical Clock (tP_rcv):
-		[476 303 110]
-	Status: buffered
-	Delivery Condition: [476 303 110] > [80 1 115]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 37 from process 2
-	Packet Clock:
-		t_m: [75 1 110]
-		tP_send: [75 1 110]
-	Receiver Logical Clock (tP_rcv):
-		[476 303 110]
-	Status: delivering
-	Delivery Condition: [476 303 110] > [75 1 110]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 39 from process 2
-	Packet Clock:
-		t_m: [80 1 117]
-		tP_send: [80 1 117]
-	Receiver Logical Clock (tP_rcv):
-		[477 303 115]
-	Status: buffered
-	Delivery Condition: [477 303 115] > [80 1 117]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 38 from process 2
-	Packet Clock:
-		t_m: [80 1 115]
-		tP_send: [80 1 115]
-	Receiver Logical Clock (tP_rcv):
-		[477 303 115]
-	Status: delivering from buffer
-	Delivery Condition: [477 303 115] > [80 1 115]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 39 from process 2
-	Packet Clock:
-		t_m: [80 1 117]
-		tP_send: [80 1 117]
-	Receiver Logical Clock (tP_rcv):
-		[478 303 117]
-	Status: delivering from buffer
-	Delivery Condition: [478 303 117] > [80 1 117]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 40 from process 2
-	Packet Clock:
-		t_m: [82 1 120]
-		tP_send: [82 1 120]
-	Receiver Logical Clock (tP_rcv):
-		[479 303 120]
-	Status: delivering
-	Delivery Condition: [479 303 120] > [82 1 120]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 41 from process 2
-	Packet Clock:
-		t_m: [85 1 122]
-		tP_send: [85 1 122]
-	Receiver Logical Clock (tP_rcv):
-		[480 303 122]
-	Status: delivering
-	Delivery Condition: [480 303 122] > [85 1 122]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 42 from process 2
-	Packet Clock:
-		t_m: [85 1 123]
-		tP_send: [85 1 123]
-	Receiver Logical Clock (tP_rcv):
-		[481 303 123]
-	Status: delivering
-	Delivery Condition: [481 303 123] > [85 1 123]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 43 from process 2
-	Packet Clock:
-		t_m: [86 1 127]
-		tP_send: [86 1 127]
-	Receiver Logical Clock (tP_rcv):
-		[482 303 127]
-	Status: delivering
-	Delivery Condition: [482 303 127] > [86 1 127]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 44 from process 2
-	Packet Clock:
-		t_m: [89 1 129]
-		tP_send: [89 1 129]
-	Receiver Logical Clock (tP_rcv):
-		[483 303 129]
-	Status: delivering
-	Delivery Condition: [483 303 129] > [89 1 129]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 45 from process 2
-	Packet Clock:
-		t_m: [90 1 132]
-		tP_send: [90 1 132]
-	Receiver Logical Clock (tP_rcv):
-		[484 303 132]
-	Status: delivering
-	Delivery Condition: [484 303 132] > [90 1 132]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.344Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 47 from process 2
-	Packet Clock:
-		t_m: [90 1 135]
-		tP_send: [90 1 135]
-	Receiver Logical Clock (tP_rcv):
-		[485 303 133]
-	Status: buffered
-	Delivery Condition: [485 303 133] > [90 1 135]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 46 from process 2
-	Packet Clock:
-		t_m: [90 1 133]
-		tP_send: [90 1 133]
-	Receiver Logical Clock (tP_rcv):
-		[485 303 133]
-	Status: delivering
-	Delivery Condition: [485 303 133] > [90 1 133]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 48 from process 2
-	Packet Clock:
-		t_m: [92 1 138]
-		tP_send: [92 1 138]
-	Receiver Logical Clock (tP_rcv):
-		[486 303 135]
-	Status: buffered
-	Delivery Condition: [486 303 135] > [92 1 138]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 47 from process 2
-	Packet Clock:
-		t_m: [90 1 135]
-		tP_send: [90 1 135]
-	Receiver Logical Clock (tP_rcv):
-		[486 303 135]
-	Status: delivering from buffer
-	Delivery Condition: [486 303 135] > [90 1 135]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 48 from process 2
-	Packet Clock:
-		t_m: [92 1 138]
-		tP_send: [92 1 138]
-	Receiver Logical Clock (tP_rcv):
-		[487 303 138]
-	Status: delivering from buffer
-	Delivery Condition: [487 303 138] > [92 1 138]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 49 from process 2
-	Packet Clock:
-		t_m: [97 1 142]
-		tP_send: [97 1 142]
-	Receiver Logical Clock (tP_rcv):
-		[488 303 142]
-	Status: delivering
-	Delivery Condition: [488 303 142] > [97 1 142]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 50 from process 2
-	Packet Clock:
-		t_m: [97 1 143]
-		tP_send: [97 1 143]
-	Receiver Logical Clock (tP_rcv):
-		[489 303 143]
-	Status: delivering
-	Delivery Condition: [489 303 143] > [97 1 143]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 51 from process 2
-	Packet Clock:
-		t_m: [97 1 145]
-		tP_send: [97 1 145]
-	Receiver Logical Clock (tP_rcv):
-		[490 303 145]
-	Status: delivering
-	Delivery Condition: [490 303 145] > [97 1 145]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 52 from process 2
-	Packet Clock:
-		t_m: [99 1 147]
-		tP_send: [99 1 147]
-	Receiver Logical Clock (tP_rcv):
-		[491 303 147]
-	Status: delivering
-	Delivery Condition: [491 303 147] > [99 1 147]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 53 from process 2
-	Packet Clock:
-		t_m: [99 1 148]
-		tP_send: [99 1 148]
-	Receiver Logical Clock (tP_rcv):
-		[492 303 148]
-	Status: delivering
-	Delivery Condition: [492 303 148] > [99 1 148]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 54 from process 2
-	Packet Clock:
-		t_m: [99 1 151]
-		tP_send: [99 1 151]
-	Receiver Logical Clock (tP_rcv):
-		[493 303 151]
-	Status: delivering
-	Delivery Condition: [493 303 151] > [99 1 151]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 55 from process 2
-	Packet Clock:
-		t_m: [101 1 154]
-		tP_send: [101 1 154]
-	Receiver Logical Clock (tP_rcv):
-		[494 303 154]
-	Status: delivering
-	Delivery Condition: [494 303 154] > [101 1 154]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 56 from process 2
-	Packet Clock:
-		t_m: [101 1 155]
-		tP_send: [101 1 155]
-	Receiver Logical Clock (tP_rcv):
-		[495 303 155]
-	Status: delivering
-	Delivery Condition: [495 303 155] > [101 1 155]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 57 from process 2
-	Packet Clock:
-		t_m: [101 1 157]
-		tP_send: [101 1 157]
-	Receiver Logical Clock (tP_rcv):
-		[496 303 157]
-	Status: delivering
-	Delivery Condition: [496 303 157] > [101 1 157]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 58 from process 2
-	Packet Clock:
-		t_m: [105 1 161]
-		tP_send: [105 1 161]
-	Receiver Logical Clock (tP_rcv):
-		[497 303 161]
-	Status: delivering
-	Delivery Condition: [497 303 161] > [105 1 161]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 59 from process 2
-	Packet Clock:
-		t_m: [105 1 163]
-		tP_send: [105 1 163]
-	Receiver Logical Clock (tP_rcv):
-		[498 303 163]
-	Status: delivering
-	Delivery Condition: [498 303 163] > [105 1 163]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 60 from process 2
-	Packet Clock:
-		t_m: [115 1 169]
-		tP_send: [115 1 169]
-	Receiver Logical Clock (tP_rcv):
-		[499 303 169]
-	Status: delivering
-	Delivery Condition: [499 303 169] > [115 1 169]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.345Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 61 from process 2
-	Packet Clock:
-		t_m: [115 1 171]
-		tP_send: [115 1 171]
-	Receiver Logical Clock (tP_rcv):
-		[500 303 171]
-	Status: delivering
-	Delivery Condition: [500 303 171] > [115 1 171]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 62 from process 2
-	Packet Clock:
-		t_m: [115 1 172]
-		tP_send: [115 1 172]
-	Receiver Logical Clock (tP_rcv):
-		[501 303 172]
-	Status: delivering
-	Delivery Condition: [501 303 172] > [115 1 172]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 63 from process 2
-	Packet Clock:
-		t_m: [117 1 174]
-		tP_send: [117 1 174]
-	Receiver Logical Clock (tP_rcv):
-		[502 303 174]
-	Status: delivering
-	Delivery Condition: [502 303 174] > [117 1 174]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 64 from process 2
-	Packet Clock:
-		t_m: [119 1 177]
-		tP_send: [119 1 177]
-	Receiver Logical Clock (tP_rcv):
-		[503 303 177]
-	Status: delivering
-	Delivery Condition: [503 303 177] > [119 1 177]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 65 from process 2
-	Packet Clock:
-		t_m: [123 1 181]
-		tP_send: [123 1 181]
-	Receiver Logical Clock (tP_rcv):
-		[504 303 181]
-	Status: delivering
-	Delivery Condition: [504 303 181] > [123 1 181]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 66 from process 2
-	Packet Clock:
-		t_m: [125 1 185]
-		tP_send: [125 1 185]
-	Receiver Logical Clock (tP_rcv):
-		[505 303 185]
-	Status: delivering
-	Delivery Condition: [505 303 185] > [125 1 185]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 67 from process 2
-	Packet Clock:
-		t_m: [125 1 186]
-		tP_send: [125 1 186]
-	Receiver Logical Clock (tP_rcv):
-		[506 303 186]
-	Status: delivering
-	Delivery Condition: [506 303 186] > [125 1 186]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 68 from process 2
-	Packet Clock:
-		t_m: [128 1 192]
-		tP_send: [128 1 192]
-	Receiver Logical Clock (tP_rcv):
-		[507 303 192]
-	Status: delivering
-	Delivery Condition: [507 303 192] > [128 1 192]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 69 from process 2
-	Packet Clock:
-		t_m: [128 1 194]
-		tP_send: [128 1 194]
-	Receiver Logical Clock (tP_rcv):
-		[508 303 194]
-	Status: delivering
-	Delivery Condition: [508 303 194] > [128 1 194]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 70 from process 2
-	Packet Clock:
-		t_m: [134 1 198]
-		tP_send: [134 1 198]
-	Receiver Logical Clock (tP_rcv):
-		[509 303 198]
-	Status: delivering
-	Delivery Condition: [509 303 198] > [134 1 198]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 71 from process 2
-	Packet Clock:
-		t_m: [137 1 203]
-		tP_send: [137 1 203]
-	Receiver Logical Clock (tP_rcv):
-		[510 303 203]
-	Status: delivering
-	Delivery Condition: [510 303 203] > [137 1 203]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 72 from process 2
-	Packet Clock:
-		t_m: [141 1 208]
-		tP_send: [141 1 208]
-	Receiver Logical Clock (tP_rcv):
-		[511 303 208]
-	Status: delivering
-	Delivery Condition: [511 303 208] > [141 1 208]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 73 from process 2
-	Packet Clock:
-		t_m: [141 1 210]
-		tP_send: [141 1 210]
-	Receiver Logical Clock (tP_rcv):
-		[512 303 210]
-	Status: delivering
-	Delivery Condition: [512 303 210] > [141 1 210]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 76 from process 2
-	Packet Clock:
-		t_m: [143 1 215]
-		tP_send: [143 1 215]
-	Receiver Logical Clock (tP_rcv):
-		[513 303 212]
-	Status: buffered
-	Delivery Condition: [513 303 212] > [143 1 215]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 75 from process 2
-	Packet Clock:
-		t_m: [143 1 213]
-		tP_send: [143 1 213]
-	Receiver Logical Clock (tP_rcv):
-		[513 303 212]
-	Status: buffered
-	Delivery Condition: [513 303 212] > [143 1 213]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 74 from process 2
-	Packet Clock:
-		t_m: [143 1 212]
-		tP_send: [143 1 212]
-	Receiver Logical Clock (tP_rcv):
-		[513 303 212]
-	Status: delivering
-	Delivery Condition: [513 303 212] > [143 1 212]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 77 from process 2
-	Packet Clock:
-		t_m: [147 1 219]
-		tP_send: [147 1 219]
-	Receiver Logical Clock (tP_rcv):
-		[514 303 213]
-	Status: buffered
-	Delivery Condition: [514 303 213] > [147 1 219]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 75 from process 2
-	Packet Clock:
-		t_m: [143 1 213]
-		tP_send: [143 1 213]
-	Receiver Logical Clock (tP_rcv):
-		[514 303 213]
-	Status: delivering from buffer
-	Delivery Condition: [514 303 213] > [143 1 213]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 76 from process 2
-	Packet Clock:
-		t_m: [143 1 215]
-		tP_send: [143 1 215]
-	Receiver Logical Clock (tP_rcv):
-		[515 303 215]
-	Status: delivering from buffer
-	Delivery Condition: [515 303 215] > [143 1 215]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 77 from process 2
-	Packet Clock:
-		t_m: [147 1 219]
-		tP_send: [147 1 219]
-	Receiver Logical Clock (tP_rcv):
-		[516 303 219]
-	Status: delivering from buffer
-	Delivery Condition: [516 303 219] > [147 1 219]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 78 from process 2
-	Packet Clock:
-		t_m: [147 1 220]
-		tP_send: [147 1 220]
-	Receiver Logical Clock (tP_rcv):
-		[517 303 220]
-	Status: delivering
-	Delivery Condition: [517 303 220] > [147 1 220]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 79 from process 2
-	Packet Clock:
-		t_m: [147 1 221]
-		tP_send: [147 1 221]
-	Receiver Logical Clock (tP_rcv):
-		[518 303 221]
-	Status: delivering
-	Delivery Condition: [518 303 221] > [147 1 221]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 81 from process 2
-	Packet Clock:
-		t_m: [153 1 229]
-		tP_send: [153 1 229]
-	Receiver Logical Clock (tP_rcv):
-		[519 303 226]
-	Status: buffered
-	Delivery Condition: [519 303 226] > [153 1 229]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 80 from process 2
-	Packet Clock:
-		t_m: [151 1 226]
-		tP_send: [151 1 226]
-	Receiver Logical Clock (tP_rcv):
-		[519 303 226]
-	Status: delivering
-	Delivery Condition: [519 303 226] > [151 1 226]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 82 from process 2
-	Packet Clock:
-		t_m: [155 1 232]
-		tP_send: [155 1 232]
-	Receiver Logical Clock (tP_rcv):
-		[520 303 229]
-	Status: buffered
-	Delivery Condition: [520 303 229] > [155 1 232]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 81 from process 2
-	Packet Clock:
-		t_m: [153 1 229]
-		tP_send: [153 1 229]
-	Receiver Logical Clock (tP_rcv):
-		[520 303 229]
-	Status: delivering from buffer
-	Delivery Condition: [520 303 229] > [153 1 229]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 82 from process 2
-	Packet Clock:
-		t_m: [155 1 232]
-		tP_send: [155 1 232]
-	Receiver Logical Clock (tP_rcv):
-		[521 303 232]
-	Status: delivering from buffer
-	Delivery Condition: [521 303 232] > [155 1 232]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 83 from process 2
-	Packet Clock:
-		t_m: [155 1 233]
-		tP_send: [155 1 233]
-	Receiver Logical Clock (tP_rcv):
-		[522 303 233]
-	Status: delivering
-	Delivery Condition: [522 303 233] > [155 1 233]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 84 from process 2
-	Packet Clock:
-		t_m: [157 1 237]
-		tP_send: [157 1 237]
-	Receiver Logical Clock (tP_rcv):
-		[523 303 237]
-	Status: delivering
-	Delivery Condition: [523 303 237] > [157 1 237]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 85 from process 2
-	Packet Clock:
-		t_m: [161 1 240]
-		tP_send: [161 1 240]
-	Receiver Logical Clock (tP_rcv):
-		[524 303 240]
-	Status: delivering
-	Delivery Condition: [524 303 240] > [161 1 240]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 86 from process 2
-	Packet Clock:
-		t_m: [164 1 244]
-		tP_send: [164 1 244]
-	Receiver Logical Clock (tP_rcv):
-		[525 303 244]
-	Status: delivering
-	Delivery Condition: [525 303 244] > [164 1 244]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 87 from process 2
-	Packet Clock:
-		t_m: [166 1 247]
-		tP_send: [166 1 247]
-	Receiver Logical Clock (tP_rcv):
-		[526 303 247]
-	Status: delivering
-	Delivery Condition: [526 303 247] > [166 1 247]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 88 from process 2
-	Packet Clock:
-		t_m: [167 1 249]
-		tP_send: [167 1 249]
-	Receiver Logical Clock (tP_rcv):
-		[527 303 249]
-	Status: delivering
-	Delivery Condition: [527 303 249] > [167 1 249]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 89 from process 2
-	Packet Clock:
-		t_m: [169 1 253]
-		tP_send: [169 1 253]
-	Receiver Logical Clock (tP_rcv):
-		[528 303 253]
-	Status: delivering
-	Delivery Condition: [528 303 253] > [169 1 253]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 90 from process 2
-	Packet Clock:
-		t_m: [170 1 256]
-		tP_send: [170 1 256]
-	Receiver Logical Clock (tP_rcv):
-		[529 303 256]
-	Status: delivering
-	Delivery Condition: [529 303 256] > [170 1 256]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 91 from process 2
-	Packet Clock:
-		t_m: [170 1 257]
-		tP_send: [170 1 257]
-	Receiver Logical Clock (tP_rcv):
-		[530 303 257]
-	Status: delivering
-	Delivery Condition: [530 303 257] > [170 1 257]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.347Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 92 from process 2
-	Packet Clock:
-		t_m: [175 1 261]
-		tP_send: [175 1 261]
-	Receiver Logical Clock (tP_rcv):
-		[531 303 261]
-	Status: delivering
-	Delivery Condition: [531 303 261] > [175 1 261]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 93 from process 2
-	Packet Clock:
-		t_m: [180 1 266]
-		tP_send: [180 1 266]
-	Receiver Logical Clock (tP_rcv):
-		[532 303 266]
-	Status: delivering
-	Delivery Condition: [532 303 266] > [180 1 266]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 94 from process 2
-	Packet Clock:
-		t_m: [184 1 272]
-		tP_send: [184 1 272]
-	Receiver Logical Clock (tP_rcv):
-		[533 303 272]
-	Status: delivering
-	Delivery Condition: [533 303 272] > [184 1 272]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 95 from process 2
-	Packet Clock:
-		t_m: [185 1 274]
-		tP_send: [185 1 274]
-	Receiver Logical Clock (tP_rcv):
-		[534 303 274]
-	Status: delivering
-	Delivery Condition: [534 303 274] > [185 1 274]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 96 from process 2
-	Packet Clock:
-		t_m: [185 1 275]
-		tP_send: [185 1 275]
-	Receiver Logical Clock (tP_rcv):
-		[535 303 275]
-	Status: delivering
-	Delivery Condition: [535 303 275] > [185 1 275]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 97 from process 2
-	Packet Clock:
-		t_m: [187 1 279]
-		tP_send: [187 1 279]
-	Receiver Logical Clock (tP_rcv):
-		[536 303 279]
-	Status: delivering
-	Delivery Condition: [536 303 279] > [187 1 279]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 98 from process 2
-	Packet Clock:
-		t_m: [187 1 280]
-		tP_send: [187 1 280]
-	Receiver Logical Clock (tP_rcv):
-		[537 303 280]
-	Status: delivering
-	Delivery Condition: [537 303 280] > [187 1 280]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 99 from process 2
-	Packet Clock:
-		t_m: [191 1 283]
-		tP_send: [191 1 283]
-	Receiver Logical Clock (tP_rcv):
-		[538 303 283]
-	Status: delivering
-	Delivery Condition: [538 303 283] > [191 1 283]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 100 from process 2
-	Packet Clock:
-		t_m: [192 1 286]
-		tP_send: [192 1 286]
-	Receiver Logical Clock (tP_rcv):
-		[539 303 286]
-	Status: delivering
-	Delivery Condition: [539 303 286] > [192 1 286]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 101 from process 2
-	Packet Clock:
-		t_m: [192 1 287]
-		tP_send: [192 1 287]
-	Receiver Logical Clock (tP_rcv):
-		[540 303 287]
-	Status: delivering
-	Delivery Condition: [540 303 287] > [192 1 287]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 102 from process 2
-	Packet Clock:
-		t_m: [195 1 291]
-		tP_send: [195 1 291]
-	Receiver Logical Clock (tP_rcv):
-		[541 303 291]
-	Status: delivering
-	Delivery Condition: [541 303 291] > [195 1 291]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 103 from process 2
-	Packet Clock:
-		t_m: [200 1 295]
-		tP_send: [200 1 295]
-	Receiver Logical Clock (tP_rcv):
-		[542 303 295]
-	Status: delivering
-	Delivery Condition: [542 303 295] > [200 1 295]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 104 from process 2
-	Packet Clock:
-		t_m: [205 1 301]
-		tP_send: [205 1 301]
-	Receiver Logical Clock (tP_rcv):
-		[543 303 301]
-	Status: delivering
-	Delivery Condition: [543 303 301] > [205 1 301]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 105 from process 2
-	Packet Clock:
-		t_m: [207 1 303]
-		tP_send: [207 1 303]
-	Receiver Logical Clock (tP_rcv):
-		[544 303 303]
-	Status: delivering
-	Delivery Condition: [544 303 303] > [207 1 303]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 106 from process 2
-	Packet Clock:
-		t_m: [211 1 308]
-		tP_send: [211 1 308]
-	Receiver Logical Clock (tP_rcv):
-		[545 303 308]
-	Status: delivering
-	Delivery Condition: [545 303 308] > [211 1 308]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 107 from process 2
-	Packet Clock:
-		t_m: [211 1 310]
-		tP_send: [211 1 310]
-	Receiver Logical Clock (tP_rcv):
-		[546 303 310]
-	Status: delivering
-	Delivery Condition: [546 303 310] > [211 1 310]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 108 from process 2
-	Packet Clock:
-		t_m: [213 1 314]
-		tP_send: [213 1 314]
-	Receiver Logical Clock (tP_rcv):
-		[547 303 314]
-	Status: delivering
-	Delivery Condition: [547 303 314] > [213 1 314]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 109 from process 2
-	Packet Clock:
-		t_m: [218 1 318]
-		tP_send: [218 1 318]
-	Receiver Logical Clock (tP_rcv):
-		[548 303 318]
-	Status: delivering
-	Delivery Condition: [548 303 318] > [218 1 318]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 110 from process 2
-	Packet Clock:
-		t_m: [220 1 322]
-		tP_send: [220 1 322]
-	Receiver Logical Clock (tP_rcv):
-		[549 303 322]
-	Status: delivering
-	Delivery Condition: [549 303 322] > [220 1 322]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 111 from process 2
-	Packet Clock:
-		t_m: [224 1 325]
-		tP_send: [224 1 325]
-	Receiver Logical Clock (tP_rcv):
-		[550 303 325]
-	Status: delivering
-	Delivery Condition: [550 303 325] > [224 1 325]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 112 from process 2
-	Packet Clock:
-		t_m: [225 1 329]
-		tP_send: [225 1 329]
-	Receiver Logical Clock (tP_rcv):
-		[551 303 329]
-	Status: delivering
-	Delivery Condition: [551 303 329] > [225 1 329]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 113 from process 2
-	Packet Clock:
-		t_m: [227 1 331]
-		tP_send: [227 1 331]
-	Receiver Logical Clock (tP_rcv):
-		[552 303 331]
-	Status: delivering
-	Delivery Condition: [552 303 331] > [227 1 331]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 114 from process 2
-	Packet Clock:
-		t_m: [227 1 332]
-		tP_send: [227 1 332]
-	Receiver Logical Clock (tP_rcv):
-		[553 303 332]
-	Status: delivering
-	Delivery Condition: [553 303 332] > [227 1 332]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 115 from process 2
-	Packet Clock:
-		t_m: [231 1 336]
-		tP_send: [231 1 336]
-	Receiver Logical Clock (tP_rcv):
-		[554 303 336]
-	Status: delivering
-	Delivery Condition: [554 303 336] > [231 1 336]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 116 from process 2
-	Packet Clock:
-		t_m: [232 1 339]
-		tP_send: [232 1 339]
-	Receiver Logical Clock (tP_rcv):
-		[555 303 339]
-	Status: delivering
-	Delivery Condition: [555 303 339] > [232 1 339]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 117 from process 2
-	Packet Clock:
-		t_m: [232 1 340]
-		tP_send: [232 1 340]
-	Receiver Logical Clock (tP_rcv):
-		[556 303 340]
-	Status: delivering
-	Delivery Condition: [556 303 340] > [232 1 340]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 118 from process 2
-	Packet Clock:
-		t_m: [235 1 343]
-		tP_send: [235 1 343]
-	Receiver Logical Clock (tP_rcv):
-		[557 303 343]
-	Status: delivering
-	Delivery Condition: [557 303 343] > [235 1 343]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 119 from process 2
-	Packet Clock:
-		t_m: [240 1 348]
-		tP_send: [240 1 348]
-	Receiver Logical Clock (tP_rcv):
-		[558 303 348]
-	Status: delivering
-	Delivery Condition: [558 303 348] > [240 1 348]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 121 from process 2
-	Packet Clock:
-		t_m: [241 1 354]
-		tP_send: [241 1 354]
-	Receiver Logical Clock (tP_rcv):
-		[559 303 350]
-	Status: buffered
-	Delivery Condition: [559 303 350] > [241 1 354]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 120 from process 2
-	Packet Clock:
-		t_m: [240 1 350]
-		tP_send: [240 1 350]
-	Receiver Logical Clock (tP_rcv):
-		[559 303 350]
-	Status: delivering
-	Delivery Condition: [559 303 350] > [240 1 350]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 122 from process 2
-	Packet Clock:
-		t_m: [246 1 359]
-		tP_send: [246 1 359]
-	Receiver Logical Clock (tP_rcv):
-		[560 303 354]
-	Status: buffered
-	Delivery Condition: [560 303 354] > [246 1 359]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 121 from process 2
-	Packet Clock:
-		t_m: [241 1 354]
-		tP_send: [241 1 354]
-	Receiver Logical Clock (tP_rcv):
-		[560 303 354]
-	Status: delivering from buffer
-	Delivery Condition: [560 303 354] > [241 1 354]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 122 from process 2
-	Packet Clock:
-		t_m: [246 1 359]
-		tP_send: [246 1 359]
-	Receiver Logical Clock (tP_rcv):
-		[561 303 359]
-	Status: delivering from buffer
-	Delivery Condition: [561 303 359] > [246 1 359]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 123 from process 2
-	Packet Clock:
-		t_m: [248 1 362]
-		tP_send: [248 1 362]
-	Receiver Logical Clock (tP_rcv):
-		[562 303 362]
-	Status: delivering
-	Delivery Condition: [562 303 362] > [248 1 362]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 124 from process 2
-	Packet Clock:
-		t_m: [248 1 364]
-		tP_send: [248 1 364]
-	Receiver Logical Clock (tP_rcv):
-		[563 303 364]
-	Status: delivering
-	Delivery Condition: [563 303 364] > [248 1 364]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 125 from process 2
-	Packet Clock:
-		t_m: [249 1 367]
-		tP_send: [249 1 367]
-	Receiver Logical Clock (tP_rcv):
-		[564 303 367]
-	Status: delivering
-	Delivery Condition: [564 303 367] > [249 1 367]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 126 from process 2
-	Packet Clock:
-		t_m: [254 1 371]
-		tP_send: [254 1 371]
-	Receiver Logical Clock (tP_rcv):
-		[565 303 371]
-	Status: delivering
-	Delivery Condition: [565 303 371] > [254 1 371]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 127 from process 2
-	Packet Clock:
-		t_m: [254 1 374]
-		tP_send: [254 1 374]
-	Receiver Logical Clock (tP_rcv):
-		[566 303 374]
-	Status: delivering
-	Delivery Condition: [566 303 374] > [254 1 374]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 128 from process 2
-	Packet Clock:
-		t_m: [257 1 377]
-		tP_send: [257 1 377]
-	Receiver Logical Clock (tP_rcv):
-		[567 303 377]
-	Status: delivering
-	Delivery Condition: [567 303 377] > [257 1 377]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 129 from process 2
-	Packet Clock:
-		t_m: [259 1 380]
-		tP_send: [259 1 380]
-	Receiver Logical Clock (tP_rcv):
-		[568 303 380]
-	Status: delivering
-	Delivery Condition: [568 303 380] > [259 1 380]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 130 from process 2
-	Packet Clock:
-		t_m: [261 1 384]
-		tP_send: [261 1 384]
-	Receiver Logical Clock (tP_rcv):
-		[569 303 384]
-	Status: delivering
-	Delivery Condition: [569 303 384] > [261 1 384]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 131 from process 2
-	Packet Clock:
-		t_m: [264 1 388]
-		tP_send: [264 1 388]
-	Receiver Logical Clock (tP_rcv):
-		[570 303 388]
-	Status: delivering
-	Delivery Condition: [570 303 388] > [264 1 388]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 132 from process 2
-	Packet Clock:
-		t_m: [264 1 391]
-		tP_send: [264 1 391]
-	Receiver Logical Clock (tP_rcv):
-		[571 303 391]
-	Status: delivering
-	Delivery Condition: [571 303 391] > [264 1 391]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 133 from process 2
-	Packet Clock:
-		t_m: [268 1 394]
-		tP_send: [268 1 394]
-	Receiver Logical Clock (tP_rcv):
-		[572 303 394]
-	Status: delivering
-	Delivery Condition: [572 303 394] > [268 1 394]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 134 from process 2
-	Packet Clock:
-		t_m: [270 1 397]
-		tP_send: [270 1 397]
-	Receiver Logical Clock (tP_rcv):
-		[573 303 397]
-	Status: delivering
-	Delivery Condition: [573 303 397] > [270 1 397]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 136 from process 2
-	Packet Clock:
-		t_m: [270 1 399]
-		tP_send: [270 1 399]
-	Receiver Logical Clock (tP_rcv):
-		[574 303 398]
-	Status: buffered
-	Delivery Condition: [574 303 398] > [270 1 399]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 135 from process 2
-	Packet Clock:
-		t_m: [270 1 398]
-		tP_send: [270 1 398]
-	Receiver Logical Clock (tP_rcv):
-		[574 303 398]
-	Status: delivering
-	Delivery Condition: [574 303 398] > [270 1 398]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 137 from process 2
-	Packet Clock:
-		t_m: [273 1 402]
-		tP_send: [273 1 402]
-	Receiver Logical Clock (tP_rcv):
-		[575 303 399]
-	Status: buffered
-	Delivery Condition: [575 303 399] > [273 1 402]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 136 from process 2
-	Packet Clock:
-		t_m: [270 1 399]
-		tP_send: [270 1 399]
-	Receiver Logical Clock (tP_rcv):
-		[575 303 399]
-	Status: delivering from buffer
-	Delivery Condition: [575 303 399] > [270 1 399]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 137 from process 2
-	Packet Clock:
-		t_m: [273 1 402]
-		tP_send: [273 1 402]
-	Receiver Logical Clock (tP_rcv):
-		[576 303 402]
-	Status: delivering from buffer
-	Delivery Condition: [576 303 402] > [273 1 402]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 138 from process 2
-	Packet Clock:
-		t_m: [275 1 405]
-		tP_send: [275 1 405]
-	Receiver Logical Clock (tP_rcv):
-		[577 303 405]
-	Status: delivering
-	Delivery Condition: [577 303 405] > [275 1 405]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 139 from process 2
-	Packet Clock:
-		t_m: [275 1 406]
-		tP_send: [275 1 406]
-	Receiver Logical Clock (tP_rcv):
-		[578 303 406]
-	Status: delivering
-	Delivery Condition: [578 303 406] > [275 1 406]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 140 from process 2
-	Packet Clock:
-		t_m: [276 1 408]
-		tP_send: [276 1 408]
-	Receiver Logical Clock (tP_rcv):
-		[579 303 408]
-	Status: delivering
-	Delivery Condition: [579 303 408] > [276 1 408]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 141 from process 2
-	Packet Clock:
-		t_m: [279 1 411]
-		tP_send: [279 1 411]
-	Receiver Logical Clock (tP_rcv):
-		[580 303 411]
-	Status: delivering
-	Delivery Condition: [580 303 411] > [279 1 411]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 143 from process 2
-	Packet Clock:
-		t_m: [286 1 420]
-		tP_send: [286 1 420]
-	Receiver Logical Clock (tP_rcv):
-		[581 303 415]
-	Status: buffered
-	Delivery Condition: [581 303 415] > [286 1 420]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 142 from process 2
-	Packet Clock:
-		t_m: [281 1 415]
-		tP_send: [281 1 415]
-	Receiver Logical Clock (tP_rcv):
-		[581 303 415]
-	Status: delivering
-	Delivery Condition: [581 303 415] > [281 1 415]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 144 from process 2
-	Packet Clock:
-		t_m: [286 1 421]
-		tP_send: [286 1 421]
-	Receiver Logical Clock (tP_rcv):
-		[582 303 420]
-	Status: buffered
-	Delivery Condition: [582 303 420] > [286 1 421]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 143 from process 2
-	Packet Clock:
-		t_m: [286 1 420]
-		tP_send: [286 1 420]
-	Receiver Logical Clock (tP_rcv):
-		[582 303 420]
-	Status: delivering from buffer
-	Delivery Condition: [582 303 420] > [286 1 420]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 144 from process 2
-	Packet Clock:
-		t_m: [286 1 421]
-		tP_send: [286 1 421]
-	Receiver Logical Clock (tP_rcv):
-		[583 303 421]
-	Status: delivering from buffer
-	Delivery Condition: [583 303 421] > [286 1 421]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 145 from process 2
-	Packet Clock:
-		t_m: [287 1 423]
-		tP_send: [287 1 423]
-	Receiver Logical Clock (tP_rcv):
-		[584 303 423]
-	Status: delivering
-	Delivery Condition: [584 303 423] > [287 1 423]
-
--------------
-
-Current Time: 2023-03-10T18:59:56.350Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 146 from process 2
-	Packet Clock:
-		t_m: [289 1 426]
-		tP_send: [289 1 426]
-	Receiver Logical Clock (tP_rcv):
-		[585 303 426]
-	Status: delivering
-	Delivery Condition: [585 303 426] > [289 1 426]
-
--------------
-
-Current Time: 2023-03-10T18:59:57.214Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 148 from process 2
-	Packet Clock:
-		t_m: [290 1 430]
-		tP_send: [290 1 430]
-	Receiver Logical Clock (tP_rcv):
-		[589 303 429]
-	Status: buffered
-	Delivery Condition: [589 303 429] > [290 1 430]
-
--------------
-
-Current Time: 2023-03-10T18:59:57.214Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 147 from process 2
-	Packet Clock:
-		t_m: [290 1 429]
-		tP_send: [290 1 429]
-	Receiver Logical Clock (tP_rcv):
-		[589 303 429]
-	Status: delivering
-	Delivery Condition: [589 303 429] > [290 1 429]
-
--------------
-
-Current Time: 2023-03-10T18:59:57.572Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 149 from process 2
-	Packet Clock:
-		t_m: [290 1 433]
-		tP_send: [290 1 433]
-	Receiver Logical Clock (tP_rcv):
-		[592 303 430]
-	Status: buffered
-	Delivery Condition: [592 303 430] > [290 1 433]
-
--------------
-
-Current Time: 2023-03-10T18:59:57.573Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 148 from process 2
-	Packet Clock:
-		t_m: [290 1 430]
-		tP_send: [290 1 430]
-	Receiver Logical Clock (tP_rcv):
-		[592 303 430]
-	Status: delivering from buffer
-	Delivery Condition: [592 303 430] > [290 1 430]
-
--------------
-
-Current Time: 2023-03-10T18:59:57.573Z
-Received Packet Info BEFORE DELIVERED FROM BUFFERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 149 from process 2
-	Packet Clock:
-		t_m: [290 1 433]
-		tP_send: [290 1 433]
-	Receiver Logical Clock (tP_rcv):
-		[593 303 433]
-	Status: delivering from buffer
-	Delivery Condition: [593 303 433] > [290 1 433]
-
--------------
-
-Current Time: 2023-03-10T18:59:58.244Z
-Received Packet Info BEFORE DELIVERED:
-	Sender ID: 2
-	Receiver ID: 0
-	Packet Content: Message number 150 from process 2
-	Packet Clock:
-		t_m: [290 1 435]
-		tP_send: [290 1 435]
-	Receiver Logical Clock (tP_rcv):
-		[594 303 435]
-	Status: delivering
-	Delivery Condition: [594 303 435] > [290 1 435]
+	Delivery Condition: [79 76 79] > [41 71 79]
 
 -------------
 
