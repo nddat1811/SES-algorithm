@@ -1,4 +1,4 @@
-Current Time: 2023-03-11T15:40:54.982Z
+Current Time: 2023-03-15T14:14:34.392Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
@@ -7,13 +7,13 @@ Received Packet Info BEFORE DELIVERED:
 		t_m: [-1 -1]
 		tP_send: [-1 -1]
 	Receiver Logical Clock (tP_rcv):
-		[0 0]
+		[1 0]
 	Status: delivering
-	Delivery Condition: [0 0] > [-1 -1]
+	Delivery Condition: [1 0] > [-1 -1]
 
 -------------
 
-Current Time: 2023-03-11T15:40:55.945Z
+Current Time: 2023-03-15T14:14:34.861Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
@@ -28,93 +28,303 @@ Received Packet Info BEFORE DELIVERED:
 
 -------------
 
-Current Time: 2023-03-11T15:40:56.936Z
+Current Time: 2023-03-15T14:14:35.566Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 3 from process 1
 	Packet Clock:
-		t_m: [2 3]
-		tP_send: [2 3]
+		t_m: [1 3]
+		tP_send: [1 3]
 	Receiver Logical Clock (tP_rcv):
-		[4 3]
+		[5 3]
 	Status: delivering
-	Delivery Condition: [4 3] > [2 3]
+	Delivery Condition: [5 3] > [1 3]
 
 -------------
 
-Current Time: 2023-03-11T15:40:57.759Z
+Current Time: 2023-03-15T14:14:36.562Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 4 from process 1
 	Packet Clock:
-		t_m: [4 5]
-		tP_send: [4 5]
+		t_m: [5 6]
+		tP_send: [5 6]
 	Receiver Logical Clock (tP_rcv):
-		[8 5]
+		[8 6]
 	Status: delivering
-	Delivery Condition: [8 5] > [4 5]
+	Delivery Condition: [8 6] > [5 6]
 
 -------------
 
-Current Time: 2023-03-11T15:40:58.300Z
+Current Time: 2023-03-15T14:14:36.849Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 5 from process 1
 	Packet Clock:
-		t_m: [7 8]
-		tP_send: [7 8]
+		t_m: [8 9]
+		tP_send: [8 9]
 	Receiver Logical Clock (tP_rcv):
-		[9 8]
+		[10 9]
 	Status: delivering
-	Delivery Condition: [9 8] > [7 8]
+	Delivery Condition: [10 9] > [8 9]
 
 -------------
 
-Current Time: 2023-03-11T15:40:58.704Z
+Current Time: 2023-03-15T14:14:37.094Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 6 from process 1
 	Packet Clock:
-		t_m: [8 10]
-		tP_send: [8 10]
+		t_m: [10 11]
+		tP_send: [10 11]
 	Receiver Logical Clock (tP_rcv):
-		[11 10]
+		[11 11]
 	Status: delivering
-	Delivery Condition: [11 10] > [8 10]
+	Delivery Condition: [11 11] > [10 11]
 
 -------------
 
-Current Time: 2023-03-11T15:40:59.393Z
+Current Time: 2023-03-15T14:14:38.003Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 7 from process 1
 	Packet Clock:
-		t_m: [11 12]
-		tP_send: [11 12]
+		t_m: [10 12]
+		tP_send: [10 12]
 	Receiver Logical Clock (tP_rcv):
-		[13 12]
+		[14 12]
 	Status: delivering
-	Delivery Condition: [13 12] > [11 12]
+	Delivery Condition: [14 12] > [10 12]
 
 -------------
 
-Current Time: 2023-03-11T15:40:59.561Z
+Current Time: 2023-03-15T14:14:38.751Z
 Received Packet Info BEFORE DELIVERED:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 8 from process 1
 	Packet Clock:
-		t_m: [13 14]
-		tP_send: [13 14]
+		t_m: [14 15]
+		tP_send: [14 15]
 	Receiver Logical Clock (tP_rcv):
-		[14 14]
+		[17 15]
 	Status: delivering
-	Delivery Condition: [14 14] > [13 14]
+	Delivery Condition: [17 15] > [14 15]
+
+-------------
+
+Current Time: 2023-03-15T14:14:40.015Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 10 from process 1
+	Packet Clock:
+		t_m: [19 20]
+		tP_send: [19 20]
+	Receiver Logical Clock (tP_rcv):
+		[20 18]
+	Status: buffered
+	Delivery Condition: [20 18] > [19 20]
+
+-------------
+
+Current Time: 2023-03-15T14:14:40.015Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 9 from process 1
+	Packet Clock:
+		t_m: [17 18]
+		tP_send: [17 18]
+	Receiver Logical Clock (tP_rcv):
+		[20 18]
+	Status: delivering
+	Delivery Condition: [20 18] > [17 18]
+
+-------------
+
+Current Time: 2023-03-15T14:14:40.910Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 11 from process 1
+	Packet Clock:
+		t_m: [20 22]
+		tP_send: [20 22]
+	Receiver Logical Clock (tP_rcv):
+		[25 20]
+	Status: buffered
+	Delivery Condition: [25 20] > [20 22]
+
+-------------
+
+Current Time: 2023-03-15T14:14:40.910Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 10 from process 1
+	Packet Clock:
+		t_m: [19 20]
+		tP_send: [19 20]
+	Receiver Logical Clock (tP_rcv):
+		[25 20]
+	Status: delivering from buffer
+	Delivery Condition: [25 20] > [19 20]
+
+-------------
+
+Current Time: 2023-03-15T14:14:40.911Z
+Received Packet Info BEFORE DELIVERED FROM BUFFERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 11 from process 1
+	Packet Clock:
+		t_m: [20 22]
+		tP_send: [20 22]
+	Receiver Logical Clock (tP_rcv):
+		[26 22]
+	Status: delivering from buffer
+	Delivery Condition: [26 22] > [20 22]
+
+-------------
+
+Current Time: 2023-03-15T14:14:41.738Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 12 from process 1
+	Packet Clock:
+		t_m: [25 27]
+		tP_send: [25 27]
+	Receiver Logical Clock (tP_rcv):
+		[28 27]
+	Status: delivering
+	Delivery Condition: [28 27] > [25 27]
+
+-------------
+
+Current Time: 2023-03-15T14:14:42.414Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 13 from process 1
+	Packet Clock:
+		t_m: [25 28]
+		tP_send: [25 28]
+	Receiver Logical Clock (tP_rcv):
+		[31 28]
+	Status: delivering
+	Delivery Condition: [31 28] > [25 28]
+
+-------------
+
+Current Time: 2023-03-15T14:14:43.358Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 14 from process 1
+	Packet Clock:
+		t_m: [28 30]
+		tP_send: [28 30]
+	Receiver Logical Clock (tP_rcv):
+		[33 30]
+	Status: delivering
+	Delivery Condition: [33 30] > [28 30]
+
+-------------
+
+Current Time: 2023-03-15T14:14:44.262Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 15 from process 1
+	Packet Clock:
+		t_m: [33 34]
+		tP_send: [33 34]
+	Receiver Logical Clock (tP_rcv):
+		[34 34]
+	Status: delivering
+	Delivery Condition: [34 34] > [33 34]
+
+-------------
+
+Current Time: 2023-03-15T14:14:45.033Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 16 from process 1
+	Packet Clock:
+		t_m: [33 35]
+		tP_send: [33 35]
+	Receiver Logical Clock (tP_rcv):
+		[35 35]
+	Status: delivering
+	Delivery Condition: [35 35] > [33 35]
+
+-------------
+
+Current Time: 2023-03-15T14:14:45.605Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 17 from process 1
+	Packet Clock:
+		t_m: [33 36]
+		tP_send: [33 36]
+	Receiver Logical Clock (tP_rcv):
+		[36 36]
+	Status: delivering
+	Delivery Condition: [36 36] > [33 36]
+
+-------------
+
+Current Time: 2023-03-15T14:14:45.938Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 18 from process 1
+	Packet Clock:
+		t_m: [33 37]
+		tP_send: [33 37]
+	Receiver Logical Clock (tP_rcv):
+		[37 37]
+	Status: delivering
+	Delivery Condition: [37 37] > [33 37]
+
+-------------
+
+Current Time: 2023-03-15T14:14:46.144Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 19 from process 1
+	Packet Clock:
+		t_m: [33 38]
+		tP_send: [33 38]
+	Receiver Logical Clock (tP_rcv):
+		[38 38]
+	Status: delivering
+	Delivery Condition: [38 38] > [33 38]
+
+-------------
+
+Current Time: 2023-03-15T14:14:47.015Z
+Received Packet Info BEFORE DELIVERED:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 20 from process 1
+	Packet Clock:
+		t_m: [33 39]
+		tP_send: [33 39]
+	Receiver Logical Clock (tP_rcv):
+		[39 39]
+	Status: delivering
+	Delivery Condition: [39 39] > [33 39]
 
 -------------
 

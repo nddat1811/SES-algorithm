@@ -61,32 +61,6 @@ func (s *SES) SerializeSES(packet []byte) []byte {
 	return s.VectorClock.SerializeVectorClock(packet)
 }
 
-func (s *SES) DeserializeSES(packet []byte) (*VectorClock, []byte) {
-	vectorClock, remainingPacket := s.VectorClock.DeserializeVectorClock(packet)
-	return vectorClock, remainingPacket
-}
-
-func (s *SES) MergeSES(sourceVectorClock *VectorClock) {
-	for i := 0; i < s.VectorClock.NumberProcess; i++ {
-		if i != s.VectorClock.InstanceID && i != sourceVectorClock.InstanceID {
-			s.VectorClock.Merge(sourceVectorClock, i, i)
-		}
-	}
-	s.VectorClock.Merge(sourceVectorClock, sourceVectorClock.InstanceID, s.VectorClock.InstanceID)
-	s.VectorClock.Increase()
-}
-
-func (lc *LogicClock) canDeliver(sourceVectorClock *LogicClock) bool {
-	for i := 0; i < lc.NumberProcess; i++ {
-		// T_m > tPi  --> buffer
-		if sourceVectorClock.Clock[i] > lc.Clock[i] {
-			return false
-		}
-	}
-	//T_m <= tPi--> deliver
-	return true
-}
-
 func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 	stringStream := &strings.Builder{}
 	currentTime := time.Now()
@@ -106,9 +80,9 @@ func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 			fmt.Fprintf(stringStream, "\t\t\t<P_%d: %v>\n", i, s.VectorClock.GetClock(i))
 		}
 	}
-	// fmt.Println("\n")
-	// fmt.Print(stringStream.String())
-	// fmt.Println("\n\n")
+	fmt.Println("\n")
+	fmt.Print(stringStream.String())
+	fmt.Println("\n\n")
 	return stringStream.String()
 }
 
@@ -158,6 +132,34 @@ func (s *SES) writeReceiverFile(data string, numberProcess int, id int) {
 		panic(err)
 	}
 }
+
+
+func (s *SES) DeserializeSES(packet []byte) (*VectorClock, []byte) {
+	vectorClock, remainingPacket := s.VectorClock.DeserializeVectorClock(packet)
+	return vectorClock, remainingPacket
+}
+
+func (s *SES) MergeSES(sourceVectorClock *VectorClock) {
+	for i := 0; i < s.VectorClock.NumberProcess; i++ {
+		if i != s.VectorClock.InstanceID && i != sourceVectorClock.InstanceID {
+			s.VectorClock.Merge(sourceVectorClock, i, i)
+		}
+	}
+	s.VectorClock.Merge(sourceVectorClock, sourceVectorClock.InstanceID, s.VectorClock.InstanceID)
+	s.VectorClock.Increase()
+}
+
+func (lc *LogicClock) canDeliver(sourceVectorClock *LogicClock) bool {
+	for i := 0; i < lc.NumberProcess; i++ {
+		// T_m > tPi  --> buffer
+		if sourceVectorClock.Clock[i] > lc.Clock[i] {
+			return false
+		}
+	}
+	//T_m <= tPi--> deliver
+	return true
+}
+
 
 func (s *SES) Deliver(packet []byte) {
 	s.lock.Lock() // synchronize

@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"net"
-	"time"
 
 	s "github.com/nddat1811/SES-algorithm/SES"
 	c "github.com/nddat1811/SES-algorithm/constant"
@@ -59,15 +58,15 @@ func (n *Network) StartListening() {
 		go receiver.Start()
 		n.ReceiverList = append(n.ReceiverList, receiver)
 
-		if <-receiver.CloseData == "CLOSE" {
-			n.c++
-			fmt.Println("hi: ", n.c)
-			if n.c == n.NumberProcess-1 {
-				time.Sleep(10 * time.Second) // wait for handle remaining msg
-				log.Printf("Process %d CLOSE:  %s:%d\n", n.InstanceID, n.IP, n.Port)
-				listen.Close()
-			}
-		}
+		// if <-receiver.CloseData == "CLOSE" {
+		// 	n.c++
+		// 	fmt.Println("hi: ", n.c)
+		// 	if n.c == n.NumberProcess-1 {
+		// 		time.Sleep(10 * time.Second) // wait for handle remaining msg
+		// 		log.Printf("Process %d CLOSE:  %s:%d\n", n.InstanceID, n.IP, n.Port)
+		// 		listen.Close()
+		// 	}
+		// }
 	}
 }
 
