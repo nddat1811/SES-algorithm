@@ -1,4 +1,4 @@
-Current Time: 2023-03-15T14:14:34.392Z
+Current Time: 2023-03-15 14:53:12.3425527 +0700 +07 m=+0.002197001
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
@@ -9,19 +9,19 @@ Send Packet Info:
 
 -------------
 
-Current Time: 2023-03-15T14:14:34.860Z
+Current Time: 2023-03-15 14:53:13.3039629 +0700 +07 m=+0.963607201
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 2 from process 1
 	Sender Clock:
-		Local logical clock:[1 3]
+		Local logical clock:[3 4]
 		Local process vectors:
 			<P_0: [0 1]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:35.561Z
+Current Time: 2023-03-15 14:53:14.1150504 +0700 +07 m=+1.774694701
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
@@ -29,211 +29,1771 @@ Send Packet Info:
 	Sender Clock:
 		Local logical clock:[5 6]
 		Local process vectors:
-			<P_0: [1 3]>
+			<P_0: [3 4]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:36.559Z
+Current Time: 2023-03-15 14:53:14.4996155 +0700 +07 m=+2.159259801
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 4 from process 1
 	Sender Clock:
-		Local logical clock:[8 9]
+		Local logical clock:[7 8]
 		Local process vectors:
 			<P_0: [5 6]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:36.845Z
+Current Time: 2023-03-15 14:53:15.2786244 +0700 +07 m=+2.938268701
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 5 from process 1
 	Sender Clock:
-		Local logical clock:[10 11]
+		Local logical clock:[9 10]
 		Local process vectors:
-			<P_0: [8 9]>
+			<P_0: [7 8]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:37.092Z
+Current Time: 2023-03-15 14:53:15.965266 +0700 +07 m=+3.624910301
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 6 from process 1
 	Sender Clock:
-		Local logical clock:[10 12]
+		Local logical clock:[11 12]
 		Local process vectors:
-			<P_0: [10 11]>
+			<P_0: [9 10]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:37.997Z
+Current Time: 2023-03-15 14:53:16.7546008 +0700 +07 m=+4.414245101
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 7 from process 1
 	Sender Clock:
-		Local logical clock:[14 15]
+		Local logical clock:[11 13]
 		Local process vectors:
-			<P_0: [10 12]>
+			<P_0: [11 12]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:38.748Z
+Current Time: 2023-03-15 14:53:17.5920028 +0700 +07 m=+5.251647101
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 8 from process 1
 	Sender Clock:
-		Local logical clock:[17 18]
+		Local logical clock:[16 17]
 		Local process vectors:
-			<P_0: [14 15]>
+			<P_0: [11 13]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:39.653Z
+Current Time: 2023-03-15 14:53:18.3580546 +0700 +07 m=+6.017698901
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 9 from process 1
 	Sender Clock:
-		Local logical clock:[19 20]
+		Local logical clock:[16 18]
 		Local process vectors:
-			<P_0: [17 18]>
+			<P_0: [16 17]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:40.011Z
+Current Time: 2023-03-15 14:53:19.2170939 +0700 +07 m=+6.876738201
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 10 from process 1
 	Sender Clock:
-		Local logical clock:[20 22]
+		Local logical clock:[18 21]
 		Local process vectors:
-			<P_0: [19 20]>
+			<P_0: [16 18]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:40.905Z
+Current Time: 2023-03-15 14:53:19.8897261 +0700 +07 m=+7.549370401
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 11 from process 1
 	Sender Clock:
-		Local logical clock:[25 27]
+		Local logical clock:[19 23]
 		Local process vectors:
-			<P_0: [20 22]>
+			<P_0: [18 21]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:41.735Z
+Current Time: 2023-03-15 14:53:20.8732828 +0700 +07 m=+8.532927101
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 12 from process 1
 	Sender Clock:
-		Local logical clock:[25 28]
+		Local logical clock:[22 26]
 		Local process vectors:
-			<P_0: [25 27]>
+			<P_0: [19 23]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:42.411Z
+Current Time: 2023-03-15 14:53:21.4966984 +0700 +07 m=+9.156342701
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 13 from process 1
 	Sender Clock:
-		Local logical clock:[28 30]
+		Local logical clock:[28 29]
 		Local process vectors:
-			<P_0: [25 28]>
+			<P_0: [22 26]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:43.355Z
+Current Time: 2023-03-15 14:53:21.7153561 +0700 +07 m=+9.375000401
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 14 from process 1
 	Sender Clock:
-		Local logical clock:[33 34]
+		Local logical clock:[30 31]
 		Local process vectors:
-			<P_0: [28 30]>
+			<P_0: [28 29]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:44.259Z
+Current Time: 2023-03-15 14:53:22.5277033 +0700 +07 m=+10.187347601
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 15 from process 1
 	Sender Clock:
-		Local logical clock:[33 35]
+		Local logical clock:[32 33]
 		Local process vectors:
-			<P_0: [33 34]>
+			<P_0: [30 31]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:45.031Z
+Current Time: 2023-03-15 14:53:23.309943 +0700 +07 m=+10.969587301
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 16 from process 1
 	Sender Clock:
-		Local logical clock:[33 36]
+		Local logical clock:[34 35]
 		Local process vectors:
-			<P_0: [33 35]>
+			<P_0: [32 33]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:45.601Z
+Current Time: 2023-03-15 14:53:24.279772 +0700 +07 m=+11.939416301
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 17 from process 1
 	Sender Clock:
-		Local logical clock:[33 37]
+		Local logical clock:[37 38]
 		Local process vectors:
-			<P_0: [33 36]>
+			<P_0: [34 35]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:45.934Z
+Current Time: 2023-03-15 14:53:25.1699601 +0700 +07 m=+12.829604401
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 18 from process 1
 	Sender Clock:
-		Local logical clock:[33 38]
+		Local logical clock:[39 40]
 		Local process vectors:
-			<P_0: [33 37]>
+			<P_0: [37 38]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:46.141Z
+Current Time: 2023-03-15 14:53:25.4677941 +0700 +07 m=+13.127438401
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 19 from process 1
 	Sender Clock:
-		Local logical clock:[33 39]
+		Local logical clock:[39 41]
 		Local process vectors:
-			<P_0: [33 38]>
+			<P_0: [39 40]>
 
 -------------
 
-Current Time: 2023-03-15T14:14:47.010Z
+Current Time: 2023-03-15 14:53:26.1231201 +0700 +07 m=+13.782764401
 Send Packet Info:
 	Sender ID: 1
 	Receiver ID: 0
 	Packet Content: Message number 20 from process 1
 	Sender Clock:
-		Local logical clock:[33 40]
+		Local logical clock:[42 43]
 		Local process vectors:
-			<P_0: [33 39]>
+			<P_0: [39 41]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:26.4977668 +0700 +07 m=+14.157411101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 21 from process 1
+	Sender Clock:
+		Local logical clock:[44 45]
+		Local process vectors:
+			<P_0: [42 43]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:27.1232669 +0700 +07 m=+14.782911201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 22 from process 1
+	Sender Clock:
+		Local logical clock:[46 47]
+		Local process vectors:
+			<P_0: [44 45]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:27.8887177 +0700 +07 m=+15.548362001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 23 from process 1
+	Sender Clock:
+		Local logical clock:[47 49]
+		Local process vectors:
+			<P_0: [46 47]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:28.4520017 +0700 +07 m=+16.111646001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 24 from process 1
+	Sender Clock:
+		Local logical clock:[51 52]
+		Local process vectors:
+			<P_0: [47 49]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:28.9053065 +0700 +07 m=+16.564950801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 25 from process 1
+	Sender Clock:
+		Local logical clock:[52 54]
+		Local process vectors:
+			<P_0: [51 52]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:29.8889985 +0700 +07 m=+17.548642801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 26 from process 1
+	Sender Clock:
+		Local logical clock:[54 56]
+		Local process vectors:
+			<P_0: [52 54]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:30.1574651 +0700 +07 m=+17.817109401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 27 from process 1
+	Sender Clock:
+		Local logical clock:[54 57]
+		Local process vectors:
+			<P_0: [54 56]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:30.3888565 +0700 +07 m=+18.048500801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 28 from process 1
+	Sender Clock:
+		Local logical clock:[54 58]
+		Local process vectors:
+			<P_0: [54 57]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:30.5608768 +0700 +07 m=+18.220521101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 29 from process 1
+	Sender Clock:
+		Local logical clock:[54 59]
+		Local process vectors:
+			<P_0: [54 58]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:30.8081174 +0700 +07 m=+18.467761701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 30 from process 1
+	Sender Clock:
+		Local logical clock:[55 61]
+		Local process vectors:
+			<P_0: [54 59]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:31.6064965 +0700 +07 m=+19.266140801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 31 from process 1
+	Sender Clock:
+		Local logical clock:[63 64]
+		Local process vectors:
+			<P_0: [55 61]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:32.2429882 +0700 +07 m=+19.902632501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 32 from process 1
+	Sender Clock:
+		Local logical clock:[66 67]
+		Local process vectors:
+			<P_0: [63 64]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:32.7268958 +0700 +07 m=+20.386540101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 33 from process 1
+	Sender Clock:
+		Local logical clock:[66 68]
+		Local process vectors:
+			<P_0: [66 67]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:33.337983 +0700 +07 m=+20.997627301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 34 from process 1
+	Sender Clock:
+		Local logical clock:[71 72]
+		Local process vectors:
+			<P_0: [66 68]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:33.6974297 +0700 +07 m=+21.357074001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 35 from process 1
+	Sender Clock:
+		Local logical clock:[73 74]
+		Local process vectors:
+			<P_0: [71 72]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:33.9166668 +0700 +07 m=+21.576311101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 36 from process 1
+	Sender Clock:
+		Local logical clock:[73 75]
+		Local process vectors:
+			<P_0: [73 74]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:34.7638387 +0700 +07 m=+22.423483001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 37 from process 1
+	Sender Clock:
+		Local logical clock:[77 79]
+		Local process vectors:
+			<P_0: [73 75]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:35.7485304 +0700 +07 m=+23.408174701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 38 from process 1
+	Sender Clock:
+		Local logical clock:[81 82]
+		Local process vectors:
+			<P_0: [77 79]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:36.2802255 +0700 +07 m=+23.939869801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 39 from process 1
+	Sender Clock:
+		Local logical clock:[83 84]
+		Local process vectors:
+			<P_0: [81 82]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:37.2794026 +0700 +07 m=+24.939046901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 40 from process 1
+	Sender Clock:
+		Local logical clock:[85 87]
+		Local process vectors:
+			<P_0: [83 84]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:37.4358419 +0700 +07 m=+25.095486201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 41 from process 1
+	Sender Clock:
+		Local logical clock:[87 89]
+		Local process vectors:
+			<P_0: [85 87]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:37.6388196 +0700 +07 m=+25.298463901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 42 from process 1
+	Sender Clock:
+		Local logical clock:[87 90]
+		Local process vectors:
+			<P_0: [87 89]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:38.0133609 +0700 +07 m=+25.673005201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 43 from process 1
+	Sender Clock:
+		Local logical clock:[87 91]
+		Local process vectors:
+			<P_0: [87 90]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:38.8259764 +0700 +07 m=+26.485620701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 44 from process 1
+	Sender Clock:
+		Local logical clock:[93 94]
+		Local process vectors:
+			<P_0: [87 91]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:39.1245819 +0700 +07 m=+26.784226201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 45 from process 1
+	Sender Clock:
+		Local logical clock:[93 95]
+		Local process vectors:
+			<P_0: [93 94]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:39.6229188 +0700 +07 m=+27.282563101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 46 from process 1
+	Sender Clock:
+		Local logical clock:[97 98]
+		Local process vectors:
+			<P_0: [93 95]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:40.1377599 +0700 +07 m=+27.797404201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 47 from process 1
+	Sender Clock:
+		Local logical clock:[99 100]
+		Local process vectors:
+			<P_0: [97 98]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:40.7327881 +0700 +07 m=+28.392432401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 48 from process 1
+	Sender Clock:
+		Local logical clock:[101 102]
+		Local process vectors:
+			<P_0: [99 100]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:41.6386676 +0700 +07 m=+29.298311901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 49 from process 1
+	Sender Clock:
+		Local logical clock:[103 104]
+		Local process vectors:
+			<P_0: [101 102]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:42.2794414 +0700 +07 m=+29.939085701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 50 from process 1
+	Sender Clock:
+		Local logical clock:[106 107]
+		Local process vectors:
+			<P_0: [103 104]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:42.4505629 +0700 +07 m=+30.110207201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 51 from process 1
+	Sender Clock:
+		Local logical clock:[106 108]
+		Local process vectors:
+			<P_0: [106 107]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:43.0583615 +0700 +07 m=+30.718005801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 52 from process 1
+	Sender Clock:
+		Local logical clock:[109 110]
+		Local process vectors:
+			<P_0: [106 108]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:43.934705 +0700 +07 m=+31.594349301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 53 from process 1
+	Sender Clock:
+		Local logical clock:[112 113]
+		Local process vectors:
+			<P_0: [109 110]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:44.3776655 +0700 +07 m=+32.037309801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 54 from process 1
+	Sender Clock:
+		Local logical clock:[114 115]
+		Local process vectors:
+			<P_0: [112 113]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:45.2109233 +0700 +07 m=+32.870567601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 55 from process 1
+	Sender Clock:
+		Local logical clock:[118 119]
+		Local process vectors:
+			<P_0: [114 115]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:45.4945506 +0700 +07 m=+33.154194901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 56 from process 1
+	Sender Clock:
+		Local logical clock:[118 120]
+		Local process vectors:
+			<P_0: [118 119]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:45.8228401 +0700 +07 m=+33.482484401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 57 from process 1
+	Sender Clock:
+		Local logical clock:[118 121]
+		Local process vectors:
+			<P_0: [118 120]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:46.5139962 +0700 +07 m=+34.173640501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 58 from process 1
+	Sender Clock:
+		Local logical clock:[121 124]
+		Local process vectors:
+			<P_0: [118 121]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:47.2641139 +0700 +07 m=+34.923758201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 59 from process 1
+	Sender Clock:
+		Local logical clock:[124 126]
+		Local process vectors:
+			<P_0: [121 124]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:47.5301288 +0700 +07 m=+35.189773101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 60 from process 1
+	Sender Clock:
+		Local logical clock:[124 127]
+		Local process vectors:
+			<P_0: [124 126]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:47.7639224 +0700 +07 m=+35.423566701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 61 from process 1
+	Sender Clock:
+		Local logical clock:[128 129]
+		Local process vectors:
+			<P_0: [124 127]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:48.0600971 +0700 +07 m=+35.719741401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 62 from process 1
+	Sender Clock:
+		Local logical clock:[130 131]
+		Local process vectors:
+			<P_0: [128 129]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:48.498127 +0700 +07 m=+36.157771301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 63 from process 1
+	Sender Clock:
+		Local logical clock:[130 132]
+		Local process vectors:
+			<P_0: [130 131]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:48.6224377 +0700 +07 m=+36.282082001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 64 from process 1
+	Sender Clock:
+		Local logical clock:[133 134]
+		Local process vectors:
+			<P_0: [130 132]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:48.9514967 +0700 +07 m=+36.611141001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 65 from process 1
+	Sender Clock:
+		Local logical clock:[135 136]
+		Local process vectors:
+			<P_0: [133 134]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:49.2951729 +0700 +07 m=+36.954817201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 66 from process 1
+	Sender Clock:
+		Local logical clock:[137 138]
+		Local process vectors:
+			<P_0: [135 136]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:49.8724437 +0700 +07 m=+37.532088001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 67 from process 1
+	Sender Clock:
+		Local logical clock:[139 140]
+		Local process vectors:
+			<P_0: [137 138]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:50.5111213 +0700 +07 m=+38.170765601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 68 from process 1
+	Sender Clock:
+		Local logical clock:[141 142]
+		Local process vectors:
+			<P_0: [139 140]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:50.7120442 +0700 +07 m=+38.371688501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 69 from process 1
+	Sender Clock:
+		Local logical clock:[143 144]
+		Local process vectors:
+			<P_0: [141 142]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:50.8525539 +0700 +07 m=+38.512198201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 70 from process 1
+	Sender Clock:
+		Local logical clock:[143 145]
+		Local process vectors:
+			<P_0: [143 144]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:51.5590212 +0700 +07 m=+39.218665501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 71 from process 1
+	Sender Clock:
+		Local logical clock:[146 147]
+		Local process vectors:
+			<P_0: [143 145]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:51.7163212 +0700 +07 m=+39.375965501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 72 from process 1
+	Sender Clock:
+		Local logical clock:[146 148]
+		Local process vectors:
+			<P_0: [146 147]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:51.8737244 +0700 +07 m=+39.533368701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 73 from process 1
+	Sender Clock:
+		Local logical clock:[149 150]
+		Local process vectors:
+			<P_0: [146 148]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:52.826641 +0700 +07 m=+40.486285301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 74 from process 1
+	Sender Clock:
+		Local logical clock:[152 153]
+		Local process vectors:
+			<P_0: [149 150]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:53.6538261 +0700 +07 m=+41.313470401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 75 from process 1
+	Sender Clock:
+		Local logical clock:[154 155]
+		Local process vectors:
+			<P_0: [152 153]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:54.6382131 +0700 +07 m=+42.297857401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 76 from process 1
+	Sender Clock:
+		Local logical clock:[154 156]
+		Local process vectors:
+			<P_0: [154 155]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:55.6216743 +0700 +07 m=+43.281318601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 77 from process 1
+	Sender Clock:
+		Local logical clock:[159 160]
+		Local process vectors:
+			<P_0: [154 156]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:55.998221 +0700 +07 m=+43.657865301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 78 from process 1
+	Sender Clock:
+		Local logical clock:[159 161]
+		Local process vectors:
+			<P_0: [159 160]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:56.8825446 +0700 +07 m=+44.542188901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 79 from process 1
+	Sender Clock:
+		Local logical clock:[164 165]
+		Local process vectors:
+			<P_0: [159 161]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:57.3167561 +0700 +07 m=+44.976400401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 80 from process 1
+	Sender Clock:
+		Local logical clock:[166 168]
+		Local process vectors:
+			<P_0: [164 165]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:57.8406144 +0700 +07 m=+45.500258701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 81 from process 1
+	Sender Clock:
+		Local logical clock:[166 169]
+		Local process vectors:
+			<P_0: [166 168]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:58.6255756 +0700 +07 m=+46.285219901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 82 from process 1
+	Sender Clock:
+		Local logical clock:[168 171]
+		Local process vectors:
+			<P_0: [166 169]>
+
+-------------
+
+Current Time: 2023-03-15 14:53:59.6190736 +0700 +07 m=+47.278717901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 83 from process 1
+	Sender Clock:
+		Local logical clock:[172 173]
+		Local process vectors:
+			<P_0: [168 171]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:00.6247064 +0700 +07 m=+48.284350701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 84 from process 1
+	Sender Clock:
+		Local logical clock:[173 175]
+		Local process vectors:
+			<P_0: [172 173]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:01.1867232 +0700 +07 m=+48.846367501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 85 from process 1
+	Sender Clock:
+		Local logical clock:[177 178]
+		Local process vectors:
+			<P_0: [173 175]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:02.0953192 +0700 +07 m=+49.754963501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 86 from process 1
+	Sender Clock:
+		Local logical clock:[179 180]
+		Local process vectors:
+			<P_0: [177 178]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:02.5349869 +0700 +07 m=+50.194631201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 87 from process 1
+	Sender Clock:
+		Local logical clock:[181 182]
+		Local process vectors:
+			<P_0: [179 180]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:02.9591859 +0700 +07 m=+50.618830201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 88 from process 1
+	Sender Clock:
+		Local logical clock:[184 185]
+		Local process vectors:
+			<P_0: [181 182]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:03.9072278 +0700 +07 m=+51.566872101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 89 from process 1
+	Sender Clock:
+		Local logical clock:[186 187]
+		Local process vectors:
+			<P_0: [184 185]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:04.7826953 +0700 +07 m=+52.442339601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 90 from process 1
+	Sender Clock:
+		Local logical clock:[189 191]
+		Local process vectors:
+			<P_0: [186 187]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:05.1992268 +0700 +07 m=+52.858871101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 91 from process 1
+	Sender Clock:
+		Local logical clock:[189 192]
+		Local process vectors:
+			<P_0: [189 191]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:05.7196583 +0700 +07 m=+53.379302601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 92 from process 1
+	Sender Clock:
+		Local logical clock:[193 194]
+		Local process vectors:
+			<P_0: [189 192]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:05.8647465 +0700 +07 m=+53.524390801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 93 from process 1
+	Sender Clock:
+		Local logical clock:[194 196]
+		Local process vectors:
+			<P_0: [193 194]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:06.6153238 +0700 +07 m=+54.274968101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 94 from process 1
+	Sender Clock:
+		Local logical clock:[199 200]
+		Local process vectors:
+			<P_0: [194 196]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:06.8903965 +0700 +07 m=+54.550040801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 95 from process 1
+	Sender Clock:
+		Local logical clock:[199 201]
+		Local process vectors:
+			<P_0: [199 200]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:07.2923123 +0700 +07 m=+54.951956601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 96 from process 1
+	Sender Clock:
+		Local logical clock:[202 203]
+		Local process vectors:
+			<P_0: [199 201]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:08.0016305 +0700 +07 m=+55.661274801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 97 from process 1
+	Sender Clock:
+		Local logical clock:[202 204]
+		Local process vectors:
+			<P_0: [202 203]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:08.9565173 +0700 +07 m=+56.616161601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 98 from process 1
+	Sender Clock:
+		Local logical clock:[207 208]
+		Local process vectors:
+			<P_0: [202 204]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:09.6436101 +0700 +07 m=+57.303254401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 99 from process 1
+	Sender Clock:
+		Local logical clock:[209 210]
+		Local process vectors:
+			<P_0: [207 208]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:10.5461541 +0700 +07 m=+58.205798401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 100 from process 1
+	Sender Clock:
+		Local logical clock:[212 213]
+		Local process vectors:
+			<P_0: [209 210]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:11.3861468 +0700 +07 m=+59.045791101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 101 from process 1
+	Sender Clock:
+		Local logical clock:[215 216]
+		Local process vectors:
+			<P_0: [212 213]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:11.9826898 +0700 +07 m=+59.642334101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 102 from process 1
+	Sender Clock:
+		Local logical clock:[218 219]
+		Local process vectors:
+			<P_0: [215 216]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:12.6442341 +0700 +07 m=+60.303878401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 103 from process 1
+	Sender Clock:
+		Local logical clock:[221 222]
+		Local process vectors:
+			<P_0: [218 219]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:13.3191738 +0700 +07 m=+60.978818101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 104 from process 1
+	Sender Clock:
+		Local logical clock:[221 223]
+		Local process vectors:
+			<P_0: [221 222]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:14.176647 +0700 +07 m=+61.836291301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 105 from process 1
+	Sender Clock:
+		Local logical clock:[223 225]
+		Local process vectors:
+			<P_0: [221 223]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:14.8068319 +0700 +07 m=+62.466476201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 106 from process 1
+	Sender Clock:
+		Local logical clock:[228 229]
+		Local process vectors:
+			<P_0: [223 225]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:15.3106291 +0700 +07 m=+62.970273401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 107 from process 1
+	Sender Clock:
+		Local logical clock:[230 231]
+		Local process vectors:
+			<P_0: [228 229]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:15.9959971 +0700 +07 m=+63.655641401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 108 from process 1
+	Sender Clock:
+		Local logical clock:[232 233]
+		Local process vectors:
+			<P_0: [230 231]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:16.291112 +0700 +07 m=+63.950756301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 109 from process 1
+	Sender Clock:
+		Local logical clock:[233 235]
+		Local process vectors:
+			<P_0: [232 233]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:16.8617417 +0700 +07 m=+64.521386001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 110 from process 1
+	Sender Clock:
+		Local logical clock:[233 236]
+		Local process vectors:
+			<P_0: [233 235]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:17.7932049 +0700 +07 m=+65.452849201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 111 from process 1
+	Sender Clock:
+		Local logical clock:[237 238]
+		Local process vectors:
+			<P_0: [233 236]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:18.1900031 +0700 +07 m=+65.849647401
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 112 from process 1
+	Sender Clock:
+		Local logical clock:[238 240]
+		Local process vectors:
+			<P_0: [237 238]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:18.8823419 +0700 +07 m=+66.541986201
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 113 from process 1
+	Sender Clock:
+		Local logical clock:[242 243]
+		Local process vectors:
+			<P_0: [238 240]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:19.7480848 +0700 +07 m=+67.407729101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 114 from process 1
+	Sender Clock:
+		Local logical clock:[244 245]
+		Local process vectors:
+			<P_0: [242 243]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:20.437683 +0700 +07 m=+68.097327301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 115 from process 1
+	Sender Clock:
+		Local logical clock:[246 247]
+		Local process vectors:
+			<P_0: [244 245]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:21.286357 +0700 +07 m=+68.946001301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 116 from process 1
+	Sender Clock:
+		Local logical clock:[248 249]
+		Local process vectors:
+			<P_0: [246 247]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:21.8689197 +0700 +07 m=+69.528564001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 117 from process 1
+	Sender Clock:
+		Local logical clock:[251 252]
+		Local process vectors:
+			<P_0: [248 249]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:22.0465673 +0700 +07 m=+69.706211601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 118 from process 1
+	Sender Clock:
+		Local logical clock:[251 253]
+		Local process vectors:
+			<P_0: [251 252]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:22.3490172 +0700 +07 m=+70.008661501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 119 from process 1
+	Sender Clock:
+		Local logical clock:[251 254]
+		Local process vectors:
+			<P_0: [251 253]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:22.9111637 +0700 +07 m=+70.570808001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 120 from process 1
+	Sender Clock:
+		Local logical clock:[251 255]
+		Local process vectors:
+			<P_0: [251 254]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:23.0910665 +0700 +07 m=+70.750710801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 121 from process 1
+	Sender Clock:
+		Local logical clock:[255 257]
+		Local process vectors:
+			<P_0: [251 255]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:23.3778175 +0700 +07 m=+71.037461801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 122 from process 1
+	Sender Clock:
+		Local logical clock:[255 258]
+		Local process vectors:
+			<P_0: [255 257]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:23.9907095 +0700 +07 m=+71.650353801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 123 from process 1
+	Sender Clock:
+		Local logical clock:[259 261]
+		Local process vectors:
+			<P_0: [255 258]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:24.6783924 +0700 +07 m=+72.338036701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 124 from process 1
+	Sender Clock:
+		Local logical clock:[259 262]
+		Local process vectors:
+			<P_0: [259 261]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:25.011938 +0700 +07 m=+72.671582301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 125 from process 1
+	Sender Clock:
+		Local logical clock:[261 264]
+		Local process vectors:
+			<P_0: [259 262]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:25.7305332 +0700 +07 m=+73.390177501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 126 from process 1
+	Sender Clock:
+		Local logical clock:[265 266]
+		Local process vectors:
+			<P_0: [261 264]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:25.8621114 +0700 +07 m=+73.521755701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 127 from process 1
+	Sender Clock:
+		Local logical clock:[265 267]
+		Local process vectors:
+			<P_0: [265 266]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:26.3525022 +0700 +07 m=+74.012146501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 128 from process 1
+	Sender Clock:
+		Local logical clock:[265 268]
+		Local process vectors:
+			<P_0: [265 267]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:27.2021808 +0700 +07 m=+74.861825101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 129 from process 1
+	Sender Clock:
+		Local logical clock:[269 270]
+		Local process vectors:
+			<P_0: [265 268]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:27.5523007 +0700 +07 m=+75.211945001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 130 from process 1
+	Sender Clock:
+		Local logical clock:[271 272]
+		Local process vectors:
+			<P_0: [269 270]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:28.1341696 +0700 +07 m=+75.793813901
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 131 from process 1
+	Sender Clock:
+		Local logical clock:[273 274]
+		Local process vectors:
+			<P_0: [271 272]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:28.2501144 +0700 +07 m=+75.909758701
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 132 from process 1
+	Sender Clock:
+		Local logical clock:[274 276]
+		Local process vectors:
+			<P_0: [273 274]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:29.0898357 +0700 +07 m=+76.749480001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 133 from process 1
+	Sender Clock:
+		Local logical clock:[277 278]
+		Local process vectors:
+			<P_0: [274 276]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:29.9787883 +0700 +07 m=+77.638432601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 134 from process 1
+	Sender Clock:
+		Local logical clock:[277 279]
+		Local process vectors:
+			<P_0: [277 278]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:30.8371333 +0700 +07 m=+78.496777601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 135 from process 1
+	Sender Clock:
+		Local logical clock:[279 281]
+		Local process vectors:
+			<P_0: [277 279]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:31.615771 +0700 +07 m=+79.275415301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 136 from process 1
+	Sender Clock:
+		Local logical clock:[284 285]
+		Local process vectors:
+			<P_0: [279 281]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:31.80088 +0700 +07 m=+79.460524301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 137 from process 1
+	Sender Clock:
+		Local logical clock:[284 286]
+		Local process vectors:
+			<P_0: [284 285]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:32.0744878 +0700 +07 m=+79.734132101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 138 from process 1
+	Sender Clock:
+		Local logical clock:[287 288]
+		Local process vectors:
+			<P_0: [284 286]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:32.9590517 +0700 +07 m=+80.618696001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 139 from process 1
+	Sender Clock:
+		Local logical clock:[287 289]
+		Local process vectors:
+			<P_0: [287 288]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:33.8779115 +0700 +07 m=+81.537555801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 140 from process 1
+	Sender Clock:
+		Local logical clock:[287 290]
+		Local process vectors:
+			<P_0: [287 289]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:34.5031075 +0700 +07 m=+82.162751801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 141 from process 1
+	Sender Clock:
+		Local logical clock:[287 291]
+		Local process vectors:
+			<P_0: [287 290]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:34.6098885 +0700 +07 m=+82.269532801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 142 from process 1
+	Sender Clock:
+		Local logical clock:[287 292]
+		Local process vectors:
+			<P_0: [287 291]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:35.4511382 +0700 +07 m=+83.110782501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 143 from process 1
+	Sender Clock:
+		Local logical clock:[287 293]
+		Local process vectors:
+			<P_0: [287 292]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:36.4126617 +0700 +07 m=+84.072306001
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 144 from process 1
+	Sender Clock:
+		Local logical clock:[287 294]
+		Local process vectors:
+			<P_0: [287 293]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:37.0303635 +0700 +07 m=+84.690007801
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 145 from process 1
+	Sender Clock:
+		Local logical clock:[287 295]
+		Local process vectors:
+			<P_0: [287 294]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:37.7252223 +0700 +07 m=+85.384866601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 146 from process 1
+	Sender Clock:
+		Local logical clock:[287 296]
+		Local process vectors:
+			<P_0: [287 295]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:38.2783203 +0700 +07 m=+85.937964601
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 147 from process 1
+	Sender Clock:
+		Local logical clock:[287 297]
+		Local process vectors:
+			<P_0: [287 296]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:39.2597032 +0700 +07 m=+86.919347501
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 148 from process 1
+	Sender Clock:
+		Local logical clock:[287 298]
+		Local process vectors:
+			<P_0: [287 297]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:39.9317748 +0700 +07 m=+87.591419101
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 149 from process 1
+	Sender Clock:
+		Local logical clock:[287 299]
+		Local process vectors:
+			<P_0: [287 298]>
+
+-------------
+
+Current Time: 2023-03-15 14:54:40.382037 +0700 +07 m=+88.041681301
+Send Packet Info:
+	Sender ID: 1
+	Receiver ID: 0
+	Packet Content: Message number 150 from process 1
+	Sender Clock:
+		Local logical clock:[287 300]
+		Local process vectors:
+			<P_0: [287 299]>
 
 -------------
 

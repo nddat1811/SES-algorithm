@@ -64,9 +64,7 @@ func (s *SES) SerializeSES(packet []byte) []byte {
 func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 	stringStream := &strings.Builder{}
 	currentTime := time.Now()
-	nano := currentTime.Nanosecond()
-	formattedTime := currentTime.Format("2006-01-02T15:04:05.") + fmt.Sprintf("%03d", nano/1000000) + "Z"
-	fmt.Fprintf(stringStream, "Current Time: %v\n", formattedTime)
+	fmt.Fprintf(stringStream, "Current Time: %v\n", currentTime)
 	fmt.Fprintln(stringStream, "Send Packet Info:")
 	fmt.Fprintf(stringStream, "\tSender ID: %d\n", s.VectorClock.InstanceID)
 	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", destinationID)
@@ -80,18 +78,13 @@ func (s *SES) GetSenderLog(destinationID int, packet []byte) string {
 			fmt.Fprintf(stringStream, "\t\t\t<P_%d: %v>\n", i, s.VectorClock.GetClock(i))
 		}
 	}
-	fmt.Println("\n")
-	fmt.Print(stringStream.String())
-	fmt.Println("\n\n")
 	return stringStream.String()
 }
 
 func (s *SES) GetDeliverLog(tm *LogicClock, sourceVC *VectorClock, packet []byte, status string, header string, printCompare bool) string {
 	stringStream := &strings.Builder{}
 	currentTime := time.Now()
-	nano := currentTime.Nanosecond()
-	formattedTime := currentTime.Format("2006-01-02T15:04:05.") + fmt.Sprintf("%03d", nano/1000000) + "Z"
-	fmt.Fprintf(stringStream, "Current Time: %v\n", formattedTime)
+	fmt.Fprintf(stringStream, "Current Time: %v\n", currentTime)
 	fmt.Fprintf(stringStream, "Received Packet Info %s:\n", header)
 	fmt.Fprintf(stringStream, "\tSender ID: %d\n", sourceVC.InstanceID)
 	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", s.VectorClock.InstanceID)
@@ -133,7 +126,6 @@ func (s *SES) writeReceiverFile(data string, numberProcess int, id int) {
 	}
 }
 
-
 func (s *SES) DeserializeSES(packet []byte) (*VectorClock, []byte) {
 	vectorClock, remainingPacket := s.VectorClock.DeserializeVectorClock(packet)
 	return vectorClock, remainingPacket
@@ -160,7 +152,6 @@ func (lc *LogicClock) canDeliver(sourceVectorClock *LogicClock) bool {
 	return true
 }
 
-
 func (s *SES) Deliver(packet []byte) {
 	s.lock.Lock() // synchronize
 	sourceVectorClock, packet := s.DeserializeSES(packet)
@@ -179,7 +170,6 @@ func (s *SES) Deliver(packet []byte) {
 		for !breakFlag {
 			breakFlag = true
 			for index, item := range s.Queue {
-				// fmt.Println("hi: ", item.TimeMsg)
 				if timeProcess.canDeliver(item.TimeMsg) { // ??
 					s.writeReceiverFile(s.GetDeliverLog(item.TimeMsg, item.SourceVectorClock, item.Packet, "delivering from buffer", "BEFORE DELIVERED FROM BUFFERED", true), s.VectorClock.NumberProcess, s.VectorClock.InstanceID)
 					s.MergeSES(item.SourceVectorClock)

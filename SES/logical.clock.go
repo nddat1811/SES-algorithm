@@ -50,7 +50,6 @@ func (lc *LogicClock) IsNull() bool {
 }
 
 func (lc *LogicClock) Increase() {
-	fmt.Println("hileoo:", lc.Clock[lc.InstanceID], lc.InstanceID)
 	lc.Clock[lc.InstanceID]++
 }
 
