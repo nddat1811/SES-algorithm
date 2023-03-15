@@ -84,7 +84,7 @@ func (rw *ReceiverWorker) Start() {
 					packet := rw.Noise[i]
 					rw.SesClock.Deliver(packet)
 				}
-				rw.Noise = nil
+				rw.Noise = make([][]byte, 0)
 			}
 		}
 	}
