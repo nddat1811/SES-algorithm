@@ -90,10 +90,11 @@ func (s *SES) GetDeliverLog(tm *LogicClock, sourceVC *VectorClock, packet []byte
 	fmt.Fprintf(stringStream, "\tReceiver ID: %d\n", s.VectorClock.InstanceID)
 	fmt.Fprintf(stringStream, "\tPacket Content: %v\n", string(packet))
 	fmt.Fprintf(stringStream, "\tPacket Clock:\n")
-	fmt.Fprintf(stringStream, "\t\tt_m: %d\n", tm.Clock)
-	fmt.Fprintf(stringStream, "\t\ttP_send: %d\n", sourceVC.GetLogicalClock(s.VectorClock.InstanceID))
-	fmt.Fprintf(stringStream, "\tReceiver Logical Clock (tP_rcv):\n")
-	fmt.Fprintf(stringStream, "\t\t%v\n", s.VectorClock.GetClock(s.VectorClock.InstanceID))
+	fmt.Fprintf(stringStream, "\t\tTime local process vectors send: %d\n", tm.Clock)
+	fmt.Fprintf(stringStream, "\t\tTime msg local logical clock send: %v\n", sourceVC.GetClock(sourceVC.InstanceID))
+	fmt.Fprintf(stringStream, "\tTime at receive logical Clock (tP_rcv):\n")
+	fmt.Fprintf(stringStream, "\t\t%v\n", s.VectorClock.GetLogicalClock(s.VectorClock.InstanceID))
+
 	fmt.Fprintf(stringStream, "\tStatus: %s\n", status)
 	if printCompare {
 		fmt.Fprintf(stringStream, "\tDelivery Condition: %d > %d\n", s.VectorClock.GetLogicalClock(s.VectorClock.InstanceID), tm.Clock)

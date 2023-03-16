@@ -69,7 +69,6 @@ func (vc *VectorClock) DeserializeVectorClock(packet []byte) (*VectorClock, []by
 		end := INT_SIZE * vc.NumberProcess * (i + 1)
 		newVectorClock.Vectors[i] = newVectorClock.Vectors[i].Deserialize(data[start:end])
 	}
-
 	return newVectorClock, packet
 }
 func (vc *VectorClock) Increase() {
